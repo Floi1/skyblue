@@ -104,7 +104,7 @@ public class WorldRdr1 extends ElementsSkyblueMod.ModElement {
 		@Override
 		@SideOnly(Side.CLIENT)
 		public Vec3d getFogColor(float par1, float par2) {
-			return new Vec3d(0.753f, 0.847f, 1);
+			return new Vec3d(0.2, 0.8, 1);
 		}
 
 		@Override

@@ -103,7 +103,7 @@ public class WorldB1 extends ElementsSkyblueMod.ModElement {
 		@Override
 		@SideOnly(Side.CLIENT)
 		public Vec3d getFogColor(float par1, float par2) {
-			return new Vec3d(0.753f, 0.847f, 1);
+			return new Vec3d(0.8, 0.4, 1);
 		}
 
 		@Override

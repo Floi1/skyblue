@@ -375,6 +375,326 @@
         "ep": false
       },
       "path": "~/dim3"
+    },
+    {
+      "name": "C1r",
+      "type": "structure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_1r",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C2",
+      "type": "structure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_2",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C3",
+      "type": "structure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_3",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C4",
+      "type": "structure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_4",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Crr1",
+      "type": "structure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crr_1",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr2",
+      "type": "structure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_2",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr3",
+      "type": "structure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_3",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr4",
+      "type": "structure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_4",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C11",
+      "type": "structure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_11",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr11",
+      "type": "structure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_11",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C22",
+      "type": "structure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_22",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr22",
+      "type": "structure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_22",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C33",
+      "type": "structure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_33",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr33",
+      "type": "structure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_33",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C44",
+      "type": "structure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_44",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr44",
+      "type": "structure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_44",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C111",
+      "type": "structure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_111",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr111",
+      "type": "structure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_111",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C222",
+      "type": "structure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_222",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr222",
+      "type": "structure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_222",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C333",
+      "type": "structure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_333",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr333",
+      "type": "structure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_333",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C444",
+      "type": "structure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_444",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr444",
+      "type": "structure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_444",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C1111",
+      "type": "structure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_1111",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr1111",
+      "type": "structure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_1111",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C2222",
+      "type": "structure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_2222",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr2222",
+      "type": "structure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_2222",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C3333",
+      "type": "structure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_3333",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr3333",
+      "type": "structure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_3333",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C4444",
+      "type": "structure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_4444",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr4444",
+      "type": "structure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_4444",
+      "path": "~/dim3"
     }
   ],
   "variable_elements": [],
@@ -439,6 +759,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.12.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.skyblue",
     "lockBaseModFiles": false
   },
