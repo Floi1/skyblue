@@ -102,7 +102,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onEntityWalksOn": {
-      "name": "SevenzeroEntityWalksOnTheBlock"
+      "name": "SkyPlayerEntersDimension"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

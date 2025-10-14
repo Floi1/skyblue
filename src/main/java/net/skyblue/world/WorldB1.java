@@ -1,6 +1,7 @@
 
 package net.skyblue.world;
 
+import net.skyblue.procedure.ProcedureSpawn;
 import net.skyblue.block.BlockOnethreefour;
 import net.skyblue.block.BlockOnefourtwo;
 import net.skyblue.ElementsSkyblueMod;
@@ -38,6 +39,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.ReportedException;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Biomes;
+import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.crash.CrashReportCategory;
@@ -50,7 +52,9 @@ import net.minecraft.block.BlockFalling;
 import javax.annotation.Nullable;
 
 import java.util.Random;
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 
 @ElementsSkyblueMod.ModElement.Tag
 public class WorldB1 extends ElementsSkyblueMod.ModElement {
@@ -144,6 +148,21 @@ public class WorldB1 extends ElementsSkyblueMod.ModElement {
 		@Override
 		public boolean doesWaterVaporize() {
 			return false;
+		}
+
+		@Override
+		public void onPlayerAdded(EntityPlayerMP entity) {
+			int x = (int) entity.posX;
+			int y = (int) entity.posY;
+			int z = (int) entity.posZ;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureSpawn.executeProcedure($_dependencies);
+			}
 		}
 	}
 

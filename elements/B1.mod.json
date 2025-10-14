@@ -25,6 +25,9 @@
     "sleepResult": "ALLOW",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "Spawn"
+    },
     "portalFrame": {
       "value": ""
     },

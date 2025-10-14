@@ -1,0 +1,21 @@
+{
+  "group": "skyblue",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:red_flower",
+      "data": 32767
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:red_flower",
+      "data": 32767
+    }
+  ],
+  "result": {
+    "item": "skyblue:skykey",
+    "count": 1
+  }
+}

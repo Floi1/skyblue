@@ -2,7 +2,6 @@
 package net.skyblue.world.structure;
 
 import net.skyblue.world.WorldSky;
-import net.skyblue.world.WorldRdr1;
 import net.skyblue.ElementsSkyblueMod;
 
 import net.minecraft.world.gen.structure.template.Template;
@@ -22,26 +21,22 @@ import net.minecraft.block.Block;
 import java.util.Random;
 
 @ElementsSkyblueMod.ModElement.Tag
-public class StructureRD121 extends ElementsSkyblueMod.ModElement {
-	public StructureRD121(ElementsSkyblueMod instance) {
-		super(instance, 14);
+public class StructureSk extends ElementsSkyblueMod.ModElement {
+	public StructureSk(ElementsSkyblueMod instance) {
+		super(instance, 75);
 	}
 
 	@Override
 	public void generateWorld(Random random, int i2, int k2, World world, int dimID, IChunkGenerator cg, IChunkProvider cp) {
 		boolean dimensionCriteria = false;
 		boolean isNetherType = false;
-		if (dimID == WorldRdr1.DIMID) {
-			dimensionCriteria = true;
-			isNetherType = WorldRdr1.NETHER_TYPE;
-		}
 		if (dimID == WorldSky.DIMID) {
 			dimensionCriteria = true;
 			isNetherType = WorldSky.NETHER_TYPE;
 		}
 		if (!dimensionCriteria)
 			return;
-		if ((random.nextInt(1000000) + 1) <= 1000) {
+		if ((random.nextInt(1000000) + 1) <= 1000000) {
 			int count = random.nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {
 				int i = i2 + random.nextInt(16) + 8;
@@ -70,12 +65,12 @@ public class StructureRD121 extends ElementsSkyblueMod.ModElement {
 				if (world.isRemote)
 					return;
 				Template template = ((WorldServer) world).getStructureTemplateManager().getTemplate(world.getMinecraftServer(),
-						new ResourceLocation("skyblue", "rd121"));
+						new ResourceLocation("skyblue", "sk"));
 				if (template == null)
 					return;
 				Rotation rotation = Rotation.values()[random.nextInt(3)];
 				Mirror mirror = Mirror.values()[random.nextInt(2)];
-				BlockPos spawnTo = new BlockPos(i, j + 0, k);
+				BlockPos spawnTo = new BlockPos(i, j + 1, k);
 				IBlockState iblockstate = world.getBlockState(spawnTo);
 				world.notifyBlockUpdate(spawnTo, iblockstate, iblockstate, 3);
 				template.addBlocksToWorldChunk(world, spawnTo, new PlacementSettings().setRotation(rotation).setMirror(mirror)

@@ -1,6 +1,7 @@
 
 package net.skyblue.world.structure;
 
+import net.skyblue.world.WorldSky;
 import net.skyblue.world.WorldB1;
 import net.skyblue.ElementsSkyblueMod;
 
@@ -33,6 +34,10 @@ public class StructureB2 extends ElementsSkyblueMod.ModElement {
 		if (dimID == WorldB1.DIMID) {
 			dimensionCriteria = true;
 			isNetherType = WorldB1.NETHER_TYPE;
+		}
+		if (dimID == WorldSky.DIMID) {
+			dimensionCriteria = true;
+			isNetherType = WorldSky.NETHER_TYPE;
 		}
 		if (!dimensionCriteria)
 			return;

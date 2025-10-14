@@ -37,6 +37,6 @@
     },
     "texture": "sky_blue_blue",
     "portalTexture": "63",
-    "enablePortal": true
+    "enablePortal": false
   }
 }
