@@ -695,6 +695,86 @@
       "ids": {},
       "registry_name": "cr_4444",
       "path": "~/dim3"
+    },
+    {
+      "name": "C5",
+      "type": "structure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_5",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C55",
+      "type": "structure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_55",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C555",
+      "type": "structure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_555",
+      "path": "~/dim3"
+    },
+    {
+      "name": "C5555",
+      "type": "structure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "c_5555",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr5",
+      "type": "structure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_5",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr55",
+      "type": "structure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_55",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr555",
+      "type": "structure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_555",
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr5555",
+      "type": "structure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cr_5555",
+      "path": "~/dim3"
     }
   ],
   "variable_elements": [],
