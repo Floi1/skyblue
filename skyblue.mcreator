@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "DIMENSION": 4
+    "DIMENSION": 5
   },
   "mod_elements": [
     {
@@ -865,6 +865,301 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "skykey"
+    },
+    {
+      "name": "Ap1",
+      "type": "particle",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ap_1",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab1",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_1",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ar1",
+      "type": "biome",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ar_1",
+      "path": "~/dim4"
+    },
+    {
+      "name": "A1",
+      "type": "dimension",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 5
+      },
+      "registry_name": "a_1",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab2",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_2",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab3",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_3",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab4",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_4",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab5",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_5",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab6",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_6",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab7",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_7",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab8",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_8",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab9",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_9",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab10",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_10",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab11",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_11",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab12",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_12",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab13",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_13",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Aglass",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aglass",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Glass",
+      "type": "tag",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab14",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_14",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab15",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_15",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab16",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_16",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab17",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_17",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab18",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_18",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab19",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_19",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab20",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_20",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab21",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_21",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab22",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_22",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab23",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_23",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ab24",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_24",
+      "path": "~/dim4"
     }
   ],
   "variable_elements": [],
@@ -873,26 +1168,52 @@
     "en_us": {
       "tile.onezerofive.name": "Onezerofive",
       "tile.twofivesix.name": "twofivesix",
-      "tile.onethreefour.name": "Onethreefour",
+      "tile.ab_4.name": "Ab 4",
+      "tile.ab_24.name": "Ab 24",
       "itemGroup.tabskyblue": "Skyblue",
-      "tile.fourtwo.name": "Fourtwo",
-      "tile.oneonetwo.name": "Fourthree",
+      "tile.aglass.name": "Aglass",
       "tile.onezeronine.name": "onezeronine",
       "tile.sixthree.name": "Sixthree",
+      "tile.ab_9.name": "Ab 9",
       "item.sky.name": "Sky blue",
-      "tile.fournine.name": "Fouriine",
+      "tile.ab_23.name": "Ab 23",
       "item.c_1.name": "C 1 Portal Igniter",
-      "tile.nineeight.name": "Nineeight",
+      "tile.ab_5.name": "Ab 5",
+      "tile.ab_15.name": "Ab 15",
       "tile.onethreenoe.name": "Onethreenoe",
-      "tile.onefive.name": "onefive",
       "item.b_1.name": "B 1 Portal Igniter",
+      "tile.sevenzero.name": "Sevenzero",
+      "tile.ab_19.name": "Ab 19",
+      "tile.twofour.name": "twofour",
+      "tile.ab_16.name": "Ab 16",
+      "tile.ab_10.name": "Ab 10",
+      "tile.ab_13.name": "Ab 13",
+      "tile.ab_1.name": "Ab 1",
+      "tile.ab_7.name": "Ab 7",
+      "tile.ab_21.name": "Ab 21",
+      "tile.onethreefour.name": "Onethreefour",
+      "tile.oneonetwo.name": "Fourthree",
+      "tile.fourtwo.name": "Fourtwo",
+      "tile.ab_12.name": "Ab 12",
+      "tile.fournine.name": "Fouriine",
+      "tile.ab_20.name": "Ab 20",
+      "tile.nineeight.name": "Nineeight",
+      "tile.ab_2.name": "Ab 2",
+      "tile.ab_18.name": "Ab 18",
+      "tile.ab_14.name": "Ab 14",
+      "item.a_1.name": "A 1 Portal Igniter",
+      "tile.ab_11.name": "Ab 10",
+      "tile.onefive.name": "onefive",
+      "tile.ab_17.name": "Ab 17",
       "tile.nine.name": "nine",
       "item.skykey.name": "Sky key",
+      "tile.ab_8.name": "Ab 8",
       "tile.fourthree.name": "Fourthree",
       "item.rdr_1.name": "Rdr 1 Portal Igniter",
-      "tile.sevenzero.name": "Sevenzero",
-      "tile.onefourtwo.name": "Onefourtwo",
-      "tile.twofour.name": "twofour"
+      "tile.ab_3.name": "Ab 3",
+      "tile.ab_6.name": "Ab 6",
+      "tile.ab_22.name": "Ab 22",
+      "tile.onefourtwo.name": "Onefourtwo"
     }
   },
   "foldersRoot": {
