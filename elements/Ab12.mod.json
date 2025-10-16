@@ -110,8 +110,8 @@
         "value": "Blocks.GLASS"
       }
     ],
-    "frequencyPerChunks": 6,
-    "frequencyOnChunk": 12,
+    "frequencyPerChunks": 5,
+    "frequencyOnChunk": 11,
     "minGenerateHeight": 3,
     "maxGenerateHeight": 74
   }

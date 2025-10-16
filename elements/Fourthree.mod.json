@@ -102,7 +102,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onEntityWalksOn": {
-      "name": "FourthreeEntityWalksOnTheBlock"
+      "name": "Dim1telpert"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

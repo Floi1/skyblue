@@ -2,14 +2,14 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "aglass",
+    "texture": "129",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 12,
+    "customModelName": "Cross model",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -18,8 +18,8 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
-    "connectedSides": true,
-    "transparencyType": "TRANSLUCENT",
+    "connectedSides": false,
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Aglass",
+    "name": "Onetwonine",
     "specialInfo": [],
     "hardness": 111.0,
-    "resistance": 30.0,
+    "resistance": 110.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -52,7 +52,7 @@
     "canProvidePower": false,
     "lightOpacity": 0,
     "material": {
-      "value": "GLASS"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -72,14 +72,14 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GLASS"
+      "value": "METAL"
     },
-    "luminance": 0,
+    "luminance": 7,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "CUSTOM:Ap1"
+      "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
@@ -101,6 +101,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onEntityWalksOn": {
+      "name": "Dim2telpert"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

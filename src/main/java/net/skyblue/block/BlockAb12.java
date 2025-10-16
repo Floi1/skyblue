@@ -54,11 +54,11 @@ public class BlockAb12 extends ElementsSkyblueMod.ModElement {
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		for (int i = 0; i < 6; i++) {
+		for (int i = 0; i < 5; i++) {
 			int x = chunkX + random.nextInt(16);
 			int y = random.nextInt(71) + 3;
 			int z = chunkZ + random.nextInt(16);
-			(new WorldGenMinable(block.getDefaultState(), 12, new com.google.common.base.Predicate<IBlockState>() {
+			(new WorldGenMinable(block.getDefaultState(), 11, new com.google.common.base.Predicate<IBlockState>() {
 				public boolean apply(IBlockState blockAt) {
 					boolean blockCriteria = false;
 					IBlockState require;

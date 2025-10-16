@@ -1,7 +1,7 @@
 
 package net.skyblue.block;
 
-import net.skyblue.procedure.ProcedureOneonetwoEntityWalksOnTheBlock;
+import net.skyblue.procedure.ProcedureDim2telpert;
 import net.skyblue.creativetab.TabSkyblue;
 import net.skyblue.ElementsSkyblueMod;
 
@@ -71,7 +71,7 @@ public class BlockOneonetwo extends ElementsSkyblueMod.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				ProcedureOneonetwoEntityWalksOnTheBlock.executeProcedure($_dependencies);
+				ProcedureDim2telpert.executeProcedure($_dependencies);
 			}
 		}
 	}
