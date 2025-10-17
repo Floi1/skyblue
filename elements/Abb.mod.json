@@ -2,14 +2,14 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "ab_11",
+    "texture": "abb",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 12,
+    "customModelName": "Cross model",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -17,7 +17,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Ab 11",
+    "name": "ABB",
     "specialInfo": [],
     "hardness": 111.0,
     "resistance": 5.0,
@@ -50,7 +50,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 0,
     "material": {
       "value": "ROCK"
     },
@@ -101,15 +101,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "CUSTOM:A1"
-    ],
+    "onEntityWalksOn": {
+      "name": "Dim4telpert"
+    },
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.GLASS"
-      }
-    ],
+    "blocksToReplace": [],
     "frequencyPerChunks": 5,
     "frequencyOnChunk": 11,
     "minGenerateHeight": 3,

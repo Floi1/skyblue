@@ -1256,6 +1256,78 @@
       "ids": {},
       "registry_name": "ct_1",
       "path": "~/dim3"
+    },
+    {
+      "name": "Normalsky",
+      "type": "item",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "normalsky"
+    },
+    {
+      "name": "Normal",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "normal"
+    },
+    {
+      "name": "NormalskyRightClickedInAir",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "normalsky_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Abb",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abb",
+      "path": "~/dim4"
+    },
+    {
+      "name": "Dim4telpert",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dim_4telpert",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ABBr1",
+      "type": "structure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ab_br_1",
+      "path": "~/dim4"
     }
   ],
   "variable_elements": [],
@@ -1270,8 +1342,8 @@
       "tile.onezeronine.name": "onezeronine",
       "tile.sixthree.name": "Sixthree",
       "tile.ab_9.name": "Ab 9",
-      "item.sky.name": "Sky blue",
       "tile.ab_23.name": "Ab 23",
+      "item.sky.name": "Sky blue",
       "item.c_1.name": "C 1 Portal Igniter",
       "tile.ab_5.name": "Ab 5",
       "tile.ab_15.name": "Ab 15",
@@ -1281,6 +1353,7 @@
       "tile.sevenzero.name": "Sevenzero",
       "tile.ab_19.name": "Ab 19",
       "tile.twofour.name": "twofour",
+      "item.normalsky.name": "Sky key",
       "tile.ab_16.name": "Ab 16",
       "tile.ab_10.name": "Ab 10",
       "tile.ab_13.name": "Ab 13",
@@ -1290,6 +1363,7 @@
       "tile.onethreefour.name": "Onethreefour",
       "tile.oneonetwo.name": "oneonetwo",
       "tile.fourtwo.name": "Fourtwo",
+      "tile.abb.name": "ABB",
       "tile.ab_12.name": "Ab 12",
       "tile.fournine.name": "Fouriine",
       "tile.ab_20.name": "Ab 20",
@@ -1298,7 +1372,7 @@
       "tile.ab_18.name": "Ab 18",
       "tile.ab_14.name": "Ab 14",
       "item.a_1.name": "A 1 Portal Igniter",
-      "tile.ab_11.name": "Ab 10",
+      "tile.ab_11.name": "Ab 11",
       "tile.onefive.name": "onefive",
       "tile.ab_17.name": "Ab 17",
       "tile.nine.name": "nine",
@@ -1333,6 +1407,10 @@
       },
       {
         "name": "dim4",
+        "children": []
+      },
+      {
+        "name": "dim5",
         "children": []
       }
     ]

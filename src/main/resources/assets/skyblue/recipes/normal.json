@@ -1,0 +1,21 @@
+{
+  "group": "skyblue",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:double_plant",
+      "data": 32767
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:double_plant",
+      "data": 32767
+    }
+  ],
+  "result": {
+    "item": "skyblue:normalsky",
+    "count": 1
+  }
+}
