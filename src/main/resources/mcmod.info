@@ -2,15 +2,15 @@
   {
     "modid": "skyblue",
     "name": "skyblue",
-    "description": "",
-    "version": "1.0.0",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "description": "dreams",
+    "version": "0.0.1",
+    "credits": "made by Floi",
     "logoFile": "",
     "mcversion": "1.12.2",
-    "url": "https://mcreator.net",
+    "url": "https://www.curseforge.com/minecraft/mc-mods",
     "updateUrl": "",
     "authorList": [
-      "nisar, MCreator"
+      "Floi"
     ],
     "dependencies": [],
     "dependants": [],
