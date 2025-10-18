@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "normal_key",
     "customModelName": "Normal",
-    "name": "Sky key",
+    "name": "Normal key",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Skyblue"

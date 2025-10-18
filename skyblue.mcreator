@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "DIMENSION": 5
+    "DIMENSION": 6
   },
   "mod_elements": [
     {
@@ -1328,6 +1328,211 @@
       "ids": {},
       "registry_name": "ab_br_1",
       "path": "~/dim4"
+    },
+    {
+      "name": "DD1",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dd_1",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DD2",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dd_2",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DR1",
+      "type": "biome",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dr_1",
+      "path": "~/dim5"
+    },
+    {
+      "name": "D1",
+      "type": "dimension",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 6
+      },
+      "registry_name": "d_1",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDR1",
+      "type": "structure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ddr_1",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDR2",
+      "type": "structure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ddr_2",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDR3",
+      "type": "structure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ddr_3",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDR4",
+      "type": "structure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ddr_4",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDR5",
+      "type": "structure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ddr_5",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDR6",
+      "type": "structure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ddr_6",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDR7",
+      "type": "structure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ddr_7",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDR8",
+      "type": "structure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ddr_8",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDR1",
+      "type": "structure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dddr_1",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDR2",
+      "type": "structure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dddr_2",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDR3",
+      "type": "structure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dddr_3",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDR4",
+      "type": "structure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dddr_4",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDR5",
+      "type": "structure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dddr_5",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDR6",
+      "type": "structure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dddr_6",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDR7",
+      "type": "structure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dddr_7",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDR8",
+      "type": "structure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dddr_8",
+      "path": "~/dim5"
     }
   ],
   "variable_elements": [],
@@ -1342,8 +1547,10 @@
       "tile.onezeronine.name": "onezeronine",
       "tile.sixthree.name": "Sixthree",
       "tile.ab_9.name": "Ab 9",
+      "tile.dd_1.name": "DD 1",
       "item.sky.name": "Sky blue",
       "tile.ab_23.name": "Ab 23",
+      "item.d_1.name": "D 1 Portal Igniter",
       "item.c_1.name": "C 1 Portal Igniter",
       "tile.ab_5.name": "Ab 5",
       "tile.ab_15.name": "Ab 15",
@@ -1353,7 +1560,7 @@
       "tile.sevenzero.name": "Sevenzero",
       "tile.ab_19.name": "Ab 19",
       "tile.twofour.name": "twofour",
-      "item.normalsky.name": "Sky key",
+      "item.normalsky.name": "Normal key",
       "tile.ab_16.name": "Ab 16",
       "tile.ab_10.name": "Ab 10",
       "tile.ab_13.name": "Ab 13",
@@ -1381,6 +1588,7 @@
       "tile.fourthree.name": "Fourthree",
       "item.rdr_1.name": "Rdr 1 Portal Igniter",
       "tile.ab_3.name": "Ab 3",
+      "tile.dd_2.name": "DD 2",
       "tile.ab_6.name": "Ab 6",
       "tile.ab_22.name": "Ab 22",
       "tile.onefourtwo.name": "Onefourtwo"
