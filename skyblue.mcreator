@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "DIMENSION": 6
+    "DIMENSION": 7
   },
   "mod_elements": [
     {
@@ -1690,6 +1690,71 @@
       "ids": {},
       "registry_name": "dtr_1",
       "path": "~/dim5"
+    },
+    {
+      "name": "Ewater",
+      "type": "fluid",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ewater",
+      "path": "~/dim6"
+    },
+    {
+      "name": "ER1",
+      "type": "biome",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "er_1",
+      "path": "~/dim6"
+    },
+    {
+      "name": "E1",
+      "type": "dimension",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 7
+      },
+      "registry_name": "e_1",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/dim6"
+    },
+    {
+      "name": "Egrass",
+      "type": "block",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egrass",
+      "path": "~/dim6"
+    },
+    {
+      "name": "Edirt",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edirt",
+      "path": "~/dim6"
+    },
+    {
+      "name": "Estone",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "estone",
+      "path": "~/dim6"
     }
   ],
   "variable_elements": [],
@@ -1702,11 +1767,14 @@
       "tile.ab_24.name": "Ab 24",
       "itemGroup.tabskyblue": "Skyblue",
       "tile.onezeronine.name": "onezeronine",
+      "tile.edirt.name": "Edirt",
       "tile.sixthree.name": "Sixthree",
       "tile.ab_9.name": "Ab 9",
       "tile.dd_1.name": "DD 1",
-      "tile.ab_23.name": "Ab 23",
       "item.sky.name": "Sky blue",
+      "tile.ab_23.name": "Ab 23",
+      "item.e_1.name": "E 1 Portal Igniter",
+      "tile.egrass.name": "Egrass",
       "item.d_1.name": "D 1 Portal Igniter",
       "item.c_1.name": "C 1 Portal Igniter",
       "tile.ab_5.name": "Ab 5",
@@ -1721,6 +1789,7 @@
       "tile.ab_16.name": "Ab 16",
       "tile.ab_10.name": "Ab 10",
       "tile.ab_13.name": "Ab 13",
+      "fluid.ewater": "Ewater",
       "tile.ab_1.name": "Ab 1",
       "tile.ab_7.name": "Ab 7",
       "tile.ab_21.name": "Ab 21",
@@ -1749,7 +1818,8 @@
       "tile.dd_2.name": "DD 2",
       "tile.ab_6.name": "Ab 6",
       "tile.ab_22.name": "Ab 22",
-      "tile.onefourtwo.name": "Onefourtwo"
+      "tile.onefourtwo.name": "Onefourtwo",
+      "tile.estone.name": "Edirt"
     }
   },
   "foldersRoot": {
@@ -1777,6 +1847,10 @@
       },
       {
         "name": "dim5",
+        "children": []
+      },
+      {
+        "name": "dim6",
         "children": []
       }
     ]
