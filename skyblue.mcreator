@@ -1533,6 +1533,163 @@
       "ids": {},
       "registry_name": "dddr_8",
       "path": "~/dim5"
+    },
+    {
+      "name": "DDDDR1",
+      "type": "structure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ddddr_1",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDR2",
+      "type": "structure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ddddr_2",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDR3",
+      "type": "structure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ddddr_3",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDR4",
+      "type": "structure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ddddr_4",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDR5",
+      "type": "structure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ddddr_5",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDR6",
+      "type": "structure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ddddr_6",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDR7",
+      "type": "structure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ddddr_7",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDR8",
+      "type": "structure",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ddddr_8",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDDR1",
+      "type": "structure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dddddr_1",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDDR2",
+      "type": "structure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dddddr_2",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDDR3",
+      "type": "structure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dddddr_3",
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDDR4",
+      "type": "structure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dddddr_4",
+      "path": "~/dim5"
+    },
+    {
+      "name": "D1r",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "d_1r",
+      "path": "~/dim5"
+    },
+    {
+      "name": "Dim5telpert",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dim_5telpert",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dtr1",
+      "type": "structure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dtr_1",
+      "path": "~/dim5"
     }
   ],
   "variable_elements": [],
@@ -1548,8 +1705,8 @@
       "tile.sixthree.name": "Sixthree",
       "tile.ab_9.name": "Ab 9",
       "tile.dd_1.name": "DD 1",
-      "item.sky.name": "Sky blue",
       "tile.ab_23.name": "Ab 23",
+      "item.sky.name": "Sky blue",
       "item.d_1.name": "D 1 Portal Igniter",
       "item.c_1.name": "C 1 Portal Igniter",
       "tile.ab_5.name": "Ab 5",
@@ -1578,6 +1735,7 @@
       "tile.ab_2.name": "Ab 2",
       "tile.ab_18.name": "Ab 18",
       "tile.ab_14.name": "Ab 14",
+      "tile.d_1r.name": "DRD 1",
       "item.a_1.name": "A 1 Portal Igniter",
       "tile.ab_11.name": "Ab 11",
       "tile.onefive.name": "onefive",

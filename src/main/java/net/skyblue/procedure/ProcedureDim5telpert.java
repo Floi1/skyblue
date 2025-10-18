@@ -1,8 +1,8 @@
 package net.skyblue.procedure;
 
 import net.skyblue.world.WorldRdr1;
-import net.skyblue.world.WorldD1;
 import net.skyblue.world.WorldC1;
+import net.skyblue.world.WorldB1;
 import net.skyblue.world.WorldA1;
 import net.skyblue.ElementsSkyblueMod;
 
@@ -16,14 +16,14 @@ import net.minecraft.entity.Entity;
 import java.util.Map;
 
 @ElementsSkyblueMod.ModElement.Tag
-public class ProcedureDim2telpert extends ElementsSkyblueMod.ModElement {
-	public ProcedureDim2telpert(ElementsSkyblueMod instance) {
-		super(instance, 115);
+public class ProcedureDim5telpert extends ElementsSkyblueMod.ModElement {
+	public ProcedureDim5telpert(ElementsSkyblueMod instance) {
+		super(instance, 156);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure Dim2telpert!");
+			System.err.println("Failed to load dependency entity for procedure Dim5telpert!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -62,7 +62,7 @@ public class ProcedureDim2telpert extends ElementsSkyblueMod.ModElement {
 			{
 				Entity _ent = entity;
 				if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
-					int dimensionID = WorldC1.DIMID;
+					int dimensionID = WorldB1.DIMID;
 					class TeleporterDirect extends Teleporter {
 						public TeleporterDirect(WorldServer worldserver) {
 							super(worldserver);
@@ -93,7 +93,7 @@ public class ProcedureDim2telpert extends ElementsSkyblueMod.ModElement {
 			{
 				Entity _ent = entity;
 				if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
-					int dimensionID = WorldA1.DIMID;
+					int dimensionID = WorldC1.DIMID;
 					class TeleporterDirect extends Teleporter {
 						public TeleporterDirect(WorldServer worldserver) {
 							super(worldserver);
@@ -124,7 +124,7 @@ public class ProcedureDim2telpert extends ElementsSkyblueMod.ModElement {
 			{
 				Entity _ent = entity;
 				if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
-					int dimensionID = WorldD1.DIMID;
+					int dimensionID = WorldA1.DIMID;
 					class TeleporterDirect extends Teleporter {
 						public TeleporterDirect(WorldServer worldserver) {
 							super(worldserver);

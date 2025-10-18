@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "skyblue:blocks/dd3r",
+    "particle": "skyblue:blocks/dd3r"
+  }
+}
