@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "DIMENSION": 7
+    "DIMENSION": 8
   },
   "mod_elements": [
     {
@@ -1802,6 +1802,51 @@
           }
         ]
       }
+    },
+    {
+      "name": "Ft1",
+      "type": "block",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ft_1",
+      "path": "~/Dim7"
+    },
+    {
+      "name": "Fr1",
+      "type": "biome",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fr_1",
+      "path": "~/Dim7"
+    },
+    {
+      "name": "F1",
+      "type": "dimension",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 8
+      },
+      "registry_name": "f_1",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/Dim7"
+    },
+    {
+      "name": "Frr1",
+      "type": "block",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frr_1",
+      "path": "~/Dim7"
     }
   ],
   "variable_elements": [],
@@ -1810,18 +1855,20 @@
     "en_us": {
       "tile.onezerofive.name": "Onezerofive",
       "tile.twofivesix.name": "twofivesix",
+      "tile.frr_1.name": "Frr1",
       "tile.ab_4.name": "Ab 4",
       "tile.ab_24.name": "Ab 24",
       "itemGroup.tabskyblue": "Skyblue",
-      "tile.onezeronine.name": "onezeronine",
       "tile.edirt.name": "Edirt",
+      "tile.onezeronine.name": "onezeronine",
       "tile.sixthree.name": "Sixthree",
       "tile.ab_9.name": "Ab 9",
       "tile.dd_1.name": "DD 1",
-      "item.sky.name": "Sky blue",
       "tile.ab_23.name": "Ab 23",
+      "item.sky.name": "Sky blue",
       "item.e_1.name": "E 1 Portal Igniter",
       "tile.egrass.name": "Egrass",
+      "item.f_1.name": "F 1 Portal Igniter",
       "item.d_1.name": "D 1 Portal Igniter",
       "item.c_1.name": "C 1 Portal Igniter",
       "tile.ab_5.name": "Ab 5",
@@ -1841,6 +1888,7 @@
       "tile.ab_7.name": "Ab 7",
       "tile.ab_21.name": "Ab 21",
       "tile.onethreefour.name": "Onethreefour",
+      "tile.ft_1.name": "F 1",
       "tile.oneonetwo.name": "oneonetwo",
       "tile.fourtwo.name": "Fourtwo",
       "tile.abb.name": "ABB",
@@ -1899,6 +1947,10 @@
       },
       {
         "name": "dim6",
+        "children": []
+      },
+      {
+        "name": "Dim7",
         "children": []
       }
     ]
