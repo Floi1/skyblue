@@ -9,6 +9,14 @@
     "undergroundBlock": {
       "value": "CUSTOM:Edirt"
     },
+    "waterColor": {
+      "value": -16711681,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -16711681,
+      "falpha": 0.0
+    },
     "ambientSound": {
       "value": ""
     },

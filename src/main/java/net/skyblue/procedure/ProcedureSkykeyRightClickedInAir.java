@@ -1,6 +1,5 @@
 package net.skyblue.procedure;
 
-import net.skyblue.world.WorldE1;
 import net.skyblue.ElementsSkyblueMod;
 
 import net.minecraftforge.common.DimensionManager;
@@ -27,7 +26,7 @@ public class ProcedureSkykeyRightClickedInAir extends ElementsSkyblueMod.ModElem
 		{
 			Entity _ent = entity;
 			if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
-				int dimensionID = WorldE1.DIMID;
+				int dimensionID = 0;
 				class TeleporterDirect extends Teleporter {
 					public TeleporterDirect(WorldServer worldserver) {
 						super(worldserver);

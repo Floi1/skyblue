@@ -120,6 +120,37 @@ public class ProcedureDim4telpert extends ElementsSkyblueMod.ModElement {
 							DimensionManager.getWorld(dimensionID).getSpawnPoint().getZ(), _player.rotationYaw, _player.rotationPitch);
 				}
 			}
+		} else if ((Math.random() <= 0.8)) {
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
+					int dimensionID = WorldD1.DIMID;
+					class TeleporterDirect extends Teleporter {
+						public TeleporterDirect(WorldServer worldserver) {
+							super(worldserver);
+						}
+
+						@Override
+						public void placeInPortal(Entity entity, float yawrotation) {
+						}
+
+						@Override
+						public boolean placeInExistingPortal(Entity entity, float yawrotation) {
+							return true;
+						}
+
+						@Override
+						public boolean makePortal(Entity entity) {
+							return true;
+						}
+					}
+					EntityPlayerMP _player = (EntityPlayerMP) _ent;
+					_player.mcServer.getPlayerList().transferPlayerToDimension(_player, dimensionID, new TeleporterDirect(_player.getServerWorld()));
+					_player.connection.setPlayerLocation(DimensionManager.getWorld(dimensionID).getSpawnPoint().getX(),
+							DimensionManager.getWorld(dimensionID).getSpawnPoint().getY() + 1,
+							DimensionManager.getWorld(dimensionID).getSpawnPoint().getZ(), _player.rotationYaw, _player.rotationPitch);
+				}
+			}
 		} else if ((Math.random() <= 1)) {
 			{
 				Entity _ent = entity;

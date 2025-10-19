@@ -31,7 +31,8 @@ public class BiomeER1 extends ElementsSkyblueMod.ModElement {
 	}
 	static class BiomeGenCustom extends Biome {
 		public BiomeGenCustom() {
-			super(new Biome.BiomeProperties("ER 1").setRainfall(0.5F).setBaseHeight(-1F).setHeightVariation(0.2F).setTemperature(0.5F));
+			super(new Biome.BiomeProperties("ER 1").setRainfall(0.5F).setBaseHeight(-1F).setWaterColor(-16711681).setHeightVariation(0.2F)
+					.setTemperature(0.5F));
 			setRegistryName("er_1");
 			topBlock = BlockEgrass.block.getDefaultState();
 			fillerBlock = BlockEdirt.block.getDefaultState();

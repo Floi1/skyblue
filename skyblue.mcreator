@@ -1755,6 +1755,53 @@
       "ids": {},
       "registry_name": "estone",
       "path": "~/dim6"
+    },
+    {
+      "name": "EE1",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ee_1",
+      "path": "~/dim6"
+    },
+    {
+      "name": "ErE1",
+      "type": "structure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "er_e_1",
+      "path": "~/dim6"
+    },
+    {
+      "name": "EER1",
+      "type": "structure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eer_1",
+      "path": "~/dim6"
+    },
+    {
+      "name": "Dim6telpert",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dim_6telpert",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1800,6 +1847,7 @@
       "tile.ab_12.name": "Ab 12",
       "tile.fournine.name": "Fouriine",
       "tile.ab_20.name": "Ab 20",
+      "tile.ee_1.name": "EE 1",
       "tile.nineeight.name": "Nineeight",
       "tile.ab_2.name": "Ab 2",
       "tile.ab_18.name": "Ab 18",
