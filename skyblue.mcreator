@@ -1847,6 +1847,43 @@
       "ids": {},
       "registry_name": "frr_1",
       "path": "~/Dim7"
+    },
+    {
+      "name": "Ffr",
+      "type": "block",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ffr",
+      "path": "~/Dim7"
+    },
+    {
+      "name": "FFR1",
+      "type": "structure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ffr_1",
+      "path": "~/Dim7"
+    },
+    {
+      "name": "Dim7telpert",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dim_7telpert",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1878,6 +1915,7 @@
       "tile.onetwonine.name": "Onetwonine",
       "tile.sevenzero.name": "Sevenzero",
       "tile.ab_19.name": "Ab 19",
+      "tile.ffr.name": "FFr1",
       "tile.twofour.name": "twofour",
       "item.normalsky.name": "Normal key",
       "tile.ab_16.name": "Ab 16",

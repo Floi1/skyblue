@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "skyblue:blocks/4",
+    "particle": "skyblue:blocks/4"
+  }
+}
