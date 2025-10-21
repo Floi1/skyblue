@@ -13,14 +13,14 @@ import net.minecraft.entity.Entity;
 import java.util.Map;
 
 @ElementsSkyblueMod.ModElement.Tag
-public class ProcedureSkykeyRightClickedInAir extends ElementsSkyblueMod.ModElement {
-	public ProcedureSkykeyRightClickedInAir(ElementsSkyblueMod instance) {
-		super(instance, 77);
+public class ProcedureGreen2EntityWalksOnTheBlock extends ElementsSkyblueMod.ModElement {
+	public ProcedureGreen2EntityWalksOnTheBlock(ElementsSkyblueMod instance) {
+		super(instance, 190);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure SkykeyRightClickedInAir!");
+			System.err.println("Failed to load dependency entity for procedure Green2EntityWalksOnTheBlock!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

@@ -1,6 +1,6 @@
 package net.skyblue.procedure;
 
-import net.skyblue.world.WorldG3;
+import net.skyblue.world.WorldG2;
 import net.skyblue.ElementsSkyblueMod;
 
 import net.minecraftforge.common.DimensionManager;
@@ -13,21 +13,21 @@ import net.minecraft.entity.Entity;
 import java.util.Map;
 
 @ElementsSkyblueMod.ModElement.Tag
-public class ProcedureSkykeyRightClickedInAir extends ElementsSkyblueMod.ModElement {
-	public ProcedureSkykeyRightClickedInAir(ElementsSkyblueMod instance) {
-		super(instance, 77);
+public class ProcedureGreenEntityCollidesInTheBlock extends ElementsSkyblueMod.ModElement {
+	public ProcedureGreenEntityCollidesInTheBlock(ElementsSkyblueMod instance) {
+		super(instance, 184);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure SkykeyRightClickedInAir!");
+			System.err.println("Failed to load dependency entity for procedure GreenEntityCollidesInTheBlock!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		{
 			Entity _ent = entity;
 			if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
-				int dimensionID = WorldG3.DIMID;
+				int dimensionID = WorldG2.DIMID;
 				class TeleporterDirect extends Teleporter {
 					public TeleporterDirect(WorldServer worldserver) {
 						super(worldserver);

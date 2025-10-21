@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "skyblue:blocks/green",
+    "up": "skyblue:blocks/green",
+    "north": "skyblue:blocks/green",
+    "east": "skyblue:blocks/green",
+    "south": "skyblue:blocks/green",
+    "west": "skyblue:blocks/green",
+    "particle": "skyblue:blocks/green"
+  }
+}
