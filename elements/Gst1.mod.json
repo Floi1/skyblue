@@ -1,0 +1,26 @@
+{
+  "_fv": 18,
+  "_type": "structure",
+  "definition": {
+    "structure": "gst1",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 100000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:G1",
+      "CUSTOM:G2",
+      "CUSTOM:G3",
+      "CUSTOM:G4",
+      "CUSTOM:G5"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

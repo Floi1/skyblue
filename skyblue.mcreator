@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "DIMENSION": 12
+    "DIMENSION": 13
   },
   "mod_elements": [
     {
@@ -2266,6 +2266,118 @@
       "ids": {},
       "registry_name": "ggr_4",
       "path": "~/dim8"
+    },
+    {
+      "name": "Gst1",
+      "type": "structure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gst_1",
+      "path": "~/dim8"
+    },
+    {
+      "name": "Gst2",
+      "type": "structure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gst_2",
+      "path": "~/dim8"
+    },
+    {
+      "name": "Gst3",
+      "type": "structure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gst_3",
+      "path": "~/dim8"
+    },
+    {
+      "name": "Gst4",
+      "type": "structure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gst_4",
+      "path": "~/dim8"
+    },
+    {
+      "name": "G5",
+      "type": "dimension",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 13
+      },
+      "registry_name": "g_5",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/dim8"
+    },
+    {
+      "name": "GR5",
+      "type": "biome",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gr_5",
+      "path": "~/dim8"
+    },
+    {
+      "name": "GG5",
+      "type": "block",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gg_5",
+      "path": "~/dim8"
+    },
+    {
+      "name": "Green4EntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_4_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gst5",
+      "type": "structure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gst_5",
+      "path": "~/dim8"
+    },
+    {
+      "name": "GGG4",
+      "type": "structure",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ggg_4",
+      "path": "~/dim8"
     }
   ],
   "variable_elements": [],
@@ -2299,7 +2411,7 @@
       "tile.onethreenoe.name": "Onethreenoe",
       "tile.gg_1.name": "GG1",
       "tile.red_3.name": "Red3",
-      "tile.gg_4.name": "GG3",
+      "tile.gg_4.name": "GG4",
       "item.b_1.name": "B 1 Portal Igniter",
       "tile.onetwonine.name": "Onetwonine",
       "tile.green.name": "Green1",
@@ -2319,6 +2431,7 @@
       "tile.onethreefour.name": "Onethreefour",
       "tile.green_3.name": "Green3",
       "tile.ft_1.name": "F 1",
+      "item.g_5.name": "G 1 Portal Igniter",
       "tile.oneonetwo.name": "oneonetwo",
       "tile.fourtwo.name": "Fourtwo",
       "tile.abb.name": "ABB",
@@ -2350,6 +2463,7 @@
       "tile.ab_22.name": "Ab 22",
       "tile.onefourtwo.name": "Onefourtwo",
       "tile.red_2.name": "Red2",
+      "tile.gg_5.name": "GG5",
       "tile.estone.name": "Edirt",
       "tile.gg_2.name": "GG2"
     }
