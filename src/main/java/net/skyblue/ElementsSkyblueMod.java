@@ -6,6 +6,8 @@
  */
 package net.skyblue;
 
+import net.skyblue.gui.GuiFace1;
+
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.common.registry.EntityEntry;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
@@ -122,11 +124,15 @@ public class ElementsSkyblueMod implements IFuelHandler, IWorldGenerator {
 	public static class GuiHandler implements IGuiHandler {
 		@Override
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == GuiFace1.GUIID)
+				return new GuiFace1.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
 		@Override
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == GuiFace1.GUIID)
+				return new GuiFace1.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

@@ -1,6 +1,11 @@
 package net.skyblue.procedure;
 
 import net.skyblue.world.WorldRdr1;
+import net.skyblue.world.WorldG5;
+import net.skyblue.world.WorldG4;
+import net.skyblue.world.WorldG3;
+import net.skyblue.world.WorldG2;
+import net.skyblue.world.WorldG1;
 import net.skyblue.world.WorldF1;
 import net.skyblue.world.WorldD1;
 import net.skyblue.world.WorldC1;
@@ -29,7 +34,7 @@ public class ProcedureSkyPlayerEntersDimension extends ElementsSkyblueMod.ModEle
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if ((Math.random() <= 0.3)) {
+		if ((Math.random() <= 0.1)) {
 			{
 				Entity _ent = entity;
 				if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
@@ -60,7 +65,7 @@ public class ProcedureSkyPlayerEntersDimension extends ElementsSkyblueMod.ModEle
 							DimensionManager.getWorld(dimensionID).getSpawnPoint().getZ(), _player.rotationYaw, _player.rotationPitch);
 				}
 			}
-		} else if ((Math.random() <= 0.5)) {
+		} else if ((Math.random() <= 0.2)) {
 			{
 				Entity _ent = entity;
 				if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
@@ -91,7 +96,7 @@ public class ProcedureSkyPlayerEntersDimension extends ElementsSkyblueMod.ModEle
 							DimensionManager.getWorld(dimensionID).getSpawnPoint().getZ(), _player.rotationYaw, _player.rotationPitch);
 				}
 			}
-		} else if ((Math.random() <= 0.7)) {
+		} else if ((Math.random() <= 0.3)) {
 			{
 				Entity _ent = entity;
 				if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
@@ -122,7 +127,7 @@ public class ProcedureSkyPlayerEntersDimension extends ElementsSkyblueMod.ModEle
 							DimensionManager.getWorld(dimensionID).getSpawnPoint().getZ(), _player.rotationYaw, _player.rotationPitch);
 				}
 			}
-		} else if ((Math.random() <= 0.8)) {
+		} else if ((Math.random() <= 0.4)) {
 			{
 				Entity _ent = entity;
 				if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
@@ -153,7 +158,7 @@ public class ProcedureSkyPlayerEntersDimension extends ElementsSkyblueMod.ModEle
 							DimensionManager.getWorld(dimensionID).getSpawnPoint().getZ(), _player.rotationYaw, _player.rotationPitch);
 				}
 			}
-		} else if ((Math.random() <= 0.9)) {
+		} else if ((Math.random() <= 0.5)) {
 			{
 				Entity _ent = entity;
 				if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
@@ -184,11 +189,166 @@ public class ProcedureSkyPlayerEntersDimension extends ElementsSkyblueMod.ModEle
 							DimensionManager.getWorld(dimensionID).getSpawnPoint().getZ(), _player.rotationYaw, _player.rotationPitch);
 				}
 			}
-		} else if ((Math.random() <= 1)) {
+		} else if ((Math.random() <= 0.6)) {
 			{
 				Entity _ent = entity;
 				if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
 					int dimensionID = WorldF1.DIMID;
+					class TeleporterDirect extends Teleporter {
+						public TeleporterDirect(WorldServer worldserver) {
+							super(worldserver);
+						}
+
+						@Override
+						public void placeInPortal(Entity entity, float yawrotation) {
+						}
+
+						@Override
+						public boolean placeInExistingPortal(Entity entity, float yawrotation) {
+							return true;
+						}
+
+						@Override
+						public boolean makePortal(Entity entity) {
+							return true;
+						}
+					}
+					EntityPlayerMP _player = (EntityPlayerMP) _ent;
+					_player.mcServer.getPlayerList().transferPlayerToDimension(_player, dimensionID, new TeleporterDirect(_player.getServerWorld()));
+					_player.connection.setPlayerLocation(DimensionManager.getWorld(dimensionID).getSpawnPoint().getX(),
+							DimensionManager.getWorld(dimensionID).getSpawnPoint().getY() + 1,
+							DimensionManager.getWorld(dimensionID).getSpawnPoint().getZ(), _player.rotationYaw, _player.rotationPitch);
+				}
+			}
+		} else if ((Math.random() <= 0.7)) {
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
+					int dimensionID = WorldG1.DIMID;
+					class TeleporterDirect extends Teleporter {
+						public TeleporterDirect(WorldServer worldserver) {
+							super(worldserver);
+						}
+
+						@Override
+						public void placeInPortal(Entity entity, float yawrotation) {
+						}
+
+						@Override
+						public boolean placeInExistingPortal(Entity entity, float yawrotation) {
+							return true;
+						}
+
+						@Override
+						public boolean makePortal(Entity entity) {
+							return true;
+						}
+					}
+					EntityPlayerMP _player = (EntityPlayerMP) _ent;
+					_player.mcServer.getPlayerList().transferPlayerToDimension(_player, dimensionID, new TeleporterDirect(_player.getServerWorld()));
+					_player.connection.setPlayerLocation(DimensionManager.getWorld(dimensionID).getSpawnPoint().getX(),
+							DimensionManager.getWorld(dimensionID).getSpawnPoint().getY() + 1,
+							DimensionManager.getWorld(dimensionID).getSpawnPoint().getZ(), _player.rotationYaw, _player.rotationPitch);
+				}
+			}
+		} else if ((Math.random() <= 0.8)) {
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
+					int dimensionID = WorldG2.DIMID;
+					class TeleporterDirect extends Teleporter {
+						public TeleporterDirect(WorldServer worldserver) {
+							super(worldserver);
+						}
+
+						@Override
+						public void placeInPortal(Entity entity, float yawrotation) {
+						}
+
+						@Override
+						public boolean placeInExistingPortal(Entity entity, float yawrotation) {
+							return true;
+						}
+
+						@Override
+						public boolean makePortal(Entity entity) {
+							return true;
+						}
+					}
+					EntityPlayerMP _player = (EntityPlayerMP) _ent;
+					_player.mcServer.getPlayerList().transferPlayerToDimension(_player, dimensionID, new TeleporterDirect(_player.getServerWorld()));
+					_player.connection.setPlayerLocation(DimensionManager.getWorld(dimensionID).getSpawnPoint().getX(),
+							DimensionManager.getWorld(dimensionID).getSpawnPoint().getY() + 1,
+							DimensionManager.getWorld(dimensionID).getSpawnPoint().getZ(), _player.rotationYaw, _player.rotationPitch);
+				}
+			}
+		} else if ((Math.random() <= 0.9)) {
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
+					int dimensionID = WorldG3.DIMID;
+					class TeleporterDirect extends Teleporter {
+						public TeleporterDirect(WorldServer worldserver) {
+							super(worldserver);
+						}
+
+						@Override
+						public void placeInPortal(Entity entity, float yawrotation) {
+						}
+
+						@Override
+						public boolean placeInExistingPortal(Entity entity, float yawrotation) {
+							return true;
+						}
+
+						@Override
+						public boolean makePortal(Entity entity) {
+							return true;
+						}
+					}
+					EntityPlayerMP _player = (EntityPlayerMP) _ent;
+					_player.mcServer.getPlayerList().transferPlayerToDimension(_player, dimensionID, new TeleporterDirect(_player.getServerWorld()));
+					_player.connection.setPlayerLocation(DimensionManager.getWorld(dimensionID).getSpawnPoint().getX(),
+							DimensionManager.getWorld(dimensionID).getSpawnPoint().getY() + 1,
+							DimensionManager.getWorld(dimensionID).getSpawnPoint().getZ(), _player.rotationYaw, _player.rotationPitch);
+				}
+			}
+		} else if ((Math.random() <= 0.95)) {
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
+					int dimensionID = WorldG4.DIMID;
+					class TeleporterDirect extends Teleporter {
+						public TeleporterDirect(WorldServer worldserver) {
+							super(worldserver);
+						}
+
+						@Override
+						public void placeInPortal(Entity entity, float yawrotation) {
+						}
+
+						@Override
+						public boolean placeInExistingPortal(Entity entity, float yawrotation) {
+							return true;
+						}
+
+						@Override
+						public boolean makePortal(Entity entity) {
+							return true;
+						}
+					}
+					EntityPlayerMP _player = (EntityPlayerMP) _ent;
+					_player.mcServer.getPlayerList().transferPlayerToDimension(_player, dimensionID, new TeleporterDirect(_player.getServerWorld()));
+					_player.connection.setPlayerLocation(DimensionManager.getWorld(dimensionID).getSpawnPoint().getX(),
+							DimensionManager.getWorld(dimensionID).getSpawnPoint().getY() + 1,
+							DimensionManager.getWorld(dimensionID).getSpawnPoint().getZ(), _player.rotationYaw, _player.rotationPitch);
+				}
+			}
+		} else if ((Math.random() <= 1)) {
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && !_ent.isRiding() && !_ent.isBeingRidden() && _ent instanceof EntityPlayerMP) {
+					int dimensionID = WorldG5.DIMID;
 					class TeleporterDirect extends Teleporter {
 						public TeleporterDirect(WorldServer worldserver) {
 							super(worldserver);
