@@ -1,78 +1,32 @@
-
 package net.skyblue.block;
 
 import net.skyblue.procedures.Red4EntityWalksOnTheBlockProcedure;
-import net.skyblue.itemgroup.SkyblueItemGroup;
-import net.skyblue.SkyblueModElements;
 
-import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.loot.LootContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.BlockItem;
 import net.minecraft.entity.Entity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
+import net.minecraft.block.AbstractBlock;
 
-import java.util.stream.Stream;
-import java.util.Map;
-import java.util.List;
-import java.util.HashMap;
-import java.util.Collections;
-import java.util.AbstractMap;
-
-@SkyblueModElements.ModElement.Tag
-public class Red4Block extends SkyblueModElements.ModElement {
-	@ObjectHolder("skyblue:red_4")
-	public static final Block block = null;
-
-	public Red4Block(SkyblueModElements instance) {
-		super(instance, 193);
+public class Red4Block extends Block {
+	public Red4Block() {
+		super(AbstractBlock.Properties.create(Material.REDSTONE_LIGHT).sound(SoundType.METAL).hardnessAndResistance(11f, 10f).setRequiresTool().harvestLevel(1).harvestTool(ToolType.PICKAXE));
 	}
 
 	@Override
-	public void initElements() {
-		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(SkyblueItemGroup.tab)).setRegistryName(block.getRegistryName()));
+	public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+		return 15;
 	}
 
-	public static class CustomBlock extends Block {
-		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(11f, 10f).setLightLevel(s -> 0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("red_4");
-		}
-
-		@Override
-		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			return 15;
-		}
-
-		@Override
-		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-			if (!dropsOriginal.isEmpty())
-				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
-		}
-
-		@Override
-		public void onEntityWalk(World world, BlockPos pos, Entity entity) {
-			super.onEntityWalk(world, pos, entity);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			BlockState blockstate = world.getBlockState(pos);
-
-			Red4EntityWalksOnTheBlockProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-		}
+	@Override
+	public void onEntityWalk(World world, BlockPos pos, Entity entity) {
+		super.onEntityWalk(world, pos, entity);
+		Red4EntityWalksOnTheBlockProcedure.execute(entity);
 	}
 }

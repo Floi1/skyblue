@@ -1,11 +1,12 @@
 {
-  "_fv": 33,
+  "_fv": 79,
   "_type": "fluid",
   "definition": {
     "name": "Ewater",
     "bucketName": "Ewater Bucket",
     "textureStill": "water_still",
     "textureFlowing": "water_flow",
+    "hasFog": false,
     "tintType": "No tint",
     "canMultiply": false,
     "flowRate": 5,
@@ -16,25 +17,26 @@
     "luminosity": 0,
     "density": 1000,
     "viscosity": 1000,
-    "isGas": false,
     "temperature": 300,
     "type": "WATER",
     "generateBucket": true,
-    "creativeTab": {
-      "value": "CUSTOM:Skyblue"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Skyblue"
+      }
+    ],
     "rarity": "COMMON",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "resistance": 100.0,
     "luminance": 0,
     "lightOpacity": 1,
     "emissiveRendering": false,
     "tickRate": 10,
+    "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "colorOnMap": "DEFAULT",
-    "frequencyOnChunks": 0,
-    "spawnWorldTypes": [],
-    "restrictionBiomes": []
+    "colorOnMap": "DEFAULT"
   }
 }

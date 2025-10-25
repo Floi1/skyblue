@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "skyblue:blocks/red4",
-    "up": "skyblue:blocks/red4",
-    "north": "skyblue:blocks/red4",
-    "east": "skyblue:blocks/red4",
-    "south": "skyblue:blocks/red4",
-    "west": "skyblue:blocks/red4",
-    "particle": "skyblue:blocks/red4"
+    "down": "skyblue:block/red4",
+    "up": "skyblue:block/red4",
+    "north": "skyblue:block/red4",
+    "east": "skyblue:block/red4",
+    "south": "skyblue:block/red4",
+    "west": "skyblue:block/red4",
+    "particle": "skyblue:block/red4"
   }
 }

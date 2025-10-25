@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 79,
   "_type": "biome",
   "definition": {
     "name": "Rd 1",
@@ -27,25 +27,14 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "biomeCategory": "NONE",
     "rainingPossibility": 0.5,
     "temperature": 0.5,
     "baseHeight": 1.0,
     "heightVariation": 0.30000000000000004,
     "spawnBiome": false,
-    "spawnBiomeNether": false,
     "spawnInCaves": false,
+    "spawnBiomeNether": false,
     "biomeWeight": 10,
-    "biomeDictionaryTypes": [],
-    "grassPerChunk": 4,
-    "seagrassPerChunk": 0,
-    "flowersPerChunk": 4,
-    "mushroomsPerChunk": 0,
-    "bigMushroomsChunk": 0,
-    "sandPatchesPerChunk": 0,
-    "gravelPatchesPerChunk": 0,
-    "reedsPerChunk": 0,
-    "cactiPerChunk": 0,
     "treesPerChunk": 1,
     "vanillaTreeType": "Default",
     "treeType": 0,
@@ -62,6 +51,13 @@
     "treeFruits": {
       "value": ""
     },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "ForestGrass",
+      "DefaultFlowers"
+    ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,
@@ -82,11 +78,6 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "defaultFeatures": [
-      "Caves",
-      "Ores",
-      "FrozenTopLayer"
-    ],
     "spawnEntries": []
   }
 }

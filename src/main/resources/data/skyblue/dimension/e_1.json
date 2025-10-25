@@ -52,7 +52,7 @@
       "bedrock_roof_position": -10,
       "bedrock_floor_position": 0,
       "sea_level": 63,
-      "disable_mob_generation": true,
+      "disable_mob_generation": false,
       "default_block": {
         "Name": "skyblue:estone"
       },
@@ -63,7 +63,6 @@
         }
       },
       "noise": {
-        "min_y": 0,
         "height": 256,
         "density_factor": 1,
         "density_offset": -0.46875,
@@ -71,8 +70,6 @@
         "size_vertical": 2,
         "simplex_surface_noise": true,
         "random_density_offset": true,
-        "island_noise_override": false,
-        "amplified": false,
         "sampling": {
           "xz_scale": 1,
           "y_scale": 1,

@@ -3,72 +3,105 @@
     {
       "name": "Sixthree",
       "type": "block",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sixthree",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/blockstates/sixthree.json",
+          "src/main/resources/assets/skyblue/models/item/sixthree.json",
+          "src/main/resources/assets/skyblue/models/block/sixthree.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/sixthree.json",
+          "src/main/java/net/skyblue/block/SixthreeBlock.java"
+        ]
+      },
       "path": "~/blocks"
     },
     {
       "name": "Skyblue",
       "type": "tab",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "skyblue"
+      "registry_name": "skyblue",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "Plain",
       "type": "biome",
-      "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plain"
+      "registry_name": "plain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/PlainBiome.java"
+        ]
+      }
     },
     {
       "name": "Sky",
       "type": "dimension",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sky",
       "metadata": {
-        "ep": false
+        "ep": false,
+        "files": [
+          "src/main/resources/data/skyblue/dimension_type/sky.json",
+          "src/main/java/net/skyblue/world/dimension/SkyDimension.java",
+          "src/main/resources/data/skyblue/dimension/sky.json"
+        ]
       }
     },
     {
       "name": "Rd1",
       "type": "biome",
-      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rd_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/Rd1Biome.java"
+        ]
+      },
       "path": "~/dim1"
     },
     {
       "name": "Rdr1",
       "type": "dimension",
-      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rdr_1",
       "metadata": {
-        "ep": false
+        "ep": false,
+        "files": [
+          "src/main/java/net/skyblue/world/dimension/Rdr1Dimension.java",
+          "src/main/resources/data/skyblue/dimension_type/rdr_1.json",
+          "src/main/resources/data/skyblue/dimension/rdr_1.json"
+        ]
       },
       "path": "~/dim1"
     },
     {
       "name": "Sevenzero",
       "type": "block",
-      "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sevenzero"
+      "registry_name": "sevenzero",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/blockstates/sevenzero.json",
+          "src/main/resources/assets/skyblue/models/item/sevenzero.json",
+          "src/main/resources/assets/skyblue/models/block/sevenzero.json",
+          "src/main/java/net/skyblue/block/SevenzeroBlock.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/sevenzero.json"
+        ]
+      }
     },
     {
       "name": "SevenzeroEntityWalksOnTheBlock",
       "type": "procedure",
-      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sevenzero_entity_walks_on_the_block",
@@ -78,590 +111,297 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/SevenzeroEntityWalksOnTheBlockProcedure.java"
         ]
       }
     },
     {
       "name": "Fourtwo",
       "type": "block",
-      "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fourtwo"
+      "registry_name": "fourtwo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/fourtwo.json",
+          "src/main/resources/assets/skyblue/blockstates/fourtwo.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/fourtwo.json",
+          "src/main/resources/assets/skyblue/models/block/fourtwo.json",
+          "src/main/java/net/skyblue/block/FourtwoBlock.java"
+        ]
+      }
     },
     {
       "name": "Fourthree",
       "type": "block",
-      "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fourthree"
+      "registry_name": "fourthree",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/blockstates/fourthree.json",
+          "src/main/resources/assets/skyblue/models/item/fourthree.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/fourthree.json",
+          "src/main/java/net/skyblue/block/FourthreeBlock.java",
+          "src/main/resources/assets/skyblue/models/block/fourthree.json"
+        ]
+      }
     },
     {
       "name": "Nineeight",
       "type": "block",
-      "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "nineeight"
+      "registry_name": "nineeight",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/NineeightBlock.java",
+          "src/main/resources/assets/skyblue/models/block/nineeight.json",
+          "src/main/resources/assets/skyblue/models/item/nineeight.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/nineeight.json",
+          "src/main/resources/assets/skyblue/blockstates/nineeight.json"
+        ]
+      }
     },
     {
       "name": "Nine",
       "type": "block",
-      "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "nine"
-    },
-    {
-      "name": "Rd11",
-      "type": "structure",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rd_11",
-      "path": "~/dim1"
-    },
-    {
-      "name": "Rd111",
-      "type": "structure",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rd_111",
-      "path": "~/dim1"
+      "registry_name": "nine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/block/nine.json",
+          "src/main/java/net/skyblue/block/NineBlock.java",
+          "src/main/resources/assets/skyblue/models/item/nine.json",
+          "src/main/resources/assets/skyblue/blockstates/nine.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/nine.json"
+        ]
+      }
     },
     {
       "name": "Fournine",
       "type": "block",
-      "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fournine"
-    },
-    {
-      "name": "RD121",
-      "type": "structure",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rd_121",
-      "path": "~/dim1"
+      "registry_name": "fournine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/block/fournine.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/fournine.json",
+          "src/main/resources/assets/skyblue/models/item/fournine.json",
+          "src/main/resources/assets/skyblue/blockstates/fournine.json",
+          "src/main/java/net/skyblue/block/FournineBlock.java"
+        ]
+      }
     },
     {
       "name": "Onezerofive",
       "type": "block",
-      "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "onezerofive"
+      "registry_name": "onezerofive",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/onezerofive.json",
+          "src/main/resources/assets/skyblue/models/item/onezerofive.json",
+          "src/main/resources/assets/skyblue/blockstates/onezerofive.json",
+          "src/main/resources/assets/skyblue/models/block/onezerofive.json",
+          "src/main/java/net/skyblue/block/OnezerofiveBlock.java"
+        ]
+      }
     },
     {
       "name": "Onefourtwo",
       "type": "block",
-      "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "onefourtwo"
+      "registry_name": "onefourtwo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/onefourtwo.json",
+          "src/main/resources/assets/skyblue/blockstates/onefourtwo.json",
+          "src/main/java/net/skyblue/block/OnefourtwoBlock.java",
+          "src/main/resources/assets/skyblue/models/block/onefourtwo.json",
+          "src/main/resources/assets/skyblue/models/item/onefourtwo.json"
+        ]
+      }
     },
     {
       "name": "Onethreefour",
       "type": "block",
-      "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "onethreefour"
+      "registry_name": "onethreefour",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/onethreefour.json",
+          "src/main/resources/assets/skyblue/models/item/onethreefour.json",
+          "src/main/resources/assets/skyblue/models/block/onethreefour.json",
+          "src/main/resources/assets/skyblue/blockstates/onethreefour.json",
+          "src/main/java/net/skyblue/block/OnethreefourBlock.java"
+        ]
+      }
     },
     {
       "name": "Onethreenoe",
       "type": "block",
-      "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "onethreenoe"
+      "registry_name": "onethreenoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/block/onethreenoe.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/onethreenoe.json",
+          "src/main/resources/assets/skyblue/blockstates/onethreenoe.json",
+          "src/main/java/net/skyblue/block/OnethreenoeBlock.java",
+          "src/main/resources/assets/skyblue/models/item/onethreenoe.json"
+        ]
+      }
     },
     {
       "name": "BR1",
       "type": "biome",
-      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "br_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/BR1Biome.java"
+        ]
+      },
       "path": "~/dim2"
     },
     {
       "name": "B1",
       "type": "dimension",
-      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "b_1",
       "metadata": {
-        "ep": false
+        "ep": false,
+        "files": [
+          "src/main/resources/data/skyblue/dimension_type/b_1.json",
+          "src/main/resources/data/skyblue/dimension/b_1.json",
+          "src/main/java/net/skyblue/world/dimension/B1Dimension.java"
+        ]
       },
-      "path": "~/dim2"
-    },
-    {
-      "name": "B1r",
-      "type": "structure",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "b_1r",
-      "path": "~/dim2"
-    },
-    {
-      "name": "B11",
-      "type": "structure",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "b_11",
-      "path": "~/dim2"
-    },
-    {
-      "name": "Bb1",
-      "type": "structure",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bb_1",
       "path": "~/dim2"
     },
     {
       "name": "Oneonetwo",
       "type": "block",
-      "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "oneonetwo"
-    },
-    {
-      "name": "B2",
-      "type": "structure",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "b_2",
-      "path": "~/dim2"
+      "registry_name": "oneonetwo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/oneonetwo.json",
+          "src/main/resources/assets/skyblue/models/block/oneonetwo.json",
+          "src/main/resources/assets/skyblue/blockstates/oneonetwo.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/oneonetwo.json",
+          "src/main/java/net/skyblue/block/OneonetwoBlock.java"
+        ]
+      }
     },
     {
       "name": "Twofivesix",
       "type": "block",
-      "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "twofivesix"
+      "registry_name": "twofivesix",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/twofivesix.json",
+          "src/main/resources/assets/skyblue/models/block/twofivesix.json",
+          "src/main/resources/assets/skyblue/blockstates/twofivesix.json",
+          "src/main/java/net/skyblue/block/TwofivesixBlock.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/twofivesix.json"
+        ]
+      }
     },
     {
       "name": "Twofour",
       "type": "block",
-      "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "twofour"
+      "registry_name": "twofour",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/twofour.json",
+          "src/main/java/net/skyblue/block/TwofourBlock.java",
+          "src/main/resources/assets/skyblue/models/item/twofour.json",
+          "src/main/resources/assets/skyblue/blockstates/twofour.json",
+          "src/main/resources/assets/skyblue/models/block/twofour.json"
+        ]
+      }
     },
     {
       "name": "Onezeronine",
       "type": "block",
-      "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "onezeronine"
+      "registry_name": "onezeronine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/onezeronine.json",
+          "src/main/java/net/skyblue/block/OnezeronineBlock.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/onezeronine.json",
+          "src/main/resources/assets/skyblue/blockstates/onezeronine.json",
+          "src/main/resources/assets/skyblue/models/block/onezeronine.json"
+        ]
+      }
     },
     {
       "name": "Onefive",
       "type": "block",
-      "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "onefive"
+      "registry_name": "onefive",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/block/onefive.json",
+          "src/main/resources/assets/skyblue/blockstates/onefive.json",
+          "src/main/resources/assets/skyblue/models/item/onefive.json",
+          "src/main/java/net/skyblue/block/OnefiveBlock.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/onefive.json"
+        ]
+      }
     },
     {
       "name": "Cr1",
       "type": "biome",
-      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cr_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/Cr1Biome.java"
+        ]
+      },
       "path": "~/dim3"
     },
     {
       "name": "C1",
       "type": "dimension",
-      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "c_1",
       "metadata": {
-        "ep": false
+        "ep": false,
+        "files": [
+          "src/main/resources/data/skyblue/dimension_type/c_1.json",
+          "src/main/resources/data/skyblue/dimension/c_1.json",
+          "src/main/java/net/skyblue/world/dimension/C1Dimension.java"
+        ]
       },
-      "path": "~/dim3"
-    },
-    {
-      "name": "C1r",
-      "type": "structure",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_1r",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C2",
-      "type": "structure",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_2",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C3",
-      "type": "structure",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_3",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C4",
-      "type": "structure",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_4",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Crr1",
-      "type": "structure",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crr_1",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr2",
-      "type": "structure",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_2",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr3",
-      "type": "structure",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_3",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr4",
-      "type": "structure",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_4",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C11",
-      "type": "structure",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_11",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr11",
-      "type": "structure",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_11",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C22",
-      "type": "structure",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_22",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr22",
-      "type": "structure",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_22",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C33",
-      "type": "structure",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_33",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr33",
-      "type": "structure",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_33",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C44",
-      "type": "structure",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_44",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr44",
-      "type": "structure",
-      "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_44",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C111",
-      "type": "structure",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_111",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr111",
-      "type": "structure",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_111",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C222",
-      "type": "structure",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_222",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr222",
-      "type": "structure",
-      "sortid": 52,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_222",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C333",
-      "type": "structure",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_333",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr333",
-      "type": "structure",
-      "sortid": 54,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_333",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C444",
-      "type": "structure",
-      "sortid": 55,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_444",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr444",
-      "type": "structure",
-      "sortid": 56,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_444",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C1111",
-      "type": "structure",
-      "sortid": 57,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_1111",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr1111",
-      "type": "structure",
-      "sortid": 58,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_1111",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C2222",
-      "type": "structure",
-      "sortid": 59,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_2222",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr2222",
-      "type": "structure",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_2222",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C3333",
-      "type": "structure",
-      "sortid": 61,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_3333",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr3333",
-      "type": "structure",
-      "sortid": 62,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_3333",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C4444",
-      "type": "structure",
-      "sortid": 63,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_4444",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr4444",
-      "type": "structure",
-      "sortid": 64,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_4444",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C5",
-      "type": "structure",
-      "sortid": 65,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_5",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C55",
-      "type": "structure",
-      "sortid": 66,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_55",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C555",
-      "type": "structure",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_555",
-      "path": "~/dim3"
-    },
-    {
-      "name": "C5555",
-      "type": "structure",
-      "sortid": 68,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_5555",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr5",
-      "type": "structure",
-      "sortid": 69,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_5",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr55",
-      "type": "structure",
-      "sortid": 70,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_55",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr555",
-      "type": "structure",
-      "sortid": 71,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_555",
-      "path": "~/dim3"
-    },
-    {
-      "name": "Cr5555",
-      "type": "structure",
-      "sortid": 72,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cr_5555",
       "path": "~/dim3"
     },
     {
       "name": "SkyPlayerEntersDimension",
       "type": "procedure",
-      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sky_player_enters_dimension",
@@ -671,29 +411,27 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/SkyPlayerEntersDimensionProcedure.java"
         ]
       }
     },
     {
       "name": "Nite",
       "type": "recipe",
-      "sortid": 74,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "nite"
-    },
-    {
-      "name": "Sk",
-      "type": "structure",
-      "sortid": 75,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sk"
+      "registry_name": "nite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/recipes/nite.json"
+        ]
+      }
     },
     {
       "name": "Spawn",
       "type": "procedure",
-      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spawn",
@@ -715,13 +453,15 @@
             "name": "world",
             "type": "world"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/SpawnProcedure.java"
         ]
       }
     },
     {
       "name": "SkykeyRightClickedInAir",
       "type": "procedure",
-      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skykey_right_clicked_in_air",
@@ -731,339 +471,503 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/SkykeyRightClickedInAirProcedure.java"
         ]
       }
     },
     {
       "name": "Skykey",
       "type": "item",
-      "sortid": 77,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "skykey"
+      "registry_name": "skykey",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/item/SkykeyItem.java",
+          "src/main/resources/assets/skyblue/models/item/skykey.json"
+        ]
+      }
     },
     {
       "name": "Ap1",
       "type": "particle",
-      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ap_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/particles/ap_1.json",
+          "src/main/java/net/skyblue/client/particle/Ap1Particle.java"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab1",
       "type": "block",
-      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_1.json",
+          "src/main/java/net/skyblue/world/features/ores/Ab1Feature.java",
+          "src/main/resources/assets/skyblue/models/item/ab_1.json",
+          "src/main/resources/assets/skyblue/blockstates/ab_1.json",
+          "src/main/resources/assets/skyblue/models/block/ab_1.json",
+          "src/main/java/net/skyblue/block/Ab1Block.java"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ar1",
       "type": "biome",
-      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ar_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/Ar1Biome.java"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "A1",
       "type": "dimension",
-      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "a_1",
       "metadata": {
-        "ep": false
+        "ep": false,
+        "files": [
+          "src/main/java/net/skyblue/world/dimension/A1Dimension.java",
+          "src/main/resources/data/skyblue/dimension_type/a_1.json",
+          "src/main/resources/data/skyblue/dimension/a_1.json"
+        ]
       },
       "path": "~/dim4"
     },
     {
       "name": "Ab2",
       "type": "block",
-      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/Ab2Block.java",
+          "src/main/java/net/skyblue/world/features/ores/Ab2Feature.java",
+          "src/main/resources/assets/skyblue/models/item/ab_2.json",
+          "src/main/resources/assets/skyblue/models/block/ab_2.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_2.json",
+          "src/main/resources/assets/skyblue/blockstates/ab_2.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab3",
       "type": "block",
-      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/blockstates/ab_3.json",
+          "src/main/resources/assets/skyblue/models/item/ab_3.json",
+          "src/main/resources/assets/skyblue/models/block/ab_3.json",
+          "src/main/java/net/skyblue/block/Ab3Block.java",
+          "src/main/java/net/skyblue/world/features/ores/Ab3Feature.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_3.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab4",
       "type": "block",
-      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/blockstates/ab_4.json",
+          "src/main/resources/assets/skyblue/models/block/ab_4.json",
+          "src/main/java/net/skyblue/world/features/ores/Ab4Feature.java",
+          "src/main/resources/assets/skyblue/models/item/ab_4.json",
+          "src/main/java/net/skyblue/block/Ab4Block.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_4.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab5",
       "type": "block",
-      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/blockstates/ab_5.json",
+          "src/main/java/net/skyblue/block/Ab5Block.java",
+          "src/main/java/net/skyblue/world/features/ores/Ab5Feature.java",
+          "src/main/resources/assets/skyblue/models/item/ab_5.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_5.json",
+          "src/main/resources/assets/skyblue/models/block/ab_5.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab6",
       "type": "block",
-      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/Ab6Block.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_6.json",
+          "src/main/resources/assets/skyblue/models/block/ab_6.json",
+          "src/main/resources/assets/skyblue/models/item/ab_6.json",
+          "src/main/java/net/skyblue/world/features/ores/Ab6Feature.java",
+          "src/main/resources/assets/skyblue/blockstates/ab_6.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab7",
       "type": "block",
-      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/features/ores/Ab7Feature.java",
+          "src/main/resources/assets/skyblue/models/block/ab_7.json",
+          "src/main/resources/assets/skyblue/blockstates/ab_7.json",
+          "src/main/resources/assets/skyblue/models/item/ab_7.json",
+          "src/main/java/net/skyblue/block/Ab7Block.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_7.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab8",
       "type": "block",
-      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/features/ores/Ab8Feature.java",
+          "src/main/resources/assets/skyblue/blockstates/ab_8.json",
+          "src/main/java/net/skyblue/block/Ab8Block.java",
+          "src/main/resources/assets/skyblue/models/block/ab_8.json",
+          "src/main/resources/assets/skyblue/models/item/ab_8.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_8.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab9",
       "type": "block",
-      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_9.json",
+          "src/main/java/net/skyblue/world/features/ores/Ab9Feature.java",
+          "src/main/resources/assets/skyblue/models/item/ab_9.json",
+          "src/main/java/net/skyblue/block/Ab9Block.java",
+          "src/main/resources/assets/skyblue/blockstates/ab_9.json",
+          "src/main/resources/assets/skyblue/models/block/ab_9.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab10",
       "type": "block",
-      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/Ab10Block.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_10.json",
+          "src/main/resources/assets/skyblue/blockstates/ab_10.json",
+          "src/main/resources/assets/skyblue/models/item/ab_10.json",
+          "src/main/java/net/skyblue/world/features/ores/Ab10Feature.java",
+          "src/main/resources/assets/skyblue/models/block/ab_10.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab11",
       "type": "block",
-      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/Ab11Block.java",
+          "src/main/resources/assets/skyblue/models/block/ab_11.json",
+          "src/main/resources/assets/skyblue/models/item/ab_11.json",
+          "src/main/resources/assets/skyblue/blockstates/ab_11.json",
+          "src/main/java/net/skyblue/world/features/ores/Ab11Feature.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_11.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab12",
       "type": "block",
-      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_12",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_12.json",
+          "src/main/resources/assets/skyblue/blockstates/ab_12.json",
+          "src/main/java/net/skyblue/world/features/ores/Ab12Feature.java",
+          "src/main/resources/assets/skyblue/models/item/ab_12.json",
+          "src/main/java/net/skyblue/block/Ab12Block.java",
+          "src/main/resources/assets/skyblue/models/block/ab_12.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab13",
       "type": "block",
-      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_13",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/Ab13Block.java",
+          "src/main/java/net/skyblue/world/features/ores/Ab13Feature.java",
+          "src/main/resources/assets/skyblue/blockstates/ab_13.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_13.json",
+          "src/main/resources/assets/skyblue/models/item/ab_13.json",
+          "src/main/resources/assets/skyblue/models/block/ab_13.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab14",
       "type": "block",
-      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_14",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/ab_14.json",
+          "src/main/java/net/skyblue/world/features/ores/Ab14Feature.java",
+          "src/main/resources/assets/skyblue/models/block/ab_14.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_14.json",
+          "src/main/resources/assets/skyblue/blockstates/ab_14.json",
+          "src/main/java/net/skyblue/block/Ab14Block.java"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab15",
       "type": "block",
-      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_15",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/Ab15Block.java",
+          "src/main/resources/assets/skyblue/blockstates/ab_15.json",
+          "src/main/java/net/skyblue/world/features/ores/Ab15Feature.java",
+          "src/main/resources/assets/skyblue/models/item/ab_15.json",
+          "src/main/resources/assets/skyblue/models/block/ab_15.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_15.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab16",
       "type": "block",
-      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_16",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/ab_16.json",
+          "src/main/java/net/skyblue/block/Ab16Block.java",
+          "src/main/java/net/skyblue/world/features/ores/Ab16Feature.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_16.json",
+          "src/main/resources/assets/skyblue/blockstates/ab_16.json",
+          "src/main/resources/assets/skyblue/models/block/ab_16.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab17",
       "type": "block",
-      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_17",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_17.json",
+          "src/main/resources/assets/skyblue/blockstates/ab_17.json",
+          "src/main/java/net/skyblue/world/features/ores/Ab17Feature.java",
+          "src/main/resources/assets/skyblue/models/item/ab_17.json",
+          "src/main/resources/assets/skyblue/models/block/ab_17.json",
+          "src/main/java/net/skyblue/block/Ab17Block.java"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab18",
       "type": "block",
-      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_18",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/blockstates/ab_18.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_18.json",
+          "src/main/java/net/skyblue/block/Ab18Block.java",
+          "src/main/resources/assets/skyblue/models/item/ab_18.json",
+          "src/main/java/net/skyblue/world/features/ores/Ab18Feature.java",
+          "src/main/resources/assets/skyblue/models/block/ab_18.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab19",
       "type": "block",
-      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_19",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/ab_19.json",
+          "src/main/resources/assets/skyblue/models/block/ab_19.json",
+          "src/main/java/net/skyblue/block/Ab19Block.java",
+          "src/main/resources/assets/skyblue/blockstates/ab_19.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_19.json",
+          "src/main/java/net/skyblue/world/features/ores/Ab19Feature.java"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab20",
       "type": "block",
-      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_20",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/ab_20.json",
+          "src/main/resources/assets/skyblue/models/block/ab_20.json",
+          "src/main/java/net/skyblue/block/Ab20Block.java",
+          "src/main/java/net/skyblue/world/features/ores/Ab20Feature.java",
+          "src/main/resources/assets/skyblue/blockstates/ab_20.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_20.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab21",
       "type": "block",
-      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_21",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/Ab21Block.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_21.json",
+          "src/main/resources/assets/skyblue/blockstates/ab_21.json",
+          "src/main/java/net/skyblue/world/features/ores/Ab21Feature.java",
+          "src/main/resources/assets/skyblue/models/item/ab_21.json",
+          "src/main/resources/assets/skyblue/models/block/ab_21.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab22",
       "type": "block",
-      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_22",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/ab_22.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_22.json",
+          "src/main/resources/assets/skyblue/blockstates/ab_22.json",
+          "src/main/java/net/skyblue/world/features/ores/Ab22Feature.java",
+          "src/main/resources/assets/skyblue/models/block/ab_22.json",
+          "src/main/java/net/skyblue/block/Ab22Block.java"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab23",
       "type": "block",
-      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_23",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/block/ab_23.json",
+          "src/main/java/net/skyblue/block/Ab23Block.java",
+          "src/main/resources/assets/skyblue/models/item/ab_23.json",
+          "src/main/java/net/skyblue/world/features/ores/Ab23Feature.java",
+          "src/main/resources/assets/skyblue/blockstates/ab_23.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_23.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Ab24",
       "type": "block",
-      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ab_24",
-      "path": "~/dim4"
-    },
-    {
-      "name": "A1r",
-      "type": "structure",
-      "sortid": 106,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "a_1r",
-      "path": "~/dim4"
-    },
-    {
-      "name": "ARR1",
-      "type": "structure",
-      "sortid": 107,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arr_1",
-      "path": "~/dim4"
-    },
-    {
-      "name": "A2",
-      "type": "structure",
-      "sortid": 108,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "a_2",
-      "path": "~/dim4"
-    },
-    {
-      "name": "Ar2",
-      "type": "structure",
-      "sortid": 109,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ar_2",
-      "path": "~/dim4"
-    },
-    {
-      "name": "Ar3",
-      "type": "structure",
-      "sortid": 110,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ar_3",
-      "path": "~/dim4"
-    },
-    {
-      "name": "A3",
-      "type": "structure",
-      "sortid": 111,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "a_3",
-      "path": "~/dim4"
-    },
-    {
-      "name": "A4",
-      "type": "structure",
-      "sortid": 112,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "a_4",
-      "path": "~/dim4"
-    },
-    {
-      "name": "Ar4",
-      "type": "structure",
-      "sortid": 113,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ar_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/features/ores/Ab24Feature.java",
+          "src/main/resources/assets/skyblue/models/block/ab_24.json",
+          "src/main/resources/assets/skyblue/models/item/ab_24.json",
+          "src/main/resources/assets/skyblue/blockstates/ab_24.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ab_24.json",
+          "src/main/java/net/skyblue/block/Ab24Block.java"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Dim1telpert",
       "type": "procedure",
-      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dim_1telpert",
@@ -1073,13 +977,15 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Dim1telpertProcedure.java"
         ]
       }
     },
     {
       "name": "Dim2telpert",
       "type": "procedure",
-      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dim_2telpert",
@@ -1089,21 +995,31 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Dim2telpertProcedure.java"
         ]
       }
     },
     {
       "name": "Onetwonine",
       "type": "block",
-      "sortid": 116,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "onetwonine"
+      "registry_name": "onetwonine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/onetwonine.json",
+          "src/main/resources/assets/skyblue/blockstates/onetwonine.json",
+          "src/main/java/net/skyblue/block/OnetwonineBlock.java",
+          "src/main/resources/assets/skyblue/models/block/onetwonine.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/onetwonine.json"
+        ]
+      }
     },
     {
       "name": "Dim3telpert",
       "type": "procedure",
-      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dim_3telpert",
@@ -1113,38 +1029,40 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Dim3telpertProcedure.java"
         ]
       }
     },
     {
-      "name": "Ct1",
-      "type": "structure",
-      "sortid": 118,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ct_1",
-      "path": "~/dim3"
-    },
-    {
       "name": "Normalsky",
       "type": "item",
-      "sortid": 119,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "normalsky"
+      "registry_name": "normalsky",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/normalsky.json",
+          "src/main/java/net/skyblue/item/NormalskyItem.java"
+        ]
+      }
     },
     {
       "name": "Normal",
       "type": "recipe",
-      "sortid": 120,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "normal"
+      "registry_name": "normal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/recipes/normal.json"
+        ]
+      }
     },
     {
       "name": "NormalskyRightClickedInAir",
       "type": "procedure",
-      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "normalsky_right_clicked_in_air",
@@ -1154,22 +1072,32 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/NormalskyRightClickedInAirProcedure.java"
         ]
       }
     },
     {
       "name": "Abb",
       "type": "block",
-      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "abb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/AbbBlock.java",
+          "src/main/resources/assets/skyblue/models/item/abb.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/abb.json",
+          "src/main/resources/assets/skyblue/blockstates/abb.json",
+          "src/main/resources/assets/skyblue/models/block/abb.json"
+        ]
+      },
       "path": "~/dim4"
     },
     {
       "name": "Dim4telpert",
       "type": "procedure",
-      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dim_4telpert",
@@ -1179,322 +1107,95 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Dim4telpertProcedure.java"
         ]
       }
     },
     {
-      "name": "ABBr1",
-      "type": "structure",
-      "sortid": 124,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ab_br_1",
-      "path": "~/dim4"
-    },
-    {
       "name": "DD1",
       "type": "block",
-      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dd_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/dd_1.json",
+          "src/main/resources/assets/skyblue/models/item/dd_1.json",
+          "src/main/java/net/skyblue/block/DD1Block.java",
+          "src/main/resources/assets/skyblue/blockstates/dd_1.json",
+          "src/main/resources/assets/skyblue/models/block/dd_1.json"
+        ]
+      },
       "path": "~/dim5"
     },
     {
       "name": "DD2",
       "type": "block",
-      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dd_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/dd_2.json",
+          "src/main/resources/assets/skyblue/models/item/dd_2.json",
+          "src/main/resources/assets/skyblue/models/block/dd_2.json",
+          "src/main/java/net/skyblue/block/DD2Block.java",
+          "src/main/resources/assets/skyblue/blockstates/dd_2.json"
+        ]
+      },
       "path": "~/dim5"
     },
     {
       "name": "DR1",
       "type": "biome",
-      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dr_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/DR1Biome.java"
+        ]
+      },
       "path": "~/dim5"
     },
     {
       "name": "D1",
       "type": "dimension",
-      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "d_1",
       "metadata": {
-        "ep": false
+        "ep": false,
+        "files": [
+          "src/main/resources/data/skyblue/dimension_type/d_1.json",
+          "src/main/resources/data/skyblue/dimension/d_1.json",
+          "src/main/java/net/skyblue/world/dimension/D1Dimension.java"
+        ]
       },
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDR1",
-      "type": "structure",
-      "sortid": 127,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ddr_1",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDR2",
-      "type": "structure",
-      "sortid": 128,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ddr_2",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDR3",
-      "type": "structure",
-      "sortid": 129,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ddr_3",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDR4",
-      "type": "structure",
-      "sortid": 130,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ddr_4",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDR5",
-      "type": "structure",
-      "sortid": 131,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ddr_5",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDR6",
-      "type": "structure",
-      "sortid": 132,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ddr_6",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDR7",
-      "type": "structure",
-      "sortid": 133,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ddr_7",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDR8",
-      "type": "structure",
-      "sortid": 134,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ddr_8",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDR1",
-      "type": "structure",
-      "sortid": 135,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dddr_1",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDR2",
-      "type": "structure",
-      "sortid": 136,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dddr_2",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDR3",
-      "type": "structure",
-      "sortid": 137,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dddr_3",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDR4",
-      "type": "structure",
-      "sortid": 138,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dddr_4",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDR5",
-      "type": "structure",
-      "sortid": 139,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dddr_5",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDR6",
-      "type": "structure",
-      "sortid": 140,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dddr_6",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDR7",
-      "type": "structure",
-      "sortid": 141,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dddr_7",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDR8",
-      "type": "structure",
-      "sortid": 142,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dddr_8",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDDR1",
-      "type": "structure",
-      "sortid": 143,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ddddr_1",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDDR2",
-      "type": "structure",
-      "sortid": 144,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ddddr_2",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDDR3",
-      "type": "structure",
-      "sortid": 145,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ddddr_3",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDDR4",
-      "type": "structure",
-      "sortid": 146,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ddddr_4",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDDR5",
-      "type": "structure",
-      "sortid": 147,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ddddr_5",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDDR6",
-      "type": "structure",
-      "sortid": 148,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ddddr_6",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDDR7",
-      "type": "structure",
-      "sortid": 149,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ddddr_7",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDDR8",
-      "type": "structure",
-      "sortid": 150,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ddddr_8",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDDDR1",
-      "type": "structure",
-      "sortid": 151,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dddddr_1",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDDDR2",
-      "type": "structure",
-      "sortid": 152,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dddddr_2",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDDDR3",
-      "type": "structure",
-      "sortid": 153,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dddddr_3",
-      "path": "~/dim5"
-    },
-    {
-      "name": "DDDDDR4",
-      "type": "structure",
-      "sortid": 154,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dddddr_4",
       "path": "~/dim5"
     },
     {
       "name": "D1r",
       "type": "block",
-      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "d_1r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/d_1r.json",
+          "src/main/resources/assets/skyblue/models/block/d_1r.json",
+          "src/main/java/net/skyblue/block/D1rBlock.java",
+          "src/main/resources/assets/skyblue/blockstates/d_1r.json",
+          "src/main/resources/assets/skyblue/models/item/d_1r.json"
+        ]
+      },
       "path": "~/dim5"
     },
     {
       "name": "Dim5telpert",
       "type": "procedure",
-      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dim_5telpert",
@@ -1504,109 +1205,131 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Dim5telpertProcedure.java"
         ]
       }
     },
     {
-      "name": "Dtr1",
-      "type": "structure",
-      "sortid": 157,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dtr_1",
-      "path": "~/dim5"
-    },
-    {
       "name": "Ewater",
       "type": "fluid",
-      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ewater",
       "metadata": {
-        "gb": true
+        "gb": true,
+        "files": [
+          "src/main/java/net/skyblue/item/EwaterItem.java",
+          "src/main/resources/assets/skyblue/models/block/ewater.json",
+          "src/main/java/net/skyblue/block/EwaterBlock.java",
+          "src/main/resources/assets/skyblue/blockstates/ewater.json",
+          "src/main/java/net/skyblue/fluid/EwaterFluid.java",
+          "src/main/resources/assets/skyblue/models/item/ewater_bucket.json"
+        ]
       },
       "path": "~/dim6"
     },
     {
       "name": "ER1",
       "type": "biome",
-      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "er_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/ER1Biome.java"
+        ]
+      },
       "path": "~/dim6"
     },
     {
       "name": "E1",
       "type": "dimension",
-      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "e_1",
       "metadata": {
-        "ep": false
+        "ep": false,
+        "files": [
+          "src/main/resources/data/skyblue/dimension/e_1.json",
+          "src/main/resources/data/skyblue/dimension_type/e_1.json",
+          "src/main/java/net/skyblue/world/dimension/E1Dimension.java"
+        ]
       },
       "path": "~/dim6"
     },
     {
       "name": "Egrass",
       "type": "block",
-      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "egrass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/block/egrass.json",
+          "src/main/resources/assets/skyblue/models/item/egrass.json",
+          "src/main/resources/assets/skyblue/blockstates/egrass.json",
+          "src/main/java/net/skyblue/block/EgrassBlock.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/egrass.json"
+        ]
+      },
       "path": "~/dim6"
     },
     {
       "name": "Edirt",
       "type": "block",
-      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "edirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/edirt.json",
+          "src/main/resources/assets/skyblue/blockstates/edirt.json",
+          "src/main/java/net/skyblue/block/EdirtBlock.java",
+          "src/main/resources/assets/skyblue/models/block/edirt.json",
+          "src/main/resources/assets/skyblue/models/item/edirt.json"
+        ]
+      },
       "path": "~/dim6"
     },
     {
       "name": "Estone",
       "type": "block",
-      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "estone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/estone.json",
+          "src/main/java/net/skyblue/block/EstoneBlock.java",
+          "src/main/resources/assets/skyblue/models/block/estone.json",
+          "src/main/resources/assets/skyblue/models/item/estone.json",
+          "src/main/resources/assets/skyblue/blockstates/estone.json"
+        ]
+      },
       "path": "~/dim6"
     },
     {
       "name": "EE1",
       "type": "block",
-      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ee_1",
-      "path": "~/dim6"
-    },
-    {
-      "name": "ErE1",
-      "type": "structure",
-      "sortid": 164,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "er_e_1",
-      "path": "~/dim6"
-    },
-    {
-      "name": "EER1",
-      "type": "structure",
-      "sortid": 165,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eer_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/ee_1.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ee_1.json",
+          "src/main/resources/assets/skyblue/models/block/ee_1.json",
+          "src/main/java/net/skyblue/block/EE1Block.java",
+          "src/main/resources/assets/skyblue/blockstates/ee_1.json"
+        ]
+      },
       "path": "~/dim6"
     },
     {
       "name": "Dim6telpert",
       "type": "procedure",
-      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dim_6telpert",
@@ -1616,70 +1339,96 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Dim6telpertProcedure.java"
         ]
       }
     },
     {
       "name": "Ft1",
       "type": "block",
-      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ft_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/ft_1.json",
+          "src/main/resources/assets/skyblue/blockstates/ft_1.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ft_1.json",
+          "src/main/java/net/skyblue/block/Ft1Block.java",
+          "src/main/resources/assets/skyblue/models/block/ft_1.json"
+        ]
+      },
       "path": "~/Dim7"
     },
     {
       "name": "Fr1",
       "type": "biome",
-      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fr_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/Fr1Biome.java"
+        ]
+      },
       "path": "~/Dim7"
     },
     {
       "name": "F1",
       "type": "dimension",
-      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "f_1",
       "metadata": {
-        "ep": false
+        "ep": false,
+        "files": [
+          "src/main/java/net/skyblue/world/dimension/F1Dimension.java",
+          "src/main/resources/data/skyblue/dimension/f_1.json",
+          "src/main/resources/data/skyblue/dimension_type/f_1.json"
+        ]
       },
       "path": "~/Dim7"
     },
     {
       "name": "Frr1",
       "type": "block",
-      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frr_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/features/ores/Frr1Feature.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/frr_1.json",
+          "src/main/resources/assets/skyblue/blockstates/frr_1.json",
+          "src/main/java/net/skyblue/block/Frr1Block.java",
+          "src/main/resources/assets/skyblue/models/block/frr_1.json",
+          "src/main/resources/assets/skyblue/models/item/frr_1.json"
+        ]
+      },
       "path": "~/Dim7"
     },
     {
       "name": "Ffr",
       "type": "block",
-      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ffr",
-      "path": "~/Dim7"
-    },
-    {
-      "name": "FFR1",
-      "type": "structure",
-      "sortid": 172,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ffr_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/ffr.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ffr.json",
+          "src/main/resources/assets/skyblue/blockstates/ffr.json",
+          "src/main/java/net/skyblue/block/FfrBlock.java",
+          "src/main/resources/assets/skyblue/models/block/ffr.json"
+        ]
+      },
       "path": "~/Dim7"
     },
     {
       "name": "Dim7telpert",
       "type": "procedure",
-      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dim_7telpert",
@@ -1689,109 +1438,175 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Dim7telpertProcedure.java"
         ]
       }
     },
     {
       "name": "Green",
       "type": "block",
-      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/green.json",
+          "src/main/resources/assets/skyblue/blockstates/green.json",
+          "src/main/resources/assets/skyblue/models/block/green.json",
+          "src/main/resources/assets/skyblue/models/item/green.json",
+          "src/main/java/net/skyblue/block/GreenBlock.java"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "Red1",
       "type": "block",
-      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/red_1.json",
+          "src/main/resources/assets/skyblue/blockstates/red_1.json",
+          "src/main/resources/assets/skyblue/models/block/red_1.json",
+          "src/main/java/net/skyblue/block/Red1Block.java",
+          "src/main/resources/assets/skyblue/models/item/red_1.json"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "GG1",
       "type": "block",
-      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gg_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/gg_1.json",
+          "src/main/resources/assets/skyblue/models/item/gg_1.json",
+          "src/main/java/net/skyblue/block/GG1Block.java",
+          "src/main/resources/assets/skyblue/blockstates/gg_1.json",
+          "src/main/resources/assets/skyblue/models/block/gg_1.json"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "Gr1",
       "type": "biome",
-      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gr_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/Gr1Biome.java"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "G1",
       "type": "dimension",
-      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "g_1",
       "metadata": {
-        "ep": false
+        "ep": false,
+        "files": [
+          "src/main/resources/data/skyblue/dimension/g_1.json",
+          "src/main/resources/data/skyblue/dimension_type/g_1.json",
+          "src/main/java/net/skyblue/world/dimension/G1Dimension.java"
+        ]
       },
       "path": "~/dim8"
     },
     {
       "name": "Red2",
       "type": "block",
-      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/red_2.json",
+          "src/main/java/net/skyblue/block/Red2Block.java",
+          "src/main/resources/assets/skyblue/models/block/red_2.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/red_2.json",
+          "src/main/resources/assets/skyblue/blockstates/red_2.json"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "Green2",
       "type": "block",
-      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/green_2.json",
+          "src/main/resources/assets/skyblue/models/block/green_2.json",
+          "src/main/resources/assets/skyblue/blockstates/green_2.json",
+          "src/main/resources/assets/skyblue/models/item/green_2.json",
+          "src/main/java/net/skyblue/block/Green2Block.java"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "G2",
       "type": "dimension",
-      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "g_2",
       "metadata": {
-        "ep": false
+        "ep": false,
+        "files": [
+          "src/main/resources/data/skyblue/dimension/g_2.json",
+          "src/main/java/net/skyblue/world/dimension/G2Dimension.java",
+          "src/main/resources/data/skyblue/dimension_type/g_2.json"
+        ]
       },
       "path": "~/dim8"
     },
     {
       "name": "Gr2",
       "type": "biome",
-      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gr_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/Gr2Biome.java"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "GG2",
       "type": "block",
-      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gg_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/gg_2.json",
+          "src/main/resources/assets/skyblue/models/item/gg_2.json",
+          "src/main/resources/assets/skyblue/models/block/gg_2.json",
+          "src/main/java/net/skyblue/block/GG2Block.java",
+          "src/main/resources/assets/skyblue/blockstates/gg_2.json"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "Red2EntityCollidesInTheBlock",
       "type": "procedure",
-      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_2_entity_collides_in_the_block",
@@ -1801,13 +1616,15 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Red2EntityCollidesInTheBlockProcedure.java"
         ]
       }
     },
     {
       "name": "GreenEntityCollidesInTheBlock",
       "type": "procedure",
-      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_entity_collides_in_the_block",
@@ -1817,52 +1634,78 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/GreenEntityCollidesInTheBlockProcedure.java"
         ]
       }
     },
     {
       "name": "G3",
       "type": "dimension",
-      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "g_3",
       "metadata": {
-        "ep": false
+        "ep": false,
+        "files": [
+          "src/main/java/net/skyblue/world/dimension/G3Dimension.java",
+          "src/main/resources/data/skyblue/dimension/g_3.json",
+          "src/main/resources/data/skyblue/dimension_type/g_3.json"
+        ]
       },
       "path": "~/dim8"
     },
     {
       "name": "Gr3",
       "type": "biome",
-      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gr_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/Gr3Biome.java"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "Green3",
       "type": "block",
-      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/green_3.json",
+          "src/main/java/net/skyblue/block/Green3Block.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/green_3.json",
+          "src/main/resources/assets/skyblue/blockstates/green_3.json",
+          "src/main/resources/assets/skyblue/models/block/green_3.json"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "Red3",
       "type": "block",
-      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/red_3.json",
+          "src/main/java/net/skyblue/block/Red3Block.java",
+          "src/main/resources/assets/skyblue/models/block/red_3.json",
+          "src/main/resources/assets/skyblue/blockstates/red_3.json",
+          "src/main/resources/assets/skyblue/models/item/red_3.json"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "Red3EntityWalksOnTheBlock",
       "type": "procedure",
-      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_3_entity_walks_on_the_block",
@@ -1872,13 +1715,15 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Red3EntityWalksOnTheBlockProcedure.java"
         ]
       }
     },
     {
       "name": "Green2EntityWalksOnTheBlock",
       "type": "procedure",
-      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_2_entity_walks_on_the_block",
@@ -1888,40 +1733,66 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Green2EntityWalksOnTheBlockProcedure.java"
         ]
       }
     },
     {
       "name": "GG3",
       "type": "block",
-      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gg_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/gg_3.json",
+          "src/main/resources/assets/skyblue/models/block/gg_3.json",
+          "src/main/java/net/skyblue/block/GG3Block.java",
+          "src/main/resources/assets/skyblue/blockstates/gg_3.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/gg_3.json"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "Green4",
       "type": "block",
-      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/green_4.json",
+          "src/main/resources/assets/skyblue/models/item/green_4.json",
+          "src/main/java/net/skyblue/block/Green4Block.java",
+          "src/main/resources/assets/skyblue/blockstates/green_4.json",
+          "src/main/resources/assets/skyblue/models/block/green_4.json"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "Red4",
       "type": "block",
-      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/Red4Block.java",
+          "src/main/resources/assets/skyblue/blockstates/red_4.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/red_4.json",
+          "src/main/resources/assets/skyblue/models/block/red_4.json",
+          "src/main/resources/assets/skyblue/models/item/red_4.json"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "Red4EntityWalksOnTheBlock",
       "type": "procedure",
-      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_4_entity_walks_on_the_block",
@@ -1931,43 +1802,61 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Red4EntityWalksOnTheBlockProcedure.java"
         ]
       }
     },
     {
       "name": "G4",
       "type": "dimension",
-      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "g_4",
       "metadata": {
-        "ep": false
+        "ep": false,
+        "files": [
+          "src/main/java/net/skyblue/world/dimension/G4Dimension.java",
+          "src/main/resources/data/skyblue/dimension_type/g_4.json",
+          "src/main/resources/data/skyblue/dimension/g_4.json"
+        ]
       },
       "path": "~/dim8"
     },
     {
       "name": "GR4",
       "type": "biome",
-      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gr_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/GR4Biome.java"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "GG4",
       "type": "block",
-      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gg_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/gg_4.json",
+          "src/main/java/net/skyblue/block/GG4Block.java",
+          "src/main/resources/assets/skyblue/models/item/gg_4.json",
+          "src/main/resources/assets/skyblue/blockstates/gg_4.json",
+          "src/main/resources/assets/skyblue/models/block/gg_4.json"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "Green3EntityWalksOnTheBlock",
       "type": "procedure",
-      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_3_entity_walks_on_the_block",
@@ -1977,133 +1866,61 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Green3EntityWalksOnTheBlockProcedure.java"
         ]
       }
     },
     {
-      "name": "GGG1",
-      "type": "structure",
-      "sortid": 199,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ggg_1",
-      "path": "~/dim8"
-    },
-    {
-      "name": "GGG2",
-      "type": "structure",
-      "sortid": 200,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ggg_2",
-      "path": "~/dim8"
-    },
-    {
-      "name": "GGG3",
-      "type": "structure",
-      "sortid": 201,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ggg_3",
-      "path": "~/dim8"
-    },
-    {
-      "name": "GGR2",
-      "type": "structure",
-      "sortid": 202,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ggr_2",
-      "path": "~/dim8"
-    },
-    {
-      "name": "GGR3",
-      "type": "structure",
-      "sortid": 203,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ggr_3",
-      "path": "~/dim8"
-    },
-    {
-      "name": "GGR4",
-      "type": "structure",
-      "sortid": 204,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ggr_4",
-      "path": "~/dim8"
-    },
-    {
-      "name": "Gst1",
-      "type": "structure",
-      "sortid": 205,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gst_1",
-      "path": "~/dim8"
-    },
-    {
-      "name": "Gst2",
-      "type": "structure",
-      "sortid": 206,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gst_2",
-      "path": "~/dim8"
-    },
-    {
-      "name": "Gst3",
-      "type": "structure",
-      "sortid": 207,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gst_3",
-      "path": "~/dim8"
-    },
-    {
-      "name": "Gst4",
-      "type": "structure",
-      "sortid": 208,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gst_4",
-      "path": "~/dim8"
-    },
-    {
       "name": "G5",
       "type": "dimension",
-      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "g_5",
       "metadata": {
-        "ep": false
+        "ep": false,
+        "files": [
+          "src/main/java/net/skyblue/world/dimension/G5Dimension.java",
+          "src/main/resources/data/skyblue/dimension_type/g_5.json",
+          "src/main/resources/data/skyblue/dimension/g_5.json"
+        ]
       },
       "path": "~/dim8"
     },
     {
       "name": "GR5",
       "type": "biome",
-      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gr_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/GR5Biome.java"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "GG5",
       "type": "block",
-      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gg_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/blockstates/gg_5.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/gg_5.json",
+          "src/main/resources/assets/skyblue/models/item/gg_5.json",
+          "src/main/resources/assets/skyblue/models/block/gg_5.json",
+          "src/main/java/net/skyblue/block/GG5Block.java"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "Green4EntityWalksOnTheBlock",
       "type": "procedure",
-      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_4_entity_walks_on_the_block",
@@ -2113,49 +1930,49 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Green4EntityWalksOnTheBlockProcedure.java"
         ]
       }
     },
     {
-      "name": "Gst5",
-      "type": "structure",
-      "sortid": 213,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gst_5",
-      "path": "~/dim8"
-    },
-    {
-      "name": "GGG4",
-      "type": "structure",
-      "sortid": 214,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ggg_4",
-      "path": "~/dim8"
-    },
-    {
       "name": "Green5",
       "type": "block",
-      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/block/green_5.json",
+          "src/main/resources/assets/skyblue/blockstates/green_5.json",
+          "src/main/resources/assets/skyblue/models/item/green_5.json",
+          "src/main/java/net/skyblue/block/Green5Block.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/green_5.json"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "Red5",
       "type": "block",
-      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/red_5.json",
+          "src/main/java/net/skyblue/block/Red5Block.java",
+          "src/main/resources/assets/skyblue/models/block/red_5.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/red_5.json",
+          "src/main/resources/assets/skyblue/blockstates/red_5.json"
+        ]
+      },
       "path": "~/dim8"
     },
     {
       "name": "Red5EntityWalksOnTheBlock",
       "type": "procedure",
-      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_5_entity_walks_on_the_block",
@@ -2165,30 +1982,28 @@
             "name": "entity",
             "type": "entity"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Red5EntityWalksOnTheBlockProcedure.java"
         ]
       }
     },
     {
-      "name": "GGR5",
-      "type": "structure",
-      "sortid": 218,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ggr_5",
-      "path": "~/dim8"
-    },
-    {
       "name": "Face1",
       "type": "gui",
-      "sortid": 219,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "face_1"
+      "registry_name": "face_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/inventory/Face1Menu.java",
+          "src/main/java/net/skyblue/client/gui/Face1Screen.java"
+        ]
+      }
     },
     {
       "name": "Photo1RightClickedInAir",
       "type": "procedure",
-      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "photo_1_right_clicked_in_air",
@@ -2214,20 +2029,1495 @@
             "name": "world",
             "type": "world"
           }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Photo1RightClickedInAirProcedure.java"
         ]
       }
     },
     {
       "name": "Photo1",
       "type": "item",
-      "sortid": 220,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "photo_1"
+      "registry_name": "photo_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/item/Photo1Item.java",
+          "src/main/resources/assets/skyblue/models/item/photo_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Rd111Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rd_111_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Rd111FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim1"
+    },
+    {
+      "name": "RD121Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rd_121_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/RD121FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim1"
+    },
+    {
+      "name": "B1rFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_1r_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/B1rFeatureFeature.java"
+        ]
+      },
+      "path": "~/dim2"
+    },
+    {
+      "name": "B11Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_11_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/B11FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim2"
+    },
+    {
+      "name": "Bb1Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bb_1_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Bb1FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim2"
+    },
+    {
+      "name": "B2Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_2_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/B2FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim2"
+    },
+    {
+      "name": "C1rFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_1r_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C1rFeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C2Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_2_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C2FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C3Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_3_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C3FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C4Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_4_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C4FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Crr1Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crr_1_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Crr1FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr2Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_2_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr2FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr3Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_3_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr3FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr4Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_4_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr4FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C11Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_11_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C11FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr11Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_11_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr11FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C22Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_22_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C22FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr22Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_22_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr22FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C33Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_33_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C33FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr33Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_33_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr33FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C44Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_44_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C44FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr44Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_44_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr44FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C111Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_111_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C111FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr111Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_111_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr111FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C222Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_222_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C222FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr222Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_222_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr222FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C333Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_333_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C333FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr333Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_333_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr333FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C444Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_444_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C444FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr444Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_444_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr444FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C1111Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_1111_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C1111FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr1111Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_1111_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr1111FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C2222Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_2222_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C2222FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr2222Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_2222_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr2222FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C3333Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_3333_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C3333FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr3333Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_3333_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr3333FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C4444Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_4444_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C4444FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr4444Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_4444_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr4444FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C5Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_5_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C5FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C55Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_55_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C55FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C555Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_555_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C555FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "C5555Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_5555_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/C5555FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr5Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_5_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr5FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr55Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_55_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr55FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr555Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_555_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr555FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "Cr5555Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_5555_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Cr5555FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "SkFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sk_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/SkFeatureFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "A1rFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_1r_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/A1rFeatureFeature.java"
+        ]
+      },
+      "path": "~/dim4"
+    },
+    {
+      "name": "ARR1Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arr_1_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/ARR1FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim4"
+    },
+    {
+      "name": "A2Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_2_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/A2FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ar2Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ar_2_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Ar2FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ar3Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ar_3_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Ar3FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim4"
+    },
+    {
+      "name": "A3Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_3_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/A3FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim4"
+    },
+    {
+      "name": "A4Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_4_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/A4FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ar4Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ar_4_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Ar4FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim4"
+    },
+    {
+      "name": "Ct1Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ct_1_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Ct1FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim3"
+    },
+    {
+      "name": "ABBr1Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ab_br_1_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/ABBr1FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim4"
+    },
+    {
+      "name": "DDR1Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddr_1_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDR1FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDR2Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddr_2_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDR2FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDR3Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddr_3_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDR3FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDR4Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddr_4_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDR4FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDR5Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddr_5_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDR5FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDR6Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddr_6_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDR6FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDR7Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddr_7_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDR7FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDR8Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddr_8_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDR8FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDR1Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dddr_1_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDR1FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDR2Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dddr_2_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDR2FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDR3Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dddr_3_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDR3FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDR4Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dddr_4_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDR4FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDR5Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dddr_5_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDR5FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDR6Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dddr_6_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDR6FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDR7Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dddr_7_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDR7FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDR8Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dddr_8_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDR8FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDR1Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddddr_1_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDDR1FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDR2Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddddr_2_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDDR2FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDR3Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddddr_3_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDDR3FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDR4Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddddr_4_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDDR4FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDR5Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddddr_5_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDDR5FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDR6Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddddr_6_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDDR6FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDR7Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddddr_7_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDDR7FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDR8Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddddr_8_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDDR8FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDDR1Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dddddr_1_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDDDR1FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDDR2Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dddddr_2_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDDDR2FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDDR3Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dddddr_3_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDDDR3FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "DDDDDR4Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dddddr_4_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/DDDDDR4FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "Dtr1Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dtr_1_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Dtr1FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim5"
+    },
+    {
+      "name": "ErE1Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "er_e_1_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/ErE1FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim6"
+    },
+    {
+      "name": "EER1Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eer_1_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/EER1FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim6"
+    },
+    {
+      "name": "FFR1Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ffr_1_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/FFR1FeatureFeature.java"
+        ]
+      },
+      "path": "~/Dim7"
+    },
+    {
+      "name": "GGG1Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ggg_1_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/GGG1FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim8"
+    },
+    {
+      "name": "GGG2Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ggg_2_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/GGG2FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim8"
+    },
+    {
+      "name": "GGG3Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ggg_3_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/GGG3FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim8"
+    },
+    {
+      "name": "GGR2Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ggr_2_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/GGR2FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim8"
+    },
+    {
+      "name": "GGR3Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ggr_3_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/GGR3FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim8"
+    },
+    {
+      "name": "GGR4Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ggr_4_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/GGR4FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim8"
+    },
+    {
+      "name": "Gst1Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gst_1_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Gst1FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim8"
+    },
+    {
+      "name": "Gst2Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gst_2_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Gst2FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim8"
+    },
+    {
+      "name": "Gst3Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gst_3_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Gst3FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim8"
+    },
+    {
+      "name": "Gst4Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gst_4_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Gst4FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim8"
+    },
+    {
+      "name": "Gst5Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gst_5_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/Gst5FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim8"
+    },
+    {
+      "name": "GGG4Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ggg_4_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/GGG4FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim8"
+    },
+    {
+      "name": "GGR5Feature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ggr_5_feature",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/GGR5FeatureFeature.java"
+        ]
+      },
+      "path": "~/dim8"
+    },
+    {
+      "name": "RD11",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rd_11",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/RD11Feature.java"
+        ]
+      },
+      "path": "~/dim1"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:GG5",
+      "~CUSTOM:GG4",
+      "~CUSTOM:GG3",
+      "~CUSTOM:GG2",
+      "~CUSTOM:GG1",
+      "~CUSTOM:Ft1",
+      "~CUSTOM:Egrass",
+      "~CUSTOM:Estone",
+      "~CUSTOM:Edirt",
+      "~CUSTOM:DD2",
+      "~Blocks.GLASS",
+      "~CUSTOM:Twofour",
+      "~CUSTOM:Onezeronine",
+      "~CUSTOM:Twofivesix",
+      "~CUSTOM:Onefourtwo",
+      "~CUSTOM:Onezerofive",
+      "~CUSTOM:Onethreenoe",
+      "~CUSTOM:Nineeight",
+      "~CUSTOM:Nine",
+      "~CUSTOM:Fourtwo",
+      "~CUSTOM:Sixthree"
+    ]
+  },
+  "tab_element_order": {},
   "language_map": {
     "en_us": {
       "block.skyblue.ab_8": "Ab 8",
@@ -2253,13 +3543,11 @@
       "biome.skyblue.er_1": "ER 1",
       "tile.ab_23.name": "Ab 23",
       "item.sky.name": "Sky blue",
-      "item.skyblue.f_1": "F 1 Portal Igniter",
       "item.f_1.name": "F 1 Portal Igniter",
       "item.e_1.name": "E 1 Portal Igniter",
       "block.skyblue.gg_1": "GG1",
       "block.skyblue.gg_2": "GG2",
       "item.d_1.name": "D 1 Portal Igniter",
-      "item.skyblue.b_1": "B 1 Portal Igniter",
       "block.skyblue.gg_3": "GG3",
       "block.skyblue.gg_4": "GG4",
       "item.c_1.name": "C 1 Portal Igniter",
@@ -2292,15 +3580,10 @@
       "tile.red_5.name": "Red5",
       "tile.abb.name": "ABB",
       "block.skyblue.green_3": "Green3",
-      "item.skyblue.g_4": "G 1 Portal Igniter",
       "biome.skyblue.gr_5": "Gr 5",
       "block.skyblue.green_2": "Green2",
-      "item.skyblue.g_5": "G 1 Portal Igniter",
-      "item.skyblue.g_2": "G 1 Portal Igniter",
       "biome.skyblue.gr_3": "Gr 3",
-      "item.skyblue.g_3": "G 1 Portal Igniter",
       "biome.skyblue.gr_4": "Gr 4",
-      "item.skyblue.g_1": "G 1 Portal Igniter",
       "block.skyblue.ee_1": "EE 1",
       "block.skyblue.green_5": "Green5",
       "tile.fournine.name": "Fouriine",
@@ -2308,12 +3591,10 @@
       "block.skyblue.green_4": "Green4",
       "block.skyblue.onethreenoe": "Onethreenoe",
       "fluid.skyblue.ewater": "Ewater",
-      "item.skyblue.c_1": "C 1 Portal Igniter",
       "tile.ee_1.name": "EE 1",
       "tile.green_4.name": "Green4",
       "tile.ab_2.name": "Ab 2",
       "tile.ab_14.name": "Ab 14",
-      "item.skyblue.rdr_1": "Rdr 1 Portal Igniter",
       "item.a_1.name": "A 1 Portal Igniter",
       "tile.ab_11.name": "Ab 11",
       "block.skyblue.onetwonine": "Onetwonine",
@@ -2336,7 +3617,6 @@
       "block.skyblue.estone": "Edirt",
       "block.skyblue.nineeight": "Nineeight",
       "block.skyblue.edirt": "Edirt",
-      "item.skyblue.sky": "Sky blue",
       "tile.onezeronine.name": "onezeronine",
       "tile.ab_9.name": "Ab 9",
       "tile.dd_1.name": "DD 1",
@@ -2344,7 +3624,6 @@
       "tile.egrass.name": "Egrass",
       "tile.gg_3.name": "GG3",
       "block.skyblue.onefive": "onefive",
-      "item.skyblue.d_1": "D 1 Portal Igniter",
       "tile.ab_15.name": "Ab 15",
       "block.skyblue.ab_24": "Ab 24",
       "block.skyblue.ab_23": "Ab 23",
@@ -2370,6 +3649,7 @@
       "tile.ab_13.name": "Ab 13",
       "block.skyblue.fourtwo": "Fourtwo",
       "tile.green_3.name": "Green3",
+      "itemGroup.tab_skyblue": "Skyblue",
       "tile.ft_1.name": "F 1",
       "item.g_5.name": "G 1 Portal Igniter",
       "tile.fourtwo.name": "Fourtwo",
@@ -2380,9 +3660,7 @@
       "biome.skyblue.cr_1": "Cr 1",
       "tile.ab_12.name": "Ab 12",
       "block.skyblue.oneonetwo": "oneonetwo",
-      "item.skyblue.e_1": "E 1 Portal Igniter",
       "tile.red_4.name": "Red4",
-      "item.skyblue.a_1": "A 1 Portal Igniter",
       "tile.nineeight.name": "Nineeight",
       "tile.ab_18.name": "Ab 18",
       "tile.d_1r.name": "DRD 1",
@@ -2413,8 +3691,33 @@
       "block.skyblue.ab_12": "Ab 12",
       "tile.gg_2.name": "GG2",
       "block.skyblue.ab_11": "Ab 11",
-      "block.skyblue.ab_10": "Ab 10"
+      "block.skyblue.ab_10": "Ab 10",
+      "itemGroup.skyblue.skyblue": "Skyblue",
+      "fluid_type.skyblue.ewater": "Ewater"
     }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/skyblue/init/SkyblueModFeatures.java",
+      "src/main/java/net/skyblue/world/features/SkyblueModFeatureUtils.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/skyblue/init/SkyblueModTabs.java",
+      "src/main/java/net/skyblue/SkyblueMod.java",
+      "src/main/java/net/skyblue/init/SkyblueModBiomes.java",
+      "src/main/java/net/skyblue/world/features/configurations/StructureModFeatureConfiguration.java",
+      "src/main/java/net/skyblue/world/features/StructureModFeature.java",
+      "src/main/resources/data/minecraft/tags/fluids/water.json",
+      "src/main/java/net/skyblue/init/SkyblueModFluids.java",
+      "src/main/java/net/skyblue/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/skyblue/init/SkyblueModScreens.java",
+      "src/main/java/net/skyblue/init/SkyblueModMenus.java",
+      "src/main/java/net/skyblue/init/SkyblueModParticleTypes.java",
+      "src/main/java/net/skyblue/init/SkyblueModParticles.java",
+      "src/main/java/net/skyblue/init/SkyblueModBlocks.java",
+      "src/main/java/net/skyblue/init/SkyblueModItems.java"
+    ]
   },
   "foldersRoot": {
     "name": "~",
@@ -2465,7 +3768,6 @@
     "author": "Floi",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods",
     "license": "All Rights Reserved",
-    "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
@@ -2473,8 +3775,7 @@
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
     "credits": "made by Floi",
-    "modElementsPackage": "net.skyblue",
-    "lockBaseModFiles": false
+    "modElementsPackage": "net.skyblue"
   },
-  "mcreatorVersion": 202200234517
+  "mcreatorVersion": 202500240719
 }

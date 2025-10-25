@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "skyblue:blocks/ab_18",
-    "particle": "skyblue:blocks/ab_18"
+    "all": "skyblue:block/ab_18",
+    "particle": "skyblue:block/ab_18"
   }
 }

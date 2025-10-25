@@ -6,20 +6,23 @@ license="All Rights Reserved"
 modId="skyblue"
 version="0.0.1"
 displayName="skyblue"
-credits="made by Floi"
 displayURL="https://www.curseforge.com/minecraft/mc-mods"
+credits="made by Floi"
 authors="Floi"
-description='''
-dreams
-'''
+description="dreams"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
 
 [[dependencies.skyblue]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5]"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"
 
 
 
 
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

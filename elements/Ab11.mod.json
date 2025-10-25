@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 79,
   "_type": "block",
   "definition": {
     "texture": "ab_11",
@@ -14,8 +14,10 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
+    "animations": [],
     "itemTexture": "",
     "particleTexture": "",
+    "blockSetType": "OAK",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,15 +35,24 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Ab 11",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 111.0,
     "resistance": 5.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:Skyblue"
-    },
+    "hasBlockItem": true,
+    "maxStackSize": 64,
+    "rarity": "COMMON",
+    "immuneToFire": false,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Skyblue"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
@@ -53,19 +64,18 @@
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
-    "material": {
-      "value": "ROCK"
-    },
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "colorOnMap": "DEFAULT",
+    "noteBlockInstrument": "basedrum",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -80,16 +90,11 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "CUSTOM:Ap1"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "vanillaToolTier": "DIAMOND",
+    "isBonemealable": false,
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
     "hasInventory": false,
-    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -105,10 +110,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "CUSTOM:A1"
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Ar1"
+      }
     ],
-    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.GLASS"

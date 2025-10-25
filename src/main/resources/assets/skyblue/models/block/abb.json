@@ -1,7 +1,7 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "skyblue:blocks/abb",
-    "particle": "skyblue:blocks/abb"
+    "cross": "skyblue:block/abb",
+    "particle": "skyblue:block/abb"
   }
 }

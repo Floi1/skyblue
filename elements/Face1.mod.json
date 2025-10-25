@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 79,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -15,9 +15,9 @@
         "data": {
           "image": "face1.png",
           "use1Xscale": false,
-          "name": "face1.png",
           "x": 114,
-          "y": -1
+          "y": -1,
+          "locked": false
         }
       }
     ],

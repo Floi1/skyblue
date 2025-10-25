@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "skyblue:items/sky_blue_blue"
+    "layer0": "skyblue:item/sky_blue_blue"
   }
 }

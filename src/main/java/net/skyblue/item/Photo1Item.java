@@ -1,115 +1,47 @@
-
 package net.skyblue.item;
 
 import net.skyblue.procedures.Photo1RightClickedInAirProcedure;
-import net.skyblue.itemgroup.SkyblueItemGroup;
-import net.skyblue.SkyblueModElements;
-
-import net.minecraftforge.registries.ObjectHolder;
+import net.skyblue.init.SkyblueModTabs;
 
 import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Hand;
-import net.minecraft.util.Direction;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.util.ActionResult;
 import net.minecraft.item.UseAction;
-import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.block.BlockState;
 
-import java.util.stream.Stream;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.AbstractMap;
-
-@SkyblueModElements.ModElement.Tag
-public class Photo1Item extends SkyblueModElements.ModElement {
-	@ObjectHolder("skyblue:photo_1")
-	public static final Item block = null;
-
-	public Photo1Item(SkyblueModElements instance) {
-		super(instance, 220);
+public class Photo1Item extends Item {
+	public Photo1Item() {
+		super(new Item.Properties().group(SkyblueModTabs.TAB_SKYBLUE));
 	}
 
 	@Override
-	public void initElements() {
-		elements.items.add(() -> new ItemCustom());
+	public UseAction getUseAction(ItemStack itemstack) {
+		return UseAction.EAT;
 	}
 
-	public static class ItemCustom extends Item {
-		public ItemCustom() {
-			super(new Item.Properties().group(SkyblueItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("photo_1");
-		}
+	@Override
+	public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
+		ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
+		Photo1RightClickedInAirProcedure.execute(world, entity.getPosX(), entity.getPosY(), entity.getPosZ(), entity);
+		return ar;
+	}
 
-		@Override
-		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.EAT;
-		}
+	@Override
+	public ActionResultType onItemUseFirst(ItemStack itemstack, ItemUseContext context) {
+		super.onItemUseFirst(itemstack, context);
+		Photo1RightClickedInAirProcedure.execute(context.getWorld(), context.getPos().getX(), context.getPos().getY(), context.getPos().getZ(), context.getPlayer());
+		return ActionResultType.SUCCESS;
+	}
 
-		@Override
-		public int getItemEnchantability() {
-			return 0;
-		}
-
-		@Override
-		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
-			return 1F;
-		}
-
-		@Override
-		public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
-			ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
-			ItemStack itemstack = ar.getResult();
-			double x = entity.getPosX();
-			double y = entity.getPosY();
-			double z = entity.getPosZ();
-
-			Photo1RightClickedInAirProcedure.executeProcedure(Stream
-					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
-					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-			return ar;
-		}
-
-		@Override
-		public ActionResultType onItemUseFirst(ItemStack stack, ItemUseContext context) {
-			ActionResultType retval = super.onItemUseFirst(stack, context);
-			World world = context.getWorld();
-			BlockPos pos = context.getPos();
-			PlayerEntity entity = context.getPlayer();
-			Direction direction = context.getFace();
-			BlockState blockstate = world.getBlockState(pos);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			ItemStack itemstack = context.getItem();
-
-			Photo1RightClickedInAirProcedure.executeProcedure(Stream
-					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
-					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-			return retval;
-		}
-
-		@Override
-		public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
-			boolean retval = super.onEntitySwing(itemstack, entity);
-			double x = entity.getPosX();
-			double y = entity.getPosY();
-			double z = entity.getPosZ();
-			World world = entity.world;
-
-			Photo1RightClickedInAirProcedure.executeProcedure(Stream
-					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
-					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-			return retval;
-		}
+	@Override
+	public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
+		boolean retval = super.onEntitySwing(itemstack, entity);
+		Photo1RightClickedInAirProcedure.execute(entity.world, entity.getPosX(), entity.getPosY(), entity.getPosZ(), entity);
+		return retval;
 	}
 }

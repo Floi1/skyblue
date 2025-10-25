@@ -1,7 +1,5 @@
 package net.skyblue.procedures;
 
-import net.skyblue.SkyblueMod;
-
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.util.registry.Registry;
@@ -16,123 +14,104 @@ import net.minecraft.network.play.server.SChangeGameStatePacket;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.Entity;
 
-import java.util.Map;
-
 public class Dim5telpertProcedure {
-
-	public static void executeProcedure(Map<String, Object> dependencies) {
-		if (dependencies.get("entity") == null) {
-			if (!dependencies.containsKey("entity"))
-				SkyblueMod.LOGGER.warn("Failed to load dependency entity for procedure Dim5telpert!");
+	public static void execute(Entity entity) {
+		if (entity == null)
 			return;
-		}
-		Entity entity = (Entity) dependencies.get("entity");
 		if (Math.random() <= 0.3) {
-			{
-				Entity _ent = entity;
-				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
-					RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:rdr_1"));
-					ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
-					if (nextWorld != null) {
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
-						((ServerPlayerEntity) _ent).teleport(nextWorld, nextWorld.getSpawnPoint().getX(), nextWorld.getSpawnPoint().getY() + 1,
-								nextWorld.getSpawnPoint().getZ(), _ent.rotationYaw, _ent.rotationPitch);
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) _ent).abilities));
-						for (EffectInstance effectinstance : ((ServerPlayerEntity) _ent).getActivePotionEffects()) {
-							((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayEntityEffectPacket(_ent.getEntityId(), effectinstance));
-						}
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
-					}
+			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
+				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:rdr_1"));
+				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
+					return;
+				ServerWorld nextWorld = ((ServerPlayerEntity) entity).getServer().getWorld(destinationType);
+				if (nextWorld != null) {
+					((ServerPlayerEntity) entity).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
+					((ServerPlayerEntity) entity).teleport(nextWorld, ((ServerPlayerEntity) entity).getPosX(), ((ServerPlayerEntity) entity).getPosY(), ((ServerPlayerEntity) entity).getPosZ(), ((ServerPlayerEntity) entity).rotationYaw,
+							((ServerPlayerEntity) entity).rotationPitch);
+					((ServerPlayerEntity) entity).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) entity).abilities));
+					for (EffectInstance effectinstance : ((ServerPlayerEntity) entity).getActivePotionEffects())
+						((ServerPlayerEntity) entity).connection.sendPacket(new SPlayEntityEffectPacket(((ServerPlayerEntity) entity).getEntityId(), effectinstance));
+					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
 		} else if (Math.random() <= 0.5) {
-			{
-				Entity _ent = entity;
-				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
-					RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:b_1"));
-					ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
-					if (nextWorld != null) {
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
-						((ServerPlayerEntity) _ent).teleport(nextWorld, nextWorld.getSpawnPoint().getX(), nextWorld.getSpawnPoint().getY() + 1,
-								nextWorld.getSpawnPoint().getZ(), _ent.rotationYaw, _ent.rotationPitch);
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) _ent).abilities));
-						for (EffectInstance effectinstance : ((ServerPlayerEntity) _ent).getActivePotionEffects()) {
-							((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayEntityEffectPacket(_ent.getEntityId(), effectinstance));
-						}
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
-					}
+			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
+				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:b_1"));
+				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
+					return;
+				ServerWorld nextWorld = ((ServerPlayerEntity) entity).getServer().getWorld(destinationType);
+				if (nextWorld != null) {
+					((ServerPlayerEntity) entity).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
+					((ServerPlayerEntity) entity).teleport(nextWorld, ((ServerPlayerEntity) entity).getPosX(), ((ServerPlayerEntity) entity).getPosY(), ((ServerPlayerEntity) entity).getPosZ(), ((ServerPlayerEntity) entity).rotationYaw,
+							((ServerPlayerEntity) entity).rotationPitch);
+					((ServerPlayerEntity) entity).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) entity).abilities));
+					for (EffectInstance effectinstance : ((ServerPlayerEntity) entity).getActivePotionEffects())
+						((ServerPlayerEntity) entity).connection.sendPacket(new SPlayEntityEffectPacket(((ServerPlayerEntity) entity).getEntityId(), effectinstance));
+					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
 		} else if (Math.random() <= 0.7) {
-			{
-				Entity _ent = entity;
-				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
-					RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:c_1"));
-					ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
-					if (nextWorld != null) {
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
-						((ServerPlayerEntity) _ent).teleport(nextWorld, nextWorld.getSpawnPoint().getX(), nextWorld.getSpawnPoint().getY() + 1,
-								nextWorld.getSpawnPoint().getZ(), _ent.rotationYaw, _ent.rotationPitch);
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) _ent).abilities));
-						for (EffectInstance effectinstance : ((ServerPlayerEntity) _ent).getActivePotionEffects()) {
-							((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayEntityEffectPacket(_ent.getEntityId(), effectinstance));
-						}
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
-					}
+			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
+				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:c_1"));
+				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
+					return;
+				ServerWorld nextWorld = ((ServerPlayerEntity) entity).getServer().getWorld(destinationType);
+				if (nextWorld != null) {
+					((ServerPlayerEntity) entity).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
+					((ServerPlayerEntity) entity).teleport(nextWorld, ((ServerPlayerEntity) entity).getPosX(), ((ServerPlayerEntity) entity).getPosY(), ((ServerPlayerEntity) entity).getPosZ(), ((ServerPlayerEntity) entity).rotationYaw,
+							((ServerPlayerEntity) entity).rotationPitch);
+					((ServerPlayerEntity) entity).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) entity).abilities));
+					for (EffectInstance effectinstance : ((ServerPlayerEntity) entity).getActivePotionEffects())
+						((ServerPlayerEntity) entity).connection.sendPacket(new SPlayEntityEffectPacket(((ServerPlayerEntity) entity).getEntityId(), effectinstance));
+					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
 		} else if (Math.random() <= 0.8) {
-			{
-				Entity _ent = entity;
-				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
-					RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:a_1"));
-					ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
-					if (nextWorld != null) {
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
-						((ServerPlayerEntity) _ent).teleport(nextWorld, nextWorld.getSpawnPoint().getX(), nextWorld.getSpawnPoint().getY() + 1,
-								nextWorld.getSpawnPoint().getZ(), _ent.rotationYaw, _ent.rotationPitch);
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) _ent).abilities));
-						for (EffectInstance effectinstance : ((ServerPlayerEntity) _ent).getActivePotionEffects()) {
-							((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayEntityEffectPacket(_ent.getEntityId(), effectinstance));
-						}
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
-					}
+			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
+				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:a_1"));
+				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
+					return;
+				ServerWorld nextWorld = ((ServerPlayerEntity) entity).getServer().getWorld(destinationType);
+				if (nextWorld != null) {
+					((ServerPlayerEntity) entity).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
+					((ServerPlayerEntity) entity).teleport(nextWorld, ((ServerPlayerEntity) entity).getPosX(), ((ServerPlayerEntity) entity).getPosY(), ((ServerPlayerEntity) entity).getPosZ(), ((ServerPlayerEntity) entity).rotationYaw,
+							((ServerPlayerEntity) entity).rotationPitch);
+					((ServerPlayerEntity) entity).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) entity).abilities));
+					for (EffectInstance effectinstance : ((ServerPlayerEntity) entity).getActivePotionEffects())
+						((ServerPlayerEntity) entity).connection.sendPacket(new SPlayEntityEffectPacket(((ServerPlayerEntity) entity).getEntityId(), effectinstance));
+					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
 		} else if (Math.random() <= 0.9) {
-			{
-				Entity _ent = entity;
-				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
-					RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:e_1"));
-					ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
-					if (nextWorld != null) {
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
-						((ServerPlayerEntity) _ent).teleport(nextWorld, nextWorld.getSpawnPoint().getX(), nextWorld.getSpawnPoint().getY() + 1,
-								nextWorld.getSpawnPoint().getZ(), _ent.rotationYaw, _ent.rotationPitch);
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) _ent).abilities));
-						for (EffectInstance effectinstance : ((ServerPlayerEntity) _ent).getActivePotionEffects()) {
-							((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayEntityEffectPacket(_ent.getEntityId(), effectinstance));
-						}
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
-					}
+			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
+				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:e_1"));
+				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
+					return;
+				ServerWorld nextWorld = ((ServerPlayerEntity) entity).getServer().getWorld(destinationType);
+				if (nextWorld != null) {
+					((ServerPlayerEntity) entity).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
+					((ServerPlayerEntity) entity).teleport(nextWorld, ((ServerPlayerEntity) entity).getPosX(), ((ServerPlayerEntity) entity).getPosY(), ((ServerPlayerEntity) entity).getPosZ(), ((ServerPlayerEntity) entity).rotationYaw,
+							((ServerPlayerEntity) entity).rotationPitch);
+					((ServerPlayerEntity) entity).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) entity).abilities));
+					for (EffectInstance effectinstance : ((ServerPlayerEntity) entity).getActivePotionEffects())
+						((ServerPlayerEntity) entity).connection.sendPacket(new SPlayEntityEffectPacket(((ServerPlayerEntity) entity).getEntityId(), effectinstance));
+					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
 		} else if (Math.random() <= 1) {
-			{
-				Entity _ent = entity;
-				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
-					RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:f_1"));
-					ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
-					if (nextWorld != null) {
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
-						((ServerPlayerEntity) _ent).teleport(nextWorld, nextWorld.getSpawnPoint().getX(), nextWorld.getSpawnPoint().getY() + 1,
-								nextWorld.getSpawnPoint().getZ(), _ent.rotationYaw, _ent.rotationPitch);
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) _ent).abilities));
-						for (EffectInstance effectinstance : ((ServerPlayerEntity) _ent).getActivePotionEffects()) {
-							((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayEntityEffectPacket(_ent.getEntityId(), effectinstance));
-						}
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
-					}
+			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
+				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:f_1"));
+				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
+					return;
+				ServerWorld nextWorld = ((ServerPlayerEntity) entity).getServer().getWorld(destinationType);
+				if (nextWorld != null) {
+					((ServerPlayerEntity) entity).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
+					((ServerPlayerEntity) entity).teleport(nextWorld, ((ServerPlayerEntity) entity).getPosX(), ((ServerPlayerEntity) entity).getPosY(), ((ServerPlayerEntity) entity).getPosZ(), ((ServerPlayerEntity) entity).rotationYaw,
+							((ServerPlayerEntity) entity).rotationPitch);
+					((ServerPlayerEntity) entity).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) entity).abilities));
+					for (EffectInstance effectinstance : ((ServerPlayerEntity) entity).getActivePotionEffects())
+						((ServerPlayerEntity) entity).connection.sendPacket(new SPlayEntityEffectPacket(((ServerPlayerEntity) entity).getEntityId(), effectinstance));
+					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
 		}
