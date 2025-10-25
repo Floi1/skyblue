@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "skyblue:ewater",
-    "skyblue:flowing_ewater"
+    "skyblue:flowing_ewater",
+    "skyblue:waterh",
+    "skyblue:flowing_waterh"
   ]
 }

@@ -17,6 +17,7 @@ import net.minecraft.block.Blocks;
 import java.util.Set;
 import java.util.Random;
 
+import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.ImmutableList;
 
 public class B2FeatureFeature extends StructureModFeature {
@@ -30,7 +31,7 @@ public class B2FeatureFeature extends StructureModFeature {
 	public static Feature<?> feature() {
 		Random random = new Random();
 		FEATURE = new B2FeatureFeature();
-		CONFIGURED_FEATURE = FEATURE.withConfiguration(new StructureModFeatureConfiguration(new ResourceLocation("skyblue:b2"), true, true, ImmutableList.of(Blocks.STRUCTURE_BLOCK.getDefaultState()), new Vector3i(0, -1, 0))).chance(1000).square();
+		CONFIGURED_FEATURE = FEATURE.withConfiguration(new StructureModFeatureConfiguration(new ResourceLocation("skyblue:b2"), true, true, ImmutableList.of(Blocks.STRUCTURE_BLOCK.getDefaultState()), new Vector3i(0, 0, 0))).chance(1000).square();
 		Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("skyblue:b_2_feature"), CONFIGURED_FEATURE);
 		return FEATURE;
 	}
@@ -41,7 +42,7 @@ public class B2FeatureFeature extends StructureModFeature {
 		return CONFIGURED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
+	public static final Set<ResourceLocation> GENERATE_BIOMES = ImmutableSet.of(new ResourceLocation("skyblue:br_1"));
 
 	@Override
 	public boolean generate(ISeedReader world, ChunkGenerator generator, Random random, BlockPos pos, StructureModFeatureConfiguration config) {

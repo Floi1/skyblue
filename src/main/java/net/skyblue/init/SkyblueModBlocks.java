@@ -3,6 +3,7 @@
  */
 package net.skyblue.init;
 
+import net.skyblue.block.WaterhBlock;
 import net.skyblue.block.TwofourBlock;
 import net.skyblue.block.TwofivesixBlock;
 import net.skyblue.block.SixthreeBlock;
@@ -15,6 +16,7 @@ import net.skyblue.block.Red1Block;
 import net.skyblue.block.OnezeronineBlock;
 import net.skyblue.block.OnezerofiveBlock;
 import net.skyblue.block.OnetwonineBlock;
+import net.skyblue.block.OnetwofiveBlock;
 import net.skyblue.block.OnethreenoeBlock;
 import net.skyblue.block.OnethreefourBlock;
 import net.skyblue.block.OneonetwoBlock;
@@ -22,6 +24,7 @@ import net.skyblue.block.OnefourtwoBlock;
 import net.skyblue.block.OnefiveBlock;
 import net.skyblue.block.NineeightBlock;
 import net.skyblue.block.NineBlock;
+import net.skyblue.block.Mush1Block;
 import net.skyblue.block.GreenBlock;
 import net.skyblue.block.Green5Block;
 import net.skyblue.block.Green4Block;
@@ -156,6 +159,9 @@ public class SkyblueModBlocks {
 	public static final RegistryObject<Block> GG_5 = REGISTRY.register("gg_5", GG5Block::new);
 	public static final RegistryObject<Block> GREEN_5 = REGISTRY.register("green_5", Green5Block::new);
 	public static final RegistryObject<Block> RED_5 = REGISTRY.register("red_5", Red5Block::new);
+	public static final RegistryObject<Block> WATERH = REGISTRY.register("waterh", WaterhBlock::new);
+	public static final RegistryObject<Block> ONETWOFIVE = REGISTRY.register("onetwofive", OnetwofiveBlock::new);
+	public static final RegistryObject<Block> MUSH_1 = REGISTRY.register("mush_1", Mush1Block::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
@@ -172,6 +178,7 @@ public class SkyblueModBlocks {
 			AbbBlock.registerRenderLayer();
 			D1rBlock.registerRenderLayer();
 			FfrBlock.registerRenderLayer();
+			Mush1Block.registerRenderLayer();
 		}
 	}
 

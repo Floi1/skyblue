@@ -172,5 +172,12 @@
   "block.skyblue.ab_11": "Ab 11",
   "block.skyblue.ab_10": "Ab 10",
   "itemGroup.skyblue.skyblue": "Skyblue",
-  "fluid_type.skyblue.ewater": "Ewater"
+  "fluid_type.skyblue.ewater": "Ewater",
+  "biome.skyblue.hr_1": "Hr 1",
+  "fluid.skyblue.waterh": "Water h",
+  "fluid_type.skyblue.waterh": "Water h",
+  "item.skyblue.waterh_bucket": "Waterh Bucket",
+  "block.skyblue.waterh": "Water h",
+  "block.skyblue.onetwofive": "Onetwofive",
+  "block.skyblue.mush_1": "Mush 1"
 }

@@ -18,7 +18,7 @@ public class SkyPlayerEntersDimensionProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (Math.random() <= 0.1) {
+		if (Math.random() <= 0.01) {
 			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
 				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:rdr_1"));
 				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
@@ -34,7 +34,7 @@ public class SkyPlayerEntersDimensionProcedure {
 					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
-		} else if (Math.random() <= 0.2) {
+		} else if (Math.random() <= 0.02) {
 			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
 				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:b_1"));
 				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
@@ -50,7 +50,7 @@ public class SkyPlayerEntersDimensionProcedure {
 					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
-		} else if (Math.random() <= 0.3) {
+		} else if (Math.random() <= 0.03) {
 			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
 				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:c_1"));
 				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
@@ -66,7 +66,7 @@ public class SkyPlayerEntersDimensionProcedure {
 					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
-		} else if (Math.random() <= 0.4) {
+		} else if (Math.random() <= 0.04) {
 			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
 				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:a_1"));
 				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
@@ -82,7 +82,7 @@ public class SkyPlayerEntersDimensionProcedure {
 					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
-		} else if (Math.random() <= 0.5) {
+		} else if (Math.random() <= 0.05) {
 			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
 				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:d_1"));
 				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
@@ -98,7 +98,23 @@ public class SkyPlayerEntersDimensionProcedure {
 					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
-		} else if (Math.random() <= 0.6) {
+		} else if (Math.random() <= 0.06) {
+			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
+				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:e_1"));
+				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
+					return;
+				ServerWorld nextWorld = ((ServerPlayerEntity) entity).getServer().getWorld(destinationType);
+				if (nextWorld != null) {
+					((ServerPlayerEntity) entity).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
+					((ServerPlayerEntity) entity).teleport(nextWorld, ((ServerPlayerEntity) entity).getPosX(), ((ServerPlayerEntity) entity).getPosY(), ((ServerPlayerEntity) entity).getPosZ(), ((ServerPlayerEntity) entity).rotationYaw,
+							((ServerPlayerEntity) entity).rotationPitch);
+					((ServerPlayerEntity) entity).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) entity).abilities));
+					for (EffectInstance effectinstance : ((ServerPlayerEntity) entity).getActivePotionEffects())
+						((ServerPlayerEntity) entity).connection.sendPacket(new SPlayEntityEffectPacket(((ServerPlayerEntity) entity).getEntityId(), effectinstance));
+					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
+				}
+			}
+		} else if (Math.random() <= 0.06) {
 			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
 				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:f_1"));
 				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
@@ -114,7 +130,7 @@ public class SkyPlayerEntersDimensionProcedure {
 					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
-		} else if (Math.random() <= 0.7) {
+		} else if (Math.random() <= 0.07) {
 			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
 				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:g_1"));
 				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
@@ -130,7 +146,7 @@ public class SkyPlayerEntersDimensionProcedure {
 					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
-		} else if (Math.random() <= 0.8) {
+		} else if (Math.random() <= 0.08) {
 			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
 				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:g_2"));
 				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
@@ -146,7 +162,7 @@ public class SkyPlayerEntersDimensionProcedure {
 					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
-		} else if (Math.random() <= 0.9) {
+		} else if (Math.random() <= 0.09) {
 			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
 				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:g_3"));
 				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
@@ -162,7 +178,7 @@ public class SkyPlayerEntersDimensionProcedure {
 					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
-		} else if (Math.random() <= 0.95) {
+		} else if (Math.random() <= 0.1) {
 			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
 				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:g_4"));
 				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
@@ -178,7 +194,7 @@ public class SkyPlayerEntersDimensionProcedure {
 					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
-		} else if (Math.random() <= 1) {
+		} else if (Math.random() <= 0.11) {
 			if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
 				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:g_5"));
 				if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)

@@ -1,8 +1,10 @@
 {
   "replace": false,
   "values": [
+    "minecraft:grass_block",
     "skyblue:edirt",
     "skyblue:onezeronine",
+    "minecraft:dirt",
     "skyblue:onezerofive",
     "skyblue:fourtwo",
     "skyblue:onefourtwo",
@@ -15,6 +17,7 @@
     "skyblue:gg_3",
     "skyblue:sixthree",
     "skyblue:twofivesix",
+    "skyblue:onetwofive",
     "skyblue:onethreenoe",
     "skyblue:twofour",
     "skyblue:estone",

@@ -1,0 +1,28 @@
+package net.skyblue.world.biome;
+
+import net.skyblue.init.SkyblueModParticleTypes;
+import net.skyblue.init.SkyblueModBlocks;
+
+import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
+import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
+import net.minecraft.world.gen.surfacebuilders.ConfiguredSurfaceBuilder;
+import net.minecraft.world.biome.ParticleEffectAmbience;
+import net.minecraft.world.biome.MobSpawnInfo;
+import net.minecraft.world.biome.BiomeGenerationSettings;
+import net.minecraft.world.biome.BiomeAmbience;
+import net.minecraft.world.biome.Biome;
+import net.minecraft.particles.BasicParticleType;
+
+public class Hr1Biome {
+	private static final ConfiguredSurfaceBuilder<?> SURFACE_BUILDER = SurfaceBuilder.DEFAULT
+			.func_242929_a(new SurfaceBuilderConfig(SkyblueModBlocks.ONETWOFIVE.get().getDefaultState(), SkyblueModBlocks.ONETWOFIVE.get().getDefaultState(), SkyblueModBlocks.ONETWOFIVE.get().getDefaultState()));
+
+	public static Biome createBiome() {
+		BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-15299277).setWaterColor(-15299277).setWaterFogColor(-15299277).withSkyColor(-15299277).withFoliageColor(10387789).withGrassColor(9470285)
+				.setParticle(new ParticleEffectAmbience((BasicParticleType) (SkyblueModParticleTypes.AP_1.get()), 0.045f)).build();
+		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder().withSurfaceBuilder(SURFACE_BUILDER);
+		MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
+		return new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.NONE).depth(0.1f).scale(0.2f).temperature(0.5f).downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
+				.withGenerationSettings(biomeGenerationSettings.build()).build();
+	}
+}

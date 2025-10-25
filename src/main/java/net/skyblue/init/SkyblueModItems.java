@@ -3,6 +3,7 @@
  */
 package net.skyblue.init;
 
+import net.skyblue.item.WaterhItem;
 import net.skyblue.item.SkykeyItem;
 import net.skyblue.item.Photo1Item;
 import net.skyblue.item.NormalskyItem;
@@ -13,6 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.RegistryObject;
 
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -91,6 +93,9 @@ public class SkyblueModItems {
 	public static final RegistryObject<Item> GREEN_5 = blockCMT(SkyblueModBlocks.GREEN_5, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> RED_5 = blockCMT(SkyblueModBlocks.RED_5, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> PHOTO_1 = REGISTRY.register("photo_1", Photo1Item::new);
+	public static final RegistryObject<Item> WATERH_BUCKET = REGISTRY.register("waterh_bucket", WaterhItem::new);
+	public static final RegistryObject<Item> MUSH_1 = block(SkyblueModBlocks.MUSH_1, new Item.Properties().rarity(Rarity.UNCOMMON).isImmuneToFire().group(SkyblueModTabs.TAB_SKYBLUE));
+	public static final RegistryObject<Item> ONETWOFIVE = blockCMT(SkyblueModBlocks.ONETWOFIVE, null);
 
 	// Start of user code block custom items
 	// End of user code block custom items

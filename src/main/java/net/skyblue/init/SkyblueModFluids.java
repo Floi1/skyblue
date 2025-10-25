@@ -3,6 +3,7 @@
  */
 package net.skyblue.init;
 
+import net.skyblue.fluid.WaterhFluid;
 import net.skyblue.fluid.EwaterFluid;
 import net.skyblue.SkyblueMod;
 
@@ -23,6 +24,8 @@ public class SkyblueModFluids {
 	public static final DeferredRegister<Fluid> REGISTRY = DeferredRegister.create(ForgeRegistries.FLUIDS, SkyblueMod.MODID);
 	public static final RegistryObject<FlowingFluid> EWATER = REGISTRY.register("ewater", EwaterFluid.Source::new);
 	public static final RegistryObject<FlowingFluid> FLOWING_EWATER = REGISTRY.register("flowing_ewater", EwaterFluid.Flowing::new);
+	public static final RegistryObject<FlowingFluid> WATERH = REGISTRY.register("waterh", WaterhFluid.Source::new);
+	public static final RegistryObject<FlowingFluid> FLOWING_WATERH = REGISTRY.register("flowing_waterh", WaterhFluid.Flowing::new);
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class FluidsClientSideHandler {
@@ -30,6 +33,8 @@ public class SkyblueModFluids {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			RenderTypeLookup.setRenderLayer(EWATER.get(), RenderType.getTranslucent());
 			RenderTypeLookup.setRenderLayer(FLOWING_EWATER.get(), RenderType.getTranslucent());
+			RenderTypeLookup.setRenderLayer(WATERH.get(), RenderType.getTranslucent());
+			RenderTypeLookup.setRenderLayer(FLOWING_WATERH.get(), RenderType.getTranslucent());
 		}
 	}
 }

@@ -13,7 +13,7 @@ public class SpawnProcedure {
 			world.setBlockState(new BlockPos(x - 1, y + 1, z), Blocks.AIR.getDefaultState(), 3);
 			world.setBlockState(new BlockPos(x + 1, y, z), Blocks.AIR.getDefaultState(), 3);
 			world.setBlockState(new BlockPos(x - 1, y, z), Blocks.AIR.getDefaultState(), 3);
-			world.setBlockState(new BlockPos(x, y + 2, z + 1), Blocks.AIR.getDefaultState(), 3);
+			world.setBlockState(new BlockPos(x, y + 1, z + 1), Blocks.AIR.getDefaultState(), 3);
 			world.setBlockState(new BlockPos(x, y + 1, z - 1), Blocks.AIR.getDefaultState(), 3);
 			world.setBlockState(new BlockPos(x, y, z + 1), Blocks.AIR.getDefaultState(), 3);
 			world.setBlockState(new BlockPos(x, y, z - 1), Blocks.AIR.getDefaultState(), 3);

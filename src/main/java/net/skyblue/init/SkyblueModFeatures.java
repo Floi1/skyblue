@@ -3,6 +3,7 @@
  */
 package net.skyblue.init;
 
+import net.skyblue.world.features.plants.Mush1Feature;
 import net.skyblue.world.features.ores.Frr1Feature;
 import net.skyblue.world.features.ores.Ab9Feature;
 import net.skyblue.world.features.ores.Ab8Feature;
@@ -384,6 +385,7 @@ public class SkyblueModFeatures {
 	public static final RegistryObject<Feature<?>> AB_23 = register("ab_23", Ab23Feature::feature, new FeatureRegistration(GenerationStage.Decoration.UNDERGROUND_ORES, Ab23Feature.GENERATE_BIOMES, Ab23Feature::configuredFeature));
 	public static final RegistryObject<Feature<?>> AB_24 = register("ab_24", Ab24Feature::feature, new FeatureRegistration(GenerationStage.Decoration.UNDERGROUND_ORES, Ab24Feature.GENERATE_BIOMES, Ab24Feature::configuredFeature));
 	public static final RegistryObject<Feature<?>> FRR_1 = register("frr_1", Frr1Feature::feature, new FeatureRegistration(GenerationStage.Decoration.UNDERGROUND_ORES, Frr1Feature.GENERATE_BIOMES, Frr1Feature::configuredFeature));
+	public static final RegistryObject<Feature<?>> MUSH_1 = register("mush_1", Mush1Feature::feature, new FeatureRegistration(GenerationStage.Decoration.VEGETAL_DECORATION, Mush1Feature.GENERATE_BIOMES, Mush1Feature::configuredFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
