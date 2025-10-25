@@ -1,7 +1,7 @@
 {
   "variants": {
-    "normal": {
-      "model": "skyblue:onezeronine"
+    "": {
+      "model": "skyblue:block/onezeronine"
     }
   }
 }

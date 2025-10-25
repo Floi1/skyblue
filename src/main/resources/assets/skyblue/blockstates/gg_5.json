@@ -1,7 +1,7 @@
 {
   "variants": {
-    "normal": {
-      "model": "skyblue:gg_5"
+    "": {
+      "model": "skyblue:block/gg_5"
     }
   }
 }

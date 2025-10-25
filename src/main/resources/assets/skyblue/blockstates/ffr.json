@@ -1,7 +1,7 @@
 {
   "variants": {
-    "normal": {
-      "model": "skyblue:ffr"
+    "": {
+      "model": "skyblue:block/ffr"
     }
   }
 }

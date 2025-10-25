@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="skyblue"
+version="0.0.1"
+displayName="skyblue"
+credits="made by Floi"
+displayURL="https://www.curseforge.com/minecraft/mc-mods"
+authors="Floi"
+description='''
+dreams
+'''
+
+[[dependencies.skyblue]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

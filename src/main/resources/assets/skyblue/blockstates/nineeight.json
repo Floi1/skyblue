@@ -1,7 +1,7 @@
 {
   "variants": {
-    "normal": {
-      "model": "skyblue:nineeight"
+    "": {
+      "model": "skyblue:block/nineeight"
     }
   }
 }
