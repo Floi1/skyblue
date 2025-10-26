@@ -1,0 +1,8 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "particle": "skyblue:block/i_oak_door_bottom1",
+    "bottom": "skyblue:block/i_oak_door_bottom1",
+    "top": "skyblue:block/i_oak_door_bottom"
+  }
+}

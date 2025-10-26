@@ -14,6 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.RegistryObject;
 
+import net.minecraft.item.TallBlockItem;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -101,6 +102,20 @@ public class SkyblueModItems {
 	public static final RegistryObject<Item> BLUE_4 = blockCMT(SkyblueModBlocks.BLUE_4, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> BLUE_5 = blockCMT(SkyblueModBlocks.BLUE_5, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> TWOTHREETWO = blockCMT(SkyblueModBlocks.TWOTHREETWO, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> I_LOG = blockCMT(SkyblueModBlocks.I_LOG, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> I_WOOD = blockCMT(SkyblueModBlocks.I_WOOD, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> I_PLANKS = blockCMT(SkyblueModBlocks.I_PLANKS, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> I_LEAVES = blockCMT(SkyblueModBlocks.I_LEAVES, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> I_STAIRS = blockCMT(SkyblueModBlocks.I_STAIRS, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> I_SLAB = blockCMT(SkyblueModBlocks.I_SLAB, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> I_FENCE = blockCMT(SkyblueModBlocks.I_FENCE, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> I_FENCE_GATE = blockCMT(SkyblueModBlocks.I_FENCE_GATE, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> I_PRESSURE_PLATE = blockCMT(SkyblueModBlocks.I_PRESSURE_PLATE, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> I_BUTTON = blockCMT(SkyblueModBlocks.I_BUTTON, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> ICOBBLESTONE = blockCMT(SkyblueModBlocks.ICOBBLESTONE, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> IDOORS = doubleBlockCMT(SkyblueModBlocks.IDOORS, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> ICOBBLESTONE_STAIRS = blockCMT(SkyblueModBlocks.ICOBBLESTONE_STAIRS, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> IP = blockCMT(SkyblueModBlocks.IP, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> ONETWOFIVE = blockCMT(SkyblueModBlocks.ONETWOFIVE, null);
 
 	// Start of user code block custom items
@@ -111,5 +126,13 @@ public class SkyblueModItems {
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, Item.Properties properties) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), properties));
+	}
+
+	private static RegistryObject<Item> doubleBlockCMT(RegistryObject<Block> block, ItemGroup tab) {
+		return doubleBlock(block, new Item.Properties().group(tab));
+	}
+
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block, Item.Properties properties) {
+		return REGISTRY.register(block.getId().getPath(), () -> new TallBlockItem(block.get(), properties));
 	}
 }

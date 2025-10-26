@@ -3797,6 +3797,429 @@
         ]
       },
       "path": "~/dim9"
+    },
+    {
+      "name": "IR1",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ir_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/IR1Biome.java"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "I1",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/dimension_type/i_1.json",
+          "src/main/resources/data/skyblue/dimension/i_1.json",
+          "src/main/java/net/skyblue/world/dimension/I1Dimension.java"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "House",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "house",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/HouseFeature.java"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "ILog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/i_log.json",
+          "src/main/resources/assets/skyblue/blockstates/i_log.json",
+          "src/main/java/net/skyblue/block/ILogBlock.java",
+          "src/main/resources/assets/skyblue/models/item/i_log.json",
+          "src/main/resources/assets/skyblue/models/block/i_log.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "IWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/i_wood.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/i_wood.json",
+          "src/main/java/net/skyblue/block/IWoodBlock.java",
+          "src/main/resources/assets/skyblue/blockstates/i_wood.json",
+          "src/main/resources/assets/skyblue/models/block/i_wood.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "IPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/i_planks.json",
+          "src/main/resources/assets/skyblue/blockstates/i_planks.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/i_planks.json",
+          "src/main/resources/assets/skyblue/models/block/i_planks.json",
+          "src/main/java/net/skyblue/block/IPlanksBlock.java"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "ILeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/blockstates/i_leaves.json",
+          "src/main/resources/assets/skyblue/models/item/i_leaves.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/i_leaves.json",
+          "src/main/java/net/skyblue/block/ILeavesBlock.java",
+          "src/main/resources/assets/skyblue/models/block/i_leaves.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "IStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/i_stairs.json",
+          "src/main/resources/assets/skyblue/models/block/i_stairs.json",
+          "src/main/java/net/skyblue/block/IStairsBlock.java",
+          "src/main/resources/assets/skyblue/blockstates/i_stairs.json",
+          "src/main/resources/assets/skyblue/models/block/i_stairs_outer.json",
+          "src/main/resources/assets/skyblue/models/item/i_stairs.json",
+          "src/main/resources/assets/skyblue/models/block/i_stairs_inner.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "ISlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/ISlabBlock.java",
+          "src/main/resources/assets/skyblue/blockstates/i_slab.json",
+          "src/main/resources/assets/skyblue/models/block/i_slab_top.json",
+          "src/main/resources/assets/skyblue/models/block/i_slab_full.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/i_slab.json",
+          "src/main/resources/assets/skyblue/models/block/i_slab.json",
+          "src/main/resources/assets/skyblue/models/item/i_slab.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "IFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/blockstates/i_fence.json",
+          "src/main/java/net/skyblue/block/IFenceBlock.java",
+          "src/main/resources/assets/skyblue/models/block/i_fence_post.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/i_fence.json",
+          "src/main/resources/assets/skyblue/models/block/i_fence.json",
+          "src/main/resources/assets/skyblue/models/item/i_fence.json",
+          "src/main/resources/assets/skyblue/models/block/i_fence_inventory.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "IFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/i_fence_gate.json",
+          "src/main/resources/assets/skyblue/models/block/i_fence_gate_wall_open.json",
+          "src/main/resources/assets/skyblue/models/block/i_fence_gate_wall.json",
+          "src/main/resources/assets/skyblue/models/block/i_fence_gate_open.json",
+          "src/main/java/net/skyblue/block/IFenceGateBlock.java",
+          "src/main/resources/assets/skyblue/blockstates/i_fence_gate.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/i_fence_gate.json",
+          "src/main/resources/assets/skyblue/models/block/i_fence_gate.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "IPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/i_pressure_plate.json",
+          "src/main/resources/assets/skyblue/models/block/i_pressure_plate.json",
+          "src/main/resources/assets/skyblue/models/block/i_pressure_plate_down.json",
+          "src/main/resources/assets/skyblue/blockstates/i_pressure_plate.json",
+          "src/main/java/net/skyblue/block/IPressurePlateBlock.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/i_pressure_plate.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "IButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/i_button.json",
+          "src/main/resources/assets/skyblue/models/block/i_button_pressed.json",
+          "src/main/resources/assets/skyblue/models/block/i_button_inventory.json",
+          "src/main/java/net/skyblue/block/IButtonBlock.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/i_button.json",
+          "src/main/resources/assets/skyblue/models/block/i_button.json",
+          "src/main/resources/assets/skyblue/blockstates/i_button.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "IWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/recipes/i_wood_recipe.json",
+          "src/main/resources/data/skyblue/advancements/recipes/i_wood_recipe.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "IPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/recipes/i_planks_recipe.json",
+          "src/main/resources/data/skyblue/advancements/recipes/i_planks_recipe.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "IStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/recipes/i_stairs_recipe.json",
+          "src/main/resources/data/skyblue/advancements/recipes/i_stairs_recipe.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "ISlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/recipes/i_slab_recipe.json",
+          "src/main/resources/data/skyblue/advancements/recipes/i_slab_recipe.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "IFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/advancements/recipes/i_fence_recipe.json",
+          "src/main/resources/data/skyblue/recipes/i_fence_recipe.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "IFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/recipes/i_fence_gate_recipe.json",
+          "src/main/resources/data/skyblue/advancements/recipes/i_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "IPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/advancements/recipes/i_pressure_plate_recipe.json",
+          "src/main/resources/data/skyblue/recipes/i_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "IButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/recipes/i_button_recipe.json",
+          "src/main/resources/data/skyblue/advancements/recipes/i_button_recipe.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "Icobblestone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/blockstates/icobblestone.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/icobblestone.json",
+          "src/main/resources/assets/skyblue/models/item/icobblestone.json",
+          "src/main/resources/assets/skyblue/models/block/icobblestone.json",
+          "src/main/java/net/skyblue/block/IcobblestoneBlock.java"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "Idoors",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idoors",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/block/idoors_bottom.json",
+          "src/main/resources/assets/skyblue/models/block/idoors_bottom_hinge.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/idoors.json",
+          "src/main/resources/assets/skyblue/models/block/idoors_top.json",
+          "src/main/resources/assets/skyblue/models/block/idoors_top_hinge.json",
+          "src/main/java/net/skyblue/block/IdoorsBlock.java",
+          "src/main/resources/assets/skyblue/blockstates/idoors.json",
+          "src/main/resources/assets/skyblue/models/item/idoors.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "IcobblestoneStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icobblestone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/IcobblestoneStairsBlock.java",
+          "src/main/resources/assets/skyblue/models/item/icobblestone_stairs.json",
+          "src/main/resources/assets/skyblue/models/block/icobblestone_stairs_outer.json",
+          "src/main/resources/assets/skyblue/blockstates/icobblestone_stairs.json",
+          "src/main/resources/assets/skyblue/models/block/icobblestone_stairs.json",
+          "src/main/resources/assets/skyblue/models/block/icobblestone_stairs_inner.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/icobblestone_stairs.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "IP",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ip",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/ip.json",
+          "src/main/java/net/skyblue/block/IPBlock.java",
+          "src/main/resources/assets/skyblue/blockstates/ip.json",
+          "src/main/resources/assets/skyblue/models/block/ip.json",
+          "src/main/resources/assets/skyblue/models/item/ip.json"
+        ]
+      },
+      "path": "~/dim10"
+    },
+    {
+      "name": "Iip",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iip",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/IipFeature.java"
+        ]
+      },
+      "path": "~/dim10"
     }
   ],
   "variable_elements": [],
@@ -3827,6 +4250,39 @@
       "~CUSTOM:Nine",
       "~CUSTOM:Fourtwo",
       "~CUSTOM:Sixthree"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:ILeaves"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:IcobblestoneStairs",
+      "~CUSTOM:IStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:ISlab"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:IFence"
+    ],
+    "BLOCKS:mod:i_logs": [
+      "CUSTOM:ILog",
+      "CUSTOM:IWood"
+    ],
+    "BLOCKS:minecraft:logs_that_burn": [
+      "TAG:mod:i_logs"
+    ],
+    "BLOCKS:minecraft:planks": [
+      "CUSTOM:IPlanks"
+    ],
+    "ITEMS:mod:i_logs": [
+      "CUSTOM:ILog",
+      "CUSTOM:IWood"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "TAG:mod:i_logs"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:IPlanks"
     ]
   },
   "tab_element_order": {},
@@ -4018,7 +4474,22 @@
       "block.skyblue.blue_3": "Blue3",
       "block.skyblue.blue_4": "Blue4",
       "block.skyblue.blue_5": "Blue4",
-      "block.skyblue.twothreetwo": "Twothreetwo"
+      "block.skyblue.twothreetwo": "Twothreetwo",
+      "biome.skyblue.ir_1": "IR 1",
+      "block.skyblue.i_log": "I Log",
+      "block.skyblue.i_wood": "I Wood",
+      "block.skyblue.i_planks": "I Planks",
+      "block.skyblue.i_leaves": "I Leaves",
+      "block.skyblue.i_stairs": "I Stairs",
+      "block.skyblue.i_slab": "I Slab",
+      "block.skyblue.i_fence": "I Fence",
+      "block.skyblue.i_fence_gate": "I Fence Gate",
+      "block.skyblue.i_pressure_plate": "I Pressure Plate",
+      "block.skyblue.i_button": "I Button",
+      "block.skyblue.icobblestone": "I cobblestone",
+      "block.skyblue.idoors": "I Door",
+      "block.skyblue.icobblestone_stairs": "I Cobblestone stairs",
+      "block.skyblue.ip": "IP"
     }
   },
   "metadata": {

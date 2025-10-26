@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "skyblue:block/i_pressure_plate"
+    },
+    "powered=true": {
+      "model": "skyblue:block/i_pressure_plate_down"
+    }
+  }
+}

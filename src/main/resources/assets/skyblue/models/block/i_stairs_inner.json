@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "skyblue:block/i_planks",
+    "bottom": "skyblue:block/i_planks",
+    "top": "skyblue:block/i_planks",
+    "side": "skyblue:block/i_planks"
+  }
+}

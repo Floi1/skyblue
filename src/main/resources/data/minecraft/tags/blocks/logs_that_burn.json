@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#skyblue:i_logs",
+      "required": false
+    }
+  ]
+}

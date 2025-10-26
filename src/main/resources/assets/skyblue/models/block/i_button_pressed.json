@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "particle": "skyblue:block/i_planks",
+    "texture": "skyblue:block/i_planks"
+  }
+}

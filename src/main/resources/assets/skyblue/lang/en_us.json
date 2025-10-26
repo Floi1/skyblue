@@ -185,5 +185,20 @@
   "block.skyblue.blue_3": "Blue3",
   "block.skyblue.blue_4": "Blue4",
   "block.skyblue.blue_5": "Blue4",
-  "block.skyblue.twothreetwo": "Twothreetwo"
+  "block.skyblue.twothreetwo": "Twothreetwo",
+  "biome.skyblue.ir_1": "IR 1",
+  "block.skyblue.i_log": "I Log",
+  "block.skyblue.i_wood": "I Wood",
+  "block.skyblue.i_planks": "I Planks",
+  "block.skyblue.i_leaves": "I Leaves",
+  "block.skyblue.i_stairs": "I Stairs",
+  "block.skyblue.i_slab": "I Slab",
+  "block.skyblue.i_fence": "I Fence",
+  "block.skyblue.i_fence_gate": "I Fence Gate",
+  "block.skyblue.i_pressure_plate": "I Pressure Plate",
+  "block.skyblue.i_button": "I Button",
+  "block.skyblue.icobblestone": "I cobblestone",
+  "block.skyblue.idoors": "I Door",
+  "block.skyblue.icobblestone_stairs": "I Cobblestone stairs",
+  "block.skyblue.ip": "IP"
 }

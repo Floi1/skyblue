@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "skyblue:block/i_cobble",
+    "bottom": "skyblue:block/i_cobble",
+    "top": "skyblue:block/i_cobble",
+    "side": "skyblue:block/i_cobble"
+  }
+}

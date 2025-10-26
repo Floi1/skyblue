@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "particle": "skyblue:block/i_planks",
+    "texture": "skyblue:block/i_planks"
+  }
+}

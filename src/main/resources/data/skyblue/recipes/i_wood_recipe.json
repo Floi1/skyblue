@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "skyblue:i_log"
+    }
+  },
+  "result": {
+    "item": "skyblue:i_wood",
+    "count": 3
+  }
+}

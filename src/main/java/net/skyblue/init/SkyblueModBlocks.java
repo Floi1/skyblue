@@ -26,6 +26,20 @@ import net.skyblue.block.OnefiveBlock;
 import net.skyblue.block.NineeightBlock;
 import net.skyblue.block.NineBlock;
 import net.skyblue.block.Mush1Block;
+import net.skyblue.block.IdoorsBlock;
+import net.skyblue.block.IcobblestoneStairsBlock;
+import net.skyblue.block.IcobblestoneBlock;
+import net.skyblue.block.IWoodBlock;
+import net.skyblue.block.IStairsBlock;
+import net.skyblue.block.ISlabBlock;
+import net.skyblue.block.IPressurePlateBlock;
+import net.skyblue.block.IPlanksBlock;
+import net.skyblue.block.IPBlock;
+import net.skyblue.block.ILogBlock;
+import net.skyblue.block.ILeavesBlock;
+import net.skyblue.block.IFenceGateBlock;
+import net.skyblue.block.IFenceBlock;
+import net.skyblue.block.IButtonBlock;
 import net.skyblue.block.GreenBlock;
 import net.skyblue.block.Green5Block;
 import net.skyblue.block.Green4Block;
@@ -174,6 +188,20 @@ public class SkyblueModBlocks {
 	public static final RegistryObject<Block> BLUE_4 = REGISTRY.register("blue_4", Blue4Block::new);
 	public static final RegistryObject<Block> BLUE_5 = REGISTRY.register("blue_5", Blue5Block::new);
 	public static final RegistryObject<Block> TWOTHREETWO = REGISTRY.register("twothreetwo", TwothreetwoBlock::new);
+	public static final RegistryObject<Block> I_LOG = REGISTRY.register("i_log", ILogBlock::new);
+	public static final RegistryObject<Block> I_WOOD = REGISTRY.register("i_wood", IWoodBlock::new);
+	public static final RegistryObject<Block> I_PLANKS = REGISTRY.register("i_planks", IPlanksBlock::new);
+	public static final RegistryObject<Block> I_LEAVES = REGISTRY.register("i_leaves", ILeavesBlock::new);
+	public static final RegistryObject<Block> I_STAIRS = REGISTRY.register("i_stairs", IStairsBlock::new);
+	public static final RegistryObject<Block> I_SLAB = REGISTRY.register("i_slab", ISlabBlock::new);
+	public static final RegistryObject<Block> I_FENCE = REGISTRY.register("i_fence", IFenceBlock::new);
+	public static final RegistryObject<Block> I_FENCE_GATE = REGISTRY.register("i_fence_gate", IFenceGateBlock::new);
+	public static final RegistryObject<Block> I_PRESSURE_PLATE = REGISTRY.register("i_pressure_plate", IPressurePlateBlock::new);
+	public static final RegistryObject<Block> I_BUTTON = REGISTRY.register("i_button", IButtonBlock::new);
+	public static final RegistryObject<Block> ICOBBLESTONE = REGISTRY.register("icobblestone", IcobblestoneBlock::new);
+	public static final RegistryObject<Block> IDOORS = REGISTRY.register("idoors", IdoorsBlock::new);
+	public static final RegistryObject<Block> ICOBBLESTONE_STAIRS = REGISTRY.register("icobblestone_stairs", IcobblestoneStairsBlock::new);
+	public static final RegistryObject<Block> IP = REGISTRY.register("ip", IPBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
@@ -192,6 +220,9 @@ public class SkyblueModBlocks {
 			FfrBlock.registerRenderLayer();
 			Mush1Block.registerRenderLayer();
 			TwothreetwoBlock.registerRenderLayer();
+			ILeavesBlock.registerRenderLayer();
+			IdoorsBlock.registerRenderLayer();
+			IPBlock.registerRenderLayer();
 		}
 	}
 

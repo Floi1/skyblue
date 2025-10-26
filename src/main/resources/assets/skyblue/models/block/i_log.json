@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "skyblue:block/i_log_top",
+    "up": "skyblue:block/i_log_top",
+    "north": "skyblue:block/i_log_side",
+    "east": "skyblue:block/i_log_side",
+    "south": "skyblue:block/i_log_side",
+    "west": "skyblue:block/i_log_side",
+    "particle": "skyblue:block/i_log_top"
+  }
+}

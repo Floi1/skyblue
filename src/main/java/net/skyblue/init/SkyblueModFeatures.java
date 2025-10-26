@@ -33,6 +33,8 @@ import net.skyblue.world.features.SkFeatureFeature;
 import net.skyblue.world.features.Rd111FeatureFeature;
 import net.skyblue.world.features.RD121FeatureFeature;
 import net.skyblue.world.features.RD11Feature;
+import net.skyblue.world.features.IipFeature;
+import net.skyblue.world.features.HouseFeature;
 import net.skyblue.world.features.HhFeature;
 import net.skyblue.world.features.Hh4Feature;
 import net.skyblue.world.features.Hh3Feature;
@@ -383,6 +385,8 @@ public class SkyblueModFeatures {
 	public static final RegistryObject<Feature<?>> HH_2 = register("hh_2", Hh2Feature::feature, new FeatureRegistration(GenerationStage.Decoration.UNDERGROUND_STRUCTURES, Hh2Feature.GENERATE_BIOMES, Hh2Feature::configuredFeature));
 	public static final RegistryObject<Feature<?>> HH_3 = register("hh_3", Hh3Feature::feature, new FeatureRegistration(GenerationStage.Decoration.VEGETAL_DECORATION, Hh3Feature.GENERATE_BIOMES, Hh3Feature::configuredFeature));
 	public static final RegistryObject<Feature<?>> HH_4 = register("hh_4", Hh4Feature::feature, new FeatureRegistration(GenerationStage.Decoration.UNDERGROUND_DECORATION, Hh4Feature.GENERATE_BIOMES, Hh4Feature::configuredFeature));
+	public static final RegistryObject<Feature<?>> HOUSE = register("house", HouseFeature::feature, new FeatureRegistration(GenerationStage.Decoration.SURFACE_STRUCTURES, HouseFeature.GENERATE_BIOMES, HouseFeature::configuredFeature));
+	public static final RegistryObject<Feature<?>> IIP = register("iip", IipFeature::feature, new FeatureRegistration(GenerationStage.Decoration.SURFACE_STRUCTURES, IipFeature.GENERATE_BIOMES, IipFeature::configuredFeature));
 	public static final RegistryObject<Feature<?>> AB_1 = register("ab_1", Ab1Feature::feature, new FeatureRegistration(GenerationStage.Decoration.UNDERGROUND_ORES, Ab1Feature.GENERATE_BIOMES, Ab1Feature::configuredFeature));
 	public static final RegistryObject<Feature<?>> AB_2 = register("ab_2", Ab2Feature::feature, new FeatureRegistration(GenerationStage.Decoration.UNDERGROUND_ORES, Ab2Feature.GENERATE_BIOMES, Ab2Feature::configuredFeature));
 	public static final RegistryObject<Feature<?>> AB_3 = register("ab_3", Ab3Feature::feature, new FeatureRegistration(GenerationStage.Decoration.UNDERGROUND_ORES, Ab3Feature.GENERATE_BIOMES, Ab3Feature::configuredFeature));

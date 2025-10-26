@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "skyblue:blocks/idoors",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "skyblue:idoors",
+          "conditions": [
+            {
+              "block": "skyblue:idoors",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
