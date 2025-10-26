@@ -26,7 +26,7 @@
       null,
       null
     ],
-    "growapableSpawnType": "Nether",
+    "growapableSpawnType": "Cave",
     "growapableMaxHeight": 3,
     "customBoundingBox": false,
     "disableOffset": false,
@@ -55,14 +55,14 @@
     "luminance": 15,
     "unbreakable": false,
     "isSolid": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "hasBlockItem": true,
     "maxStackSize": 64,
     "rarity": "UNCOMMON",
     "immuneToFire": true,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "SWEET_BERRY_BUSH"
     },
     "breakSound": {
       "value": ""
@@ -92,18 +92,14 @@
     "creativePickItem": {
       "value": ""
     },
-    "offsetType": "XZ",
+    "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "ignitedByLava": false,
-    "flammability": 100,
+    "flammability": 1024,
     "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
-    "canBePlacedOn": [
-      {
-        "value": "CUSTOM:Onetwofive"
-      }
-    ],
+    "canBePlacedOn": [],
     "isBonemealable": false,
     "frequencyOnChunks": 32,
     "generateFeature": true,
@@ -113,7 +109,7 @@
       }
     ],
     "generationType": "Flower",
-    "patchSize": 64,
+    "patchSize": 32,
     "generateAtAnyHeight": true
   }
 }

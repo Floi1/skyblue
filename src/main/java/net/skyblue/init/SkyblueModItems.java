@@ -95,6 +95,12 @@ public class SkyblueModItems {
 	public static final RegistryObject<Item> PHOTO_1 = REGISTRY.register("photo_1", Photo1Item::new);
 	public static final RegistryObject<Item> WATERH_BUCKET = REGISTRY.register("waterh_bucket", WaterhItem::new);
 	public static final RegistryObject<Item> MUSH_1 = block(SkyblueModBlocks.MUSH_1, new Item.Properties().rarity(Rarity.UNCOMMON).isImmuneToFire().group(SkyblueModTabs.TAB_SKYBLUE));
+	public static final RegistryObject<Item> BLUE_1 = blockCMT(SkyblueModBlocks.BLUE_1, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> BLUE_2 = blockCMT(SkyblueModBlocks.BLUE_2, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> BLUE_3 = blockCMT(SkyblueModBlocks.BLUE_3, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> BLUE_4 = blockCMT(SkyblueModBlocks.BLUE_4, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> BLUE_5 = blockCMT(SkyblueModBlocks.BLUE_5, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> TWOTHREETWO = blockCMT(SkyblueModBlocks.TWOTHREETWO, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> ONETWOFIVE = blockCMT(SkyblueModBlocks.ONETWOFIVE, null);
 
 	// Start of user code block custom items

@@ -46,6 +46,11 @@ public class Ap1Particle extends SpriteTexturedParticle {
 	}
 
 	@Override
+	public int getBrightnessForRender(float partialTick) {
+		return 15728880;
+	}
+
+	@Override
 	public IParticleRenderType getRenderType() {
 		return IParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;
 	}

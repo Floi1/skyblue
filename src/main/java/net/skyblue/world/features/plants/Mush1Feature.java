@@ -28,7 +28,7 @@ public class Mush1Feature extends DefaultFlowersFeature {
 		INSTANCE = new Mush1Feature();
 		CONFIGURED_FEATURE = INSTANCE.withConfiguration(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(SkyblueModBlocks.MUSH_1.get().getDefaultState()), SimpleBlockPlacer.PLACER)
 
-				.tries(64).build()).func_242731_b(32).chance(32).square().range(128);
+				.tries(32).build()).func_242731_b(32).chance(32).square().range(128);
 		Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("skyblue:mush_1"), CONFIGURED_FEATURE);
 		return INSTANCE;
 	}

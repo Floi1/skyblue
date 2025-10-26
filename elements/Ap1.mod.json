@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "particle",
   "definition": {
-    "texture": "ap1.png",
+    "texture": "ap1",
     "animate": true,
     "frameDuration": 1,
     "width": 0.2,
@@ -18,7 +18,7 @@
     "angularAcceleration": 0.0,
     "canCollide": true,
     "alwaysShow": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "renderType": "TRANSLUCENT"
   }
 }
