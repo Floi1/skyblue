@@ -4,6 +4,10 @@
 package net.skyblue.init;
 
 import net.skyblue.world.features.plants.Mush1Feature;
+import net.skyblue.world.features.plants.JpFeature;
+import net.skyblue.world.features.plants.Jp4Feature;
+import net.skyblue.world.features.plants.Jp3Feature;
+import net.skyblue.world.features.plants.Jp2Feature;
 import net.skyblue.world.features.ores.Frr1Feature;
 import net.skyblue.world.features.ores.Ab9Feature;
 import net.skyblue.world.features.ores.Ab8Feature;
@@ -413,6 +417,10 @@ public class SkyblueModFeatures {
 	public static final RegistryObject<Feature<?>> AB_24 = register("ab_24", Ab24Feature::feature, new FeatureRegistration(GenerationStage.Decoration.UNDERGROUND_ORES, Ab24Feature.GENERATE_BIOMES, Ab24Feature::configuredFeature));
 	public static final RegistryObject<Feature<?>> FRR_1 = register("frr_1", Frr1Feature::feature, new FeatureRegistration(GenerationStage.Decoration.UNDERGROUND_ORES, Frr1Feature.GENERATE_BIOMES, Frr1Feature::configuredFeature));
 	public static final RegistryObject<Feature<?>> MUSH_1 = register("mush_1", Mush1Feature::feature, new FeatureRegistration(GenerationStage.Decoration.VEGETAL_DECORATION, Mush1Feature.GENERATE_BIOMES, Mush1Feature::configuredFeature));
+	public static final RegistryObject<Feature<?>> JP = register("jp", JpFeature::feature, new FeatureRegistration(GenerationStage.Decoration.VEGETAL_DECORATION, JpFeature.GENERATE_BIOMES, JpFeature::configuredFeature));
+	public static final RegistryObject<Feature<?>> JP_2 = register("jp_2", Jp2Feature::feature, new FeatureRegistration(GenerationStage.Decoration.VEGETAL_DECORATION, Jp2Feature.GENERATE_BIOMES, Jp2Feature::configuredFeature));
+	public static final RegistryObject<Feature<?>> JP_3 = register("jp_3", Jp3Feature::feature, new FeatureRegistration(GenerationStage.Decoration.VEGETAL_DECORATION, Jp3Feature.GENERATE_BIOMES, Jp3Feature::configuredFeature));
+	public static final RegistryObject<Feature<?>> JP_4 = register("jp_4", Jp4Feature::feature, new FeatureRegistration(GenerationStage.Decoration.VEGETAL_DECORATION, Jp4Feature.GENERATE_BIOMES, Jp4Feature::configuredFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

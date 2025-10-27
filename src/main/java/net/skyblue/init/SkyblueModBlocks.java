@@ -26,6 +26,12 @@ import net.skyblue.block.OnefiveBlock;
 import net.skyblue.block.NineeightBlock;
 import net.skyblue.block.NineBlock;
 import net.skyblue.block.Mush1Block;
+import net.skyblue.block.JpBlock;
+import net.skyblue.block.Jp4Block;
+import net.skyblue.block.Jp3Block;
+import net.skyblue.block.Jp2Block;
+import net.skyblue.block.Jb1Block;
+import net.skyblue.block.JB2sevenoneBlock;
 import net.skyblue.block.IdoorsBlock;
 import net.skyblue.block.IcobblestoneStairsBlock;
 import net.skyblue.block.IcobblestoneBlock;
@@ -202,6 +208,12 @@ public class SkyblueModBlocks {
 	public static final RegistryObject<Block> IDOORS = REGISTRY.register("idoors", IdoorsBlock::new);
 	public static final RegistryObject<Block> ICOBBLESTONE_STAIRS = REGISTRY.register("icobblestone_stairs", IcobblestoneStairsBlock::new);
 	public static final RegistryObject<Block> IP = REGISTRY.register("ip", IPBlock::new);
+	public static final RegistryObject<Block> JB_1 = REGISTRY.register("jb_1", Jb1Block::new);
+	public static final RegistryObject<Block> JP = REGISTRY.register("jp", JpBlock::new);
+	public static final RegistryObject<Block> JP_2 = REGISTRY.register("jp_2", Jp2Block::new);
+	public static final RegistryObject<Block> JP_3 = REGISTRY.register("jp_3", Jp3Block::new);
+	public static final RegistryObject<Block> JP_4 = REGISTRY.register("jp_4", Jp4Block::new);
+	public static final RegistryObject<Block> JB_2SEVENONE = REGISTRY.register("jb_2sevenone", JB2sevenoneBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
@@ -223,6 +235,11 @@ public class SkyblueModBlocks {
 			ILeavesBlock.registerRenderLayer();
 			IdoorsBlock.registerRenderLayer();
 			IPBlock.registerRenderLayer();
+			JpBlock.registerRenderLayer();
+			Jp2Block.registerRenderLayer();
+			Jp3Block.registerRenderLayer();
+			Jp4Block.registerRenderLayer();
+			JB2sevenoneBlock.registerRenderLayer();
 		}
 	}
 

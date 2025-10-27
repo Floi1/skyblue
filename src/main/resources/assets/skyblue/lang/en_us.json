@@ -200,5 +200,12 @@
   "block.skyblue.icobblestone": "I cobblestone",
   "block.skyblue.idoors": "I Door",
   "block.skyblue.icobblestone_stairs": "I Cobblestone stairs",
-  "block.skyblue.ip": "IP"
+  "block.skyblue.ip": "IP",
+  "block.skyblue.jb_1": "Jb 1",
+  "biome.skyblue.jr_1": "Jr 1",
+  "block.skyblue.jp": "Jp",
+  "block.skyblue.jp_2": "Jp 2",
+  "block.skyblue.jp_3": "Jp 3",
+  "block.skyblue.jp_4": "Jp 4",
+  "block.skyblue.jb_2sevenone": "Jb 2 seven one"
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "skyblue:block/71",
+    "particle": "skyblue:block/71"
+  }
+}

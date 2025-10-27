@@ -1,0 +1,8 @@
+{
+  "parent": "skyblue:custom/jev3",
+  "textures": {
+    "all": "skyblue:block/jev",
+    "particle": "skyblue:block/jev",
+    "0": "skyblue:block/jev3"
+  }
+}
