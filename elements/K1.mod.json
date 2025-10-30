@@ -4,69 +4,66 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "CUSTOM:Plain"
+        "value": "CUSTOM:Kr1"
       }
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:Sixthree"
+      "value": "CUSTOM:Kk1"
     },
     "fluidBlock": {
-      "value": "CUSTOM:Sixthree"
+      "value": "CUSTOM:Kk3"
     },
     "seaLevel": 63,
     "generateOreVeins": true,
     "generateAquifers": true,
-    "horizontalNoiseSize": 1,
+    "horizontalNoiseSize": 2,
     "verticalNoiseSize": 2,
     "defaultEffects": "overworld",
     "useCustomEffects": true,
-    "hasClouds": false,
+    "hasClouds": true,
     "cloudHeight": 192.0,
     "skyType": "NONE",
     "sunHeightAffectsFog": false,
     "canRespawnHere": false,
     "hasFog": false,
-    "ambientLight": 0.5,
+    "ambientLight": 0.0,
     "doesWaterVaporize": false,
     "hasFixedTime": false,
     "fixedTimeValue": 0,
     "coordinateScale": 1.0,
     "infiniburnTag": "minecraft:infiniburn_overworld",
     "bedWorks": true,
-    "hasSkyLight": false,
-    "imitateOverworldBehaviour": false,
-    "piglinSafe": true,
-    "hasRaids": false,
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "piglinSafe": false,
+    "hasRaids": true,
     "minMonsterSpawnLightLimit": 0,
     "maxMonsterSpawnLightLimit": 7,
     "monsterSpawnBlockLightLimit": 0,
-    "onPlayerEntersDimension": {
-      "name": "Spawn"
-    },
     "portalFrame": {
-      "value": "Blocks.BOOKSHELF"
+      "value": ""
     },
     "portalParticles": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "PORTAL"
     },
     "portalLuminance": 0,
     "portalSound": {
       "value": "block.portal.ambient"
     },
     "enableIgniter": true,
-    "igniterName": "Sky blue",
+    "igniterName": "K 1 Portal Igniter",
     "igniterRarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
       {
-        "value": "CUSTOM:Skyblue"
+        "value": "TOOLS"
       }
     ],
-    "texture": "sky_blue_blue",
-    "portalTexture": "63",
+    "texture": "",
+    "portalTexture": "",
     "enablePortal": false
   }
 }

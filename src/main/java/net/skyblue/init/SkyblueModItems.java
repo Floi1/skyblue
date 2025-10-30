@@ -122,6 +122,9 @@ public class SkyblueModItems {
 	public static final RegistryObject<Item> JP_3 = blockCMT(SkyblueModBlocks.JP_3, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> JP_4 = blockCMT(SkyblueModBlocks.JP_4, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> JB_2SEVENONE = blockCMT(SkyblueModBlocks.JB_2SEVENONE, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> KK_1 = blockCMT(SkyblueModBlocks.KK_1, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> KK_2 = blockCMT(SkyblueModBlocks.KK_2, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> KK_3 = blockCMT(SkyblueModBlocks.KK_3, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> ONETWOFIVE = blockCMT(SkyblueModBlocks.ONETWOFIVE, null);
 
 	// Start of user code block custom items

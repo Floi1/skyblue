@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "71",
+    "texture": "93",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -20,9 +20,9 @@
     "blockSetType": "OAK",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
-    "connectedSides": true,
-    "transparencyType": "TRANSLUCENT",
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -36,7 +36,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Jb 2 seven one",
+    "name": "Kk 2",
     "specialInformation": {
       "fixedValue": []
     },
@@ -53,7 +53,7 @@
         "value": "CUSTOM:Skyblue"
       }
     ],
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -131,12 +131,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onEntityCollides": {
-      "name": "JB2sevenoneEntityWalksOnTheBlock"
-    },
-    "onEntityWalksOn": {
-      "name": "SkyPlayerEntersDimension"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],

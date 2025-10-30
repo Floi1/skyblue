@@ -26,6 +26,9 @@ import net.skyblue.block.OnefiveBlock;
 import net.skyblue.block.NineeightBlock;
 import net.skyblue.block.NineBlock;
 import net.skyblue.block.Mush1Block;
+import net.skyblue.block.Kk3Block;
+import net.skyblue.block.Kk2Block;
+import net.skyblue.block.Kk1Block;
 import net.skyblue.block.JpBlock;
 import net.skyblue.block.Jp4Block;
 import net.skyblue.block.Jp3Block;
@@ -214,6 +217,9 @@ public class SkyblueModBlocks {
 	public static final RegistryObject<Block> JP_3 = REGISTRY.register("jp_3", Jp3Block::new);
 	public static final RegistryObject<Block> JP_4 = REGISTRY.register("jp_4", Jp4Block::new);
 	public static final RegistryObject<Block> JB_2SEVENONE = REGISTRY.register("jb_2sevenone", JB2sevenoneBlock::new);
+	public static final RegistryObject<Block> KK_1 = REGISTRY.register("kk_1", Kk1Block::new);
+	public static final RegistryObject<Block> KK_2 = REGISTRY.register("kk_2", Kk2Block::new);
+	public static final RegistryObject<Block> KK_3 = REGISTRY.register("kk_3", Kk3Block::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

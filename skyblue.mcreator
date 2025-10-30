@@ -100,24 +100,6 @@
       }
     },
     {
-      "name": "SevenzeroEntityWalksOnTheBlock",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sevenzero_entity_walks_on_the_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "files": [
-          "src/main/java/net/skyblue/procedures/SevenzeroEntityWalksOnTheBlockProcedure.java"
-        ]
-      }
-    },
-    {
       "name": "Fourtwo",
       "type": "block",
       "compiles": true,
@@ -4407,12 +4389,93 @@
         ]
       },
       "path": "~/dim11j"
+    },
+    {
+      "name": "Kk1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kk_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/blockstates/kk_1.json",
+          "src/main/resources/assets/skyblue/models/block/kk_1.json",
+          "src/main/java/net/skyblue/block/Kk1Block.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/kk_1.json",
+          "src/main/resources/assets/skyblue/models/item/kk_1.json"
+        ]
+      },
+      "path": "~/dim12k"
+    },
+    {
+      "name": "Kr1",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kr_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/Kr1Biome.java"
+        ]
+      },
+      "path": "~/dim12k"
+    },
+    {
+      "name": "K1",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/dimension_type/k_1.json",
+          "src/main/java/net/skyblue/world/dimension/K1Dimension.java",
+          "src/main/resources/data/skyblue/dimension/k_1.json"
+        ]
+      },
+      "path": "~/dim12k"
+    },
+    {
+      "name": "Kk2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kk_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/block/kk_2.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/kk_2.json",
+          "src/main/resources/assets/skyblue/models/item/kk_2.json",
+          "src/main/resources/assets/skyblue/blockstates/kk_2.json",
+          "src/main/java/net/skyblue/block/Kk2Block.java"
+        ]
+      },
+      "path": "~/dim12k"
+    },
+    {
+      "name": "Kk3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kk_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/Kk3Block.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/kk_3.json",
+          "src/main/resources/assets/skyblue/blockstates/kk_3.json",
+          "src/main/resources/assets/skyblue/models/item/kk_3.json",
+          "src/main/resources/assets/skyblue/models/block/kk_3.json"
+        ]
+      },
+      "path": "~/dim12k"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Kk2",
+      "~CUSTOM:Kk1",
       "~CUSTOM:Jb1",
       "~CUSTOM:Onetwofive",
       "~Blocks.DIRT#0",
@@ -4684,7 +4747,11 @@
       "block.skyblue.jp_2": "Jp 2",
       "block.skyblue.jp_3": "Jp 3",
       "block.skyblue.jp_4": "Jp 4",
-      "block.skyblue.jb_2sevenone": "Jb 2 seven one"
+      "block.skyblue.jb_2sevenone": "Jb 2 seven one",
+      "block.skyblue.kk_1": "Kk 1",
+      "biome.skyblue.kr_1": "Kr 1",
+      "block.skyblue.kk_2": "Kk 2",
+      "block.skyblue.kk_3": "Kk 3"
     }
   },
   "metadata": {
@@ -4759,6 +4826,10 @@
       },
       {
         "name": "dim11j",
+        "children": []
+      },
+      {
+        "name": "dim12k",
         "children": []
       }
     ]

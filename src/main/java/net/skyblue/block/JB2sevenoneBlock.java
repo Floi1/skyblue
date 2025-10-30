@@ -1,5 +1,6 @@
 package net.skyblue.block;
 
+import net.skyblue.procedures.SkyPlayerEntersDimensionProcedure;
 import net.skyblue.procedures.JB2sevenoneEntityWalksOnTheBlockProcedure;
 import net.skyblue.init.SkyblueModBlocks;
 
@@ -55,6 +56,6 @@ public class JB2sevenoneBlock extends Block {
 	@Override
 	public void onEntityWalk(World world, BlockPos pos, Entity entity) {
 		super.onEntityWalk(world, pos, entity);
-		JB2sevenoneEntityWalksOnTheBlockProcedure.execute(world, entity);
+		SkyPlayerEntersDimensionProcedure.execute(entity);
 	}
 }
