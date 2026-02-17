@@ -1,0 +1,72 @@
+{
+  "_fv": 79,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Lr1"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:LL1snow"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Lwater"
+    },
+    "seaLevel": 63,
+    "generateOreVeins": true,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 4,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": true,
+    "cloudHeight": 192.0,
+    "skyType": "NONE",
+    "sunHeightAffectsFog": true,
+    "canRespawnHere": false,
+    "hasFog": false,
+    "ambientLight": 0.0,
+    "doesWaterVaporize": false,
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "bedWorks": true,
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "piglinSafe": false,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
+    "onPlayerEntersDimension": {
+      "name": "Spawn"
+    },
+    "portalFrame": {
+      "value": ""
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": false,
+    "igniterName": "L 1 Portal Igniter",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "texture": "",
+    "portalTexture": "",
+    "enablePortal": false
+  }
+}

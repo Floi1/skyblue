@@ -4407,12 +4407,402 @@
         ]
       },
       "path": "~/dim12k"
+    },
+    {
+      "name": "L1",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/dimension_type/l_1.json",
+          "src/main/resources/data/skyblue/dimension/l_1.json",
+          "src/main/java/net/skyblue/world/dimension/L1Dimension.java"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "Lr1",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lr_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/Lr1Biome.java"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LL1snow",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ll_1snow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/blockstates/ll_1snow.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ll_1snow.json",
+          "src/main/java/net/skyblue/block/LL1snowBlock.java",
+          "src/main/resources/assets/skyblue/models/item/ll_1snow.json",
+          "src/main/resources/assets/skyblue/models/block/ll_1snow.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LL1rock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ll_1rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/block/ll_1rock.json",
+          "src/main/java/net/skyblue/block/LL1rockBlock.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/ll_1rock.json",
+          "src/main/resources/assets/skyblue/models/item/ll_1rock.json",
+          "src/main/resources/assets/skyblue/blockstates/ll_1rock.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "Lwater",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwater",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/fluid/LwaterFluid.java",
+          "src/main/resources/assets/skyblue/blockstates/lwater.json",
+          "src/main/java/net/skyblue/block/LwaterBlock.java",
+          "src/main/resources/assets/skyblue/models/item/lwater_bucket.json",
+          "src/main/java/net/skyblue/item/LwaterItem.java",
+          "src/main/resources/assets/skyblue/models/block/lwater.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/LLogBlock.java",
+          "src/main/resources/assets/skyblue/blockstates/l_log.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/l_log.json",
+          "src/main/resources/assets/skyblue/models/item/l_log.json",
+          "src/main/resources/assets/skyblue/models/block/l_log.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/l_wood.json",
+          "src/main/java/net/skyblue/block/LWoodBlock.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/l_wood.json",
+          "src/main/resources/assets/skyblue/models/block/l_wood.json",
+          "src/main/resources/assets/skyblue/blockstates/l_wood.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/l_planks.json",
+          "src/main/resources/assets/skyblue/models/block/l_planks.json",
+          "src/main/java/net/skyblue/block/LPlanksBlock.java",
+          "src/main/resources/assets/skyblue/models/item/l_planks.json",
+          "src/main/resources/assets/skyblue/blockstates/l_planks.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/LLeavesBlock.java",
+          "src/main/resources/assets/skyblue/models/item/l_leaves.json",
+          "src/main/resources/assets/skyblue/blockstates/l_leaves.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/l_leaves.json",
+          "src/main/resources/assets/skyblue/models/block/l_leaves.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/l_stairs.json",
+          "src/main/resources/assets/skyblue/models/item/l_stairs.json",
+          "src/main/java/net/skyblue/block/LStairsBlock.java",
+          "src/main/resources/assets/skyblue/blockstates/l_stairs.json",
+          "src/main/resources/assets/skyblue/models/block/l_stairs.json",
+          "src/main/resources/assets/skyblue/models/block/l_stairs_outer.json",
+          "src/main/resources/assets/skyblue/models/block/l_stairs_inner.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/block/l_slab_top.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/l_slab.json",
+          "src/main/resources/assets/skyblue/models/block/l_slab_full.json",
+          "src/main/java/net/skyblue/block/LSlabBlock.java",
+          "src/main/resources/assets/skyblue/models/item/l_slab.json",
+          "src/main/resources/assets/skyblue/blockstates/l_slab.json",
+          "src/main/resources/assets/skyblue/models/block/l_slab.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/block/l_fence.json",
+          "src/main/resources/assets/skyblue/models/block/l_fence_inventory.json",
+          "src/main/resources/assets/skyblue/models/block/l_fence_post.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/l_fence.json",
+          "src/main/resources/assets/skyblue/blockstates/l_fence.json",
+          "src/main/java/net/skyblue/block/LFenceBlock.java",
+          "src/main/resources/assets/skyblue/models/item/l_fence.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/blockstates/l_fence_gate.json",
+          "src/main/resources/assets/skyblue/models/item/l_fence_gate.json",
+          "src/main/resources/assets/skyblue/models/block/l_fence_gate_wall_open.json",
+          "src/main/java/net/skyblue/block/LFenceGateBlock.java",
+          "src/main/resources/assets/skyblue/models/block/l_fence_gate_wall.json",
+          "src/main/resources/assets/skyblue/models/block/l_fence_gate_open.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/l_fence_gate.json",
+          "src/main/resources/assets/skyblue/models/block/l_fence_gate.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/l_pressure_plate.json",
+          "src/main/resources/assets/skyblue/models/block/l_pressure_plate_down.json",
+          "src/main/java/net/skyblue/block/LPressurePlateBlock.java",
+          "src/main/resources/assets/skyblue/models/block/l_pressure_plate.json",
+          "src/main/resources/assets/skyblue/blockstates/l_pressure_plate.json",
+          "src/main/resources/assets/skyblue/models/item/l_pressure_plate.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/block/l_button.json",
+          "src/main/java/net/skyblue/block/LButtonBlock.java",
+          "src/main/resources/assets/skyblue/models/block/l_button_pressed.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/l_button.json",
+          "src/main/resources/assets/skyblue/models/item/l_button.json",
+          "src/main/resources/assets/skyblue/models/block/l_button_inventory.json",
+          "src/main/resources/assets/skyblue/blockstates/l_button.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/advancements/recipes/l_wood_recipe.json",
+          "src/main/resources/data/skyblue/recipes/l_wood_recipe.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/advancements/recipes/l_planks_recipe.json",
+          "src/main/resources/data/skyblue/recipes/l_planks_recipe.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/advancements/recipes/l_stairs_recipe.json",
+          "src/main/resources/data/skyblue/recipes/l_stairs_recipe.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/advancements/recipes/l_slab_recipe.json",
+          "src/main/resources/data/skyblue/recipes/l_slab_recipe.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/advancements/recipes/l_fence_recipe.json",
+          "src/main/resources/data/skyblue/recipes/l_fence_recipe.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/advancements/recipes/l_fence_gate_recipe.json",
+          "src/main/resources/data/skyblue/recipes/l_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/recipes/l_pressure_plate_recipe.json",
+          "src/main/resources/data/skyblue/advancements/recipes/l_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "LButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/recipes/l_button_recipe.json",
+          "src/main/resources/data/skyblue/advancements/recipes/l_button_recipe.json"
+        ]
+      },
+      "path": "~/dim13L"
+    },
+    {
+      "name": "Ltree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ltree",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/features/LtreeFeature.java"
+        ]
+      },
+      "path": "~/dim13L"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.GRASS",
+      "~CUSTOM:LL1snow",
+      "~Blocks.WARPED_HYPHAE",
       "~CUSTOM:Kk1",
       "~CUSTOM:Kk2",
       "~CUSTOM:Jb1",
@@ -4441,16 +4831,20 @@
       "~CUSTOM:Sixthree"
     ],
     "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:LLeaves",
       "~CUSTOM:ILeaves"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:LStairs",
       "~CUSTOM:IcobblestoneStairs",
       "~CUSTOM:IStairs"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:LSlab",
       "~CUSTOM:ISlab"
     ],
     "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:LFence",
       "~CUSTOM:IFence"
     ],
     "BLOCKS:mod:i_logs": [
@@ -4458,20 +4852,32 @@
       "CUSTOM:IWood"
     ],
     "BLOCKS:minecraft:logs_that_burn": [
-      "TAG:mod:i_logs"
+      "TAG:mod:i_logs",
+      "TAG:mod:l_logs"
     ],
     "BLOCKS:minecraft:planks": [
-      "CUSTOM:IPlanks"
+      "CUSTOM:IPlanks",
+      "CUSTOM:LPlanks"
     ],
     "ITEMS:mod:i_logs": [
       "CUSTOM:ILog",
       "CUSTOM:IWood"
     ],
     "ITEMS:minecraft:logs_that_burn": [
-      "TAG:mod:i_logs"
+      "TAG:mod:i_logs",
+      "TAG:mod:l_logs"
     ],
     "ITEMS:minecraft:planks": [
-      "CUSTOM:IPlanks"
+      "CUSTOM:IPlanks",
+      "CUSTOM:LPlanks"
+    ],
+    "BLOCKS:mod:l_logs": [
+      "CUSTOM:LLog",
+      "CUSTOM:LWood"
+    ],
+    "ITEMS:mod:l_logs": [
+      "CUSTOM:LLog",
+      "CUSTOM:LWood"
     ]
   },
   "tab_element_order": {},
@@ -4692,7 +5098,24 @@
       "block.skyblue.kk_3": "Kk 3",
       "block.skyblue.kk_1_one_eight_eight": "Kk oneeighteight",
       "block.skyblue.k_kbrick": "Kk brick",
-      "block.skyblue.k_kfloor": "Kk Floor"
+      "block.skyblue.k_kfloor": "Kk Floor",
+      "biome.skyblue.lr_1": "Lr 1",
+      "block.skyblue.ll_1snow": "LL 1snow",
+      "block.skyblue.ll_1rock": "LL 1 Rock",
+      "fluid.skyblue.lwater": "L water",
+      "block.skyblue.lwater": "L water",
+      "item.skyblue.lwater_bucket": "L water Bucket",
+      "fluid_type.skyblue.lwater": "L water",
+      "block.skyblue.l_log": "L Log",
+      "block.skyblue.l_wood": "L Wood",
+      "block.skyblue.l_planks": "L Planks",
+      "block.skyblue.l_leaves": "L Leaves",
+      "block.skyblue.l_stairs": "L Stairs",
+      "block.skyblue.l_slab": "L Slab",
+      "block.skyblue.l_fence": "L Fence",
+      "block.skyblue.l_fence_gate": "L Fence Gate",
+      "block.skyblue.l_pressure_plate": "L Pressure Plate",
+      "block.skyblue.l_button": "L Button"
     }
   },
   "metadata": {

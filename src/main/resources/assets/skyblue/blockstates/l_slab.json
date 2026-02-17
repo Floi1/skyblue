@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyblue:block/l_slab"
+    },
+    "type=top": {
+      "model": "skyblue:block/l_slab_top"
+    },
+    "type=double": {
+      "model": "skyblue:block/l_slab_full"
+    }
+  }
+}

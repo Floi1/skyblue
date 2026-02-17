@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "particle": "skyblue:block/l_planks",
+    "texture": "skyblue:block/l_planks"
+  }
+}

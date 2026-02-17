@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "particle": "skyblue:block/l_planks",
+    "texture": "skyblue:block/l_planks"
+  }
+}

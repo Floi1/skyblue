@@ -214,5 +214,22 @@
   "block.skyblue.kk_3": "Kk 3",
   "block.skyblue.kk_1_one_eight_eight": "Kk oneeighteight",
   "block.skyblue.k_kbrick": "Kk brick",
-  "block.skyblue.k_kfloor": "Kk Floor"
+  "block.skyblue.k_kfloor": "Kk Floor",
+  "biome.skyblue.lr_1": "Lr 1",
+  "block.skyblue.ll_1snow": "LL 1snow",
+  "block.skyblue.ll_1rock": "LL 1 Rock",
+  "fluid.skyblue.lwater": "L water",
+  "block.skyblue.lwater": "L water",
+  "item.skyblue.lwater_bucket": "L water Bucket",
+  "fluid_type.skyblue.lwater": "L water",
+  "block.skyblue.l_log": "L Log",
+  "block.skyblue.l_wood": "L Wood",
+  "block.skyblue.l_planks": "L Planks",
+  "block.skyblue.l_leaves": "L Leaves",
+  "block.skyblue.l_stairs": "L Stairs",
+  "block.skyblue.l_slab": "L Slab",
+  "block.skyblue.l_fence": "L Fence",
+  "block.skyblue.l_fence_gate": "L Fence Gate",
+  "block.skyblue.l_pressure_plate": "L Pressure Plate",
+  "block.skyblue.l_button": "L Button"
 }

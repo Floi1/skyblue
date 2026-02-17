@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "#skyblue:l_logs",
+      "required": false
+    },
+    {
       "id": "#skyblue:i_logs",
       "required": false
     }

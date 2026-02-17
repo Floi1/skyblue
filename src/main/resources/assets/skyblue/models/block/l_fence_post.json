@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "skyblue:block/l_planks",
+    "particle": "skyblue:block/l_planks"
+  }
+}

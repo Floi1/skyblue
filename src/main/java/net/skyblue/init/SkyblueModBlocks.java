@@ -26,6 +26,19 @@ import net.skyblue.block.OnefiveBlock;
 import net.skyblue.block.NineeightBlock;
 import net.skyblue.block.NineBlock;
 import net.skyblue.block.Mush1Block;
+import net.skyblue.block.LwaterBlock;
+import net.skyblue.block.LWoodBlock;
+import net.skyblue.block.LStairsBlock;
+import net.skyblue.block.LSlabBlock;
+import net.skyblue.block.LPressurePlateBlock;
+import net.skyblue.block.LPlanksBlock;
+import net.skyblue.block.LLogBlock;
+import net.skyblue.block.LLeavesBlock;
+import net.skyblue.block.LL1snowBlock;
+import net.skyblue.block.LL1rockBlock;
+import net.skyblue.block.LFenceGateBlock;
+import net.skyblue.block.LFenceBlock;
+import net.skyblue.block.LButtonBlock;
 import net.skyblue.block.Kk3Block;
 import net.skyblue.block.Kk2Block;
 import net.skyblue.block.Kk1Block;
@@ -226,6 +239,19 @@ public class SkyblueModBlocks {
 	public static final RegistryObject<Block> KK_1_ONE_EIGHT_EIGHT = REGISTRY.register("kk_1_one_eight_eight", KK1BBlock::new);
 	public static final RegistryObject<Block> K_KBRICK = REGISTRY.register("k_kbrick", KKbrickBlock::new);
 	public static final RegistryObject<Block> K_KFLOOR = REGISTRY.register("k_kfloor", KKfloorBlock::new);
+	public static final RegistryObject<Block> LL_1SNOW = REGISTRY.register("ll_1snow", LL1snowBlock::new);
+	public static final RegistryObject<Block> LL_1ROCK = REGISTRY.register("ll_1rock", LL1rockBlock::new);
+	public static final RegistryObject<Block> LWATER = REGISTRY.register("lwater", LwaterBlock::new);
+	public static final RegistryObject<Block> L_LOG = REGISTRY.register("l_log", LLogBlock::new);
+	public static final RegistryObject<Block> L_WOOD = REGISTRY.register("l_wood", LWoodBlock::new);
+	public static final RegistryObject<Block> L_PLANKS = REGISTRY.register("l_planks", LPlanksBlock::new);
+	public static final RegistryObject<Block> L_LEAVES = REGISTRY.register("l_leaves", LLeavesBlock::new);
+	public static final RegistryObject<Block> L_STAIRS = REGISTRY.register("l_stairs", LStairsBlock::new);
+	public static final RegistryObject<Block> L_SLAB = REGISTRY.register("l_slab", LSlabBlock::new);
+	public static final RegistryObject<Block> L_FENCE = REGISTRY.register("l_fence", LFenceBlock::new);
+	public static final RegistryObject<Block> L_FENCE_GATE = REGISTRY.register("l_fence_gate", LFenceGateBlock::new);
+	public static final RegistryObject<Block> L_PRESSURE_PLATE = REGISTRY.register("l_pressure_plate", LPressurePlateBlock::new);
+	public static final RegistryObject<Block> L_BUTTON = REGISTRY.register("l_button", LButtonBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
@@ -252,6 +278,7 @@ public class SkyblueModBlocks {
 			Jp3Block.registerRenderLayer();
 			Jp4Block.registerRenderLayer();
 			JB2sevenoneBlock.registerRenderLayer();
+			LLeavesBlock.registerRenderLayer();
 		}
 	}
 

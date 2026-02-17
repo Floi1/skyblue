@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "skyblue:block/l_planks",
+    "bottom": "skyblue:block/l_planks",
+    "top": "skyblue:block/l_planks",
+    "side": "skyblue:block/l_planks"
+  }
+}

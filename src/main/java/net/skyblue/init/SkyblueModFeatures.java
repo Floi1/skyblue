@@ -37,6 +37,7 @@ import net.skyblue.world.features.SkFeatureFeature;
 import net.skyblue.world.features.Rd111FeatureFeature;
 import net.skyblue.world.features.RD121FeatureFeature;
 import net.skyblue.world.features.RD11Feature;
+import net.skyblue.world.features.LtreeFeature;
 import net.skyblue.world.features.KKBFeature;
 import net.skyblue.world.features.IipFeature;
 import net.skyblue.world.features.HouseFeature;
@@ -393,6 +394,7 @@ public class SkyblueModFeatures {
 	public static final RegistryObject<Feature<?>> HOUSE = register("house", HouseFeature::feature, new FeatureRegistration(GenerationStage.Decoration.SURFACE_STRUCTURES, HouseFeature.GENERATE_BIOMES, HouseFeature::configuredFeature));
 	public static final RegistryObject<Feature<?>> IIP = register("iip", IipFeature::feature, new FeatureRegistration(GenerationStage.Decoration.SURFACE_STRUCTURES, IipFeature.GENERATE_BIOMES, IipFeature::configuredFeature));
 	public static final RegistryObject<Feature<?>> KKB = register("kkb", KKBFeature::feature, new FeatureRegistration(GenerationStage.Decoration.SURFACE_STRUCTURES, KKBFeature.GENERATE_BIOMES, KKBFeature::configuredFeature));
+	public static final RegistryObject<Feature<?>> LTREE = register("ltree", LtreeFeature::feature, new FeatureRegistration(GenerationStage.Decoration.SURFACE_STRUCTURES, LtreeFeature.GENERATE_BIOMES, LtreeFeature::configuredFeature));
 	public static final RegistryObject<Feature<?>> AB_1 = register("ab_1", Ab1Feature::feature, new FeatureRegistration(GenerationStage.Decoration.UNDERGROUND_ORES, Ab1Feature.GENERATE_BIOMES, Ab1Feature::configuredFeature));
 	public static final RegistryObject<Feature<?>> AB_2 = register("ab_2", Ab2Feature::feature, new FeatureRegistration(GenerationStage.Decoration.UNDERGROUND_ORES, Ab2Feature.GENERATE_BIOMES, Ab2Feature::configuredFeature));
 	public static final RegistryObject<Feature<?>> AB_3 = register("ab_3", Ab3Feature::feature, new FeatureRegistration(GenerationStage.Decoration.UNDERGROUND_ORES, Ab3Feature.GENERATE_BIOMES, Ab3Feature::configuredFeature));

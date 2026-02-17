@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "skyblue:block/l_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "skyblue:block/l_wood"
+    },
+    "axis=z": {
+      "model": "skyblue:block/l_wood",
+      "x": 90
+    }
+  }
+}

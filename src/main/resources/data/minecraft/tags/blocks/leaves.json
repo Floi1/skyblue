@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "skyblue:i_leaves"
+    "skyblue:i_leaves",
+    "skyblue:l_leaves"
   ]
 }

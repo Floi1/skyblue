@@ -7,6 +7,7 @@ import net.skyblue.item.WaterhItem;
 import net.skyblue.item.SkykeyItem;
 import net.skyblue.item.Photo1Item;
 import net.skyblue.item.NormalskyItem;
+import net.skyblue.item.LwaterItem;
 import net.skyblue.item.EwaterItem;
 import net.skyblue.SkyblueMod;
 
@@ -128,6 +129,19 @@ public class SkyblueModItems {
 	public static final RegistryObject<Item> KK_1_ONE_EIGHT_EIGHT = blockCMT(SkyblueModBlocks.KK_1_ONE_EIGHT_EIGHT, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> K_KBRICK = blockCMT(SkyblueModBlocks.K_KBRICK, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> K_KFLOOR = blockCMT(SkyblueModBlocks.K_KFLOOR, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> LL_1SNOW = blockCMT(SkyblueModBlocks.LL_1SNOW, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> LL_1ROCK = blockCMT(SkyblueModBlocks.LL_1ROCK, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> LWATER_BUCKET = REGISTRY.register("lwater_bucket", LwaterItem::new);
+	public static final RegistryObject<Item> L_LOG = blockCMT(SkyblueModBlocks.L_LOG, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> L_WOOD = blockCMT(SkyblueModBlocks.L_WOOD, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> L_PLANKS = blockCMT(SkyblueModBlocks.L_PLANKS, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> L_LEAVES = blockCMT(SkyblueModBlocks.L_LEAVES, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> L_STAIRS = blockCMT(SkyblueModBlocks.L_STAIRS, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> L_SLAB = blockCMT(SkyblueModBlocks.L_SLAB, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> L_FENCE = blockCMT(SkyblueModBlocks.L_FENCE, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> L_FENCE_GATE = blockCMT(SkyblueModBlocks.L_FENCE_GATE, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> L_PRESSURE_PLATE = blockCMT(SkyblueModBlocks.L_PRESSURE_PLATE, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> L_BUTTON = blockCMT(SkyblueModBlocks.L_BUTTON, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> ONETWOFIVE = blockCMT(SkyblueModBlocks.ONETWOFIVE, null);
 
 	// Start of user code block custom items

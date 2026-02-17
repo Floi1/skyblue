@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "skyblue:i_fence"
+    "skyblue:i_fence",
+    "skyblue:l_fence"
   ]
 }

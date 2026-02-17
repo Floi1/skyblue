@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "skyblue:l_stairs",
     "skyblue:icobblestone_stairs",
     "skyblue:i_stairs"
   ]
