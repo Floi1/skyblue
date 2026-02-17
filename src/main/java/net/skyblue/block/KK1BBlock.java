@@ -2,8 +2,6 @@ package net.skyblue.block;
 
 import net.skyblue.procedures.SkyPlayerEntersDimensionProcedure;
 
-import net.minecraftforge.common.ToolType;
-
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
@@ -13,9 +11,9 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 import net.minecraft.block.AbstractBlock;
 
-public class EE1Block extends Block {
-	public EE1Block() {
-		super(AbstractBlock.Properties.create(Material.REDSTONE_LIGHT).hardnessAndResistance(111f, 110f).setRequiresTool().harvestLevel(2).harvestTool(ToolType.PICKAXE));
+public class KK1BBlock extends Block {
+	public KK1BBlock() {
+		super(AbstractBlock.Properties.create(Material.REDSTONE_LIGHT).hardnessAndResistance(111f, 10f));
 	}
 
 	@Override

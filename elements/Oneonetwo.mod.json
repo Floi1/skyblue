@@ -68,6 +68,9 @@
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
     "colorOnMap": "DEFAULT",
     "noteBlockInstrument": "harp",
     "creativePickItem": {
@@ -88,12 +91,30 @@
     "soundOnStep": {
       "value": "METAL"
     },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
     "luminance": 7,
     "unbreakable": false,
     "vanillaToolTier": "DIAMOND",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    },
     "hasInventory": false,
     "openGUIOnRightClick": false,
     "inventorySize": 9,
@@ -111,7 +132,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onEntityWalksOn": {
-      "name": "Dim2telpert"
+      "name": "SkyPlayerEntersDimension"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

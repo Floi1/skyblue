@@ -1,6 +1,6 @@
 package net.skyblue.block;
 
-import net.skyblue.procedures.Dim5telpertProcedure;
+import net.skyblue.procedures.SkyPlayerEntersDimensionProcedure;
 import net.skyblue.init.SkyblueModBlocks;
 
 import net.minecraftforge.common.ToolType;
@@ -48,6 +48,6 @@ public class D1rBlock extends Block {
 	@Override
 	public void onEntityWalk(World world, BlockPos pos, Entity entity) {
 		super.onEntityWalk(world, pos, entity);
-		Dim5telpertProcedure.execute(entity);
+		SkyPlayerEntersDimensionProcedure.execute(entity);
 	}
 }

@@ -19,7 +19,7 @@ public class SkykeyRightClickedInAirProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof ServerPlayerEntity && !((ServerPlayerEntity) entity).world.isRemote()) {
-			RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:sky"));
+			RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:k_1"));
 			if (((ServerPlayerEntity) entity).world.getDimensionKey() == destinationType)
 				return;
 			ServerWorld nextWorld = ((ServerPlayerEntity) entity).getServer().getWorld(destinationType);

@@ -131,6 +131,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onEntityWalksOn": {
+      "name": "SkyPlayerEntersDimension"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
