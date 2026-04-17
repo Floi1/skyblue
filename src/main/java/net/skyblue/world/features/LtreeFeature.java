@@ -37,7 +37,7 @@ public class LtreeFeature extends TreeFeature {
 		FEATURE = new LtreeFeature();
 		CONFIGURED_FEATURE = FEATURE.withConfiguration(new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(SkyblueModBlocks.L_LOG.get().getDefaultState()), new SimpleBlockStateProvider(SkyblueModBlocks.L_LEAVES.get().getDefaultState()),
 				new SpruceFoliagePlacer(FeatureSpread.func_242253_a(0, 2), FeatureSpread.func_242252_a((random.nextInt(3 - 2 + 1) + 2)), FeatureSpread.func_242252_a((random.nextInt(2 - 1 + 1) + 1))), new StraightTrunkPlacer(7, 2, 1),
-				new TwoLayerFeature(2, 0, 2)).setIgnoreVines().setDecorators(ImmutableList.of()).build()).square();
+				new TwoLayerFeature(2, 0, 2)).setMaxWaterDepth(0).setIgnoreVines().setDecorators(ImmutableList.of()).build()).func_242730_a(FeatureSpread.func_242252_a(256)).square();
 		Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("skyblue:ltree"), CONFIGURED_FEATURE);
 		return FEATURE;
 	}

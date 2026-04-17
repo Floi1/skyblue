@@ -5206,10 +5206,10 @@
     "modid": "skyblue",
     "modName": "skyblue",
     "version": "0.0.1",
-    "description": "dreams",
+    "description": "Random ideas  and dreams I had",
     "author": "Floi",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods",
-    "license": "All Rights Reserved",
+    "license": "GNU Lesser General Public License version 3 (LGPLv3)",
     "serverSideOnly": false,
     "modPicture": "logo",
     "requiredMods": [],
@@ -5217,7 +5217,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
-    "credits": "made by Floi",
+    "credits": "Floi",
     "modElementsPackage": "net.skyblue"
   },
   "mcreatorVersion": 202500240719

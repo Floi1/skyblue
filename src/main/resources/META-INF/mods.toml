@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="All Rights Reserved"
+license="GNU Lesser General Public License version 3 (LGPLv3)"
 
 [[mods]]
 modId="skyblue"
@@ -8,9 +8,9 @@ version="0.0.1"
 displayName="skyblue"
 displayURL="https://www.curseforge.com/minecraft/mc-mods"
 logoFile="logo.png"
-credits="made by Floi"
+credits="Floi"
 authors="Floi"
-description="dreams"
+description="Random ideas  and dreams I had"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
