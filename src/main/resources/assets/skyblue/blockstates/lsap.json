@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "skyblue:block/lsap",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "skyblue:block/lsap"
+    },
+    "axis=z": {
+      "model": "skyblue:block/lsap",
+      "x": 90
+    }
+  }
+}

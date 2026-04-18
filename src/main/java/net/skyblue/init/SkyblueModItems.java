@@ -142,6 +142,8 @@ public class SkyblueModItems {
 	public static final RegistryObject<Item> L_FENCE_GATE = blockCMT(SkyblueModBlocks.L_FENCE_GATE, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> L_PRESSURE_PLATE = blockCMT(SkyblueModBlocks.L_PRESSURE_PLATE, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> L_BUTTON = blockCMT(SkyblueModBlocks.L_BUTTON, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> LSAP = blockCMT(SkyblueModBlocks.LSAP, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> LW = block(SkyblueModBlocks.LW, new Item.Properties().rarity(Rarity.UNCOMMON).isImmuneToFire().group(SkyblueModTabs.TAB_SKYBLUE));
 	public static final RegistryObject<Item> ONETWOFIVE = blockCMT(SkyblueModBlocks.ONETWOFIVE, null);
 
 	// Start of user code block custom items

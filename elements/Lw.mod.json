@@ -1,0 +1,128 @@
+{
+  "_fv": 79,
+  "_type": "plant",
+  "definition": {
+    "renderType": 2,
+    "texture": "lw",
+    "textureBottom": "",
+    "customModelName": "lw:default",
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewDuration": 100,
+    "secondaryTreeChance": 0.1,
+    "trees": [
+      null,
+      null
+    ],
+    "flowerTrees": [
+      null,
+      null
+    ],
+    "megaTrees": [
+      null,
+      null
+    ],
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 3,
+    "customBoundingBox": true,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 7.0,
+        "my": 12.0,
+        "mz": 7.0,
+        "Mx": 9.0,
+        "My": 24.0,
+        "Mz": 9.0,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 0.0,
+        "mz": 7.0,
+        "Mx": 9.0,
+        "My": 12.0,
+        "Mz": 9.0,
+        "subtract": false
+      }
+    ],
+    "name": "Lw",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Skyblue"
+      }
+    ],
+    "hardness": 3.0,
+    "resistance": 3.0,
+    "luminance": 1,
+    "unbreakable": false,
+    "isSolid": true,
+    "isWaterloggable": false,
+    "hasBlockItem": true,
+    "maxStackSize": 64,
+    "rarity": "UNCOMMON",
+    "immuneToFire": true,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "SLIME"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "ignitedByLava": false,
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:LL1snow"
+      }
+    ],
+    "isBonemealable": false,
+    "frequencyOnChunks": 4,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Lr1"
+      }
+    ],
+    "generationType": "Grass",
+    "patchSize": 8,
+    "generateAtAnyHeight": true
+  }
+}

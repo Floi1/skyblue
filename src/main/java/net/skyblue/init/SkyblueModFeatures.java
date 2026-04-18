@@ -4,6 +4,7 @@
 package net.skyblue.init;
 
 import net.skyblue.world.features.plants.Mush1Feature;
+import net.skyblue.world.features.plants.LwFeature;
 import net.skyblue.world.features.plants.JpFeature;
 import net.skyblue.world.features.plants.Jp4Feature;
 import net.skyblue.world.features.plants.Jp3Feature;
@@ -425,6 +426,7 @@ public class SkyblueModFeatures {
 	public static final RegistryObject<Feature<?>> JP_2 = register("jp_2", Jp2Feature::feature, new FeatureRegistration(GenerationStage.Decoration.VEGETAL_DECORATION, Jp2Feature.GENERATE_BIOMES, Jp2Feature::configuredFeature));
 	public static final RegistryObject<Feature<?>> JP_3 = register("jp_3", Jp3Feature::feature, new FeatureRegistration(GenerationStage.Decoration.VEGETAL_DECORATION, Jp3Feature.GENERATE_BIOMES, Jp3Feature::configuredFeature));
 	public static final RegistryObject<Feature<?>> JP_4 = register("jp_4", Jp4Feature::feature, new FeatureRegistration(GenerationStage.Decoration.VEGETAL_DECORATION, Jp4Feature.GENERATE_BIOMES, Jp4Feature::configuredFeature));
+	public static final RegistryObject<Feature<?>> LW = register("lw", LwFeature::feature, new FeatureRegistration(GenerationStage.Decoration.VEGETAL_DECORATION, LwFeature.GENERATE_BIOMES, LwFeature::configuredFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

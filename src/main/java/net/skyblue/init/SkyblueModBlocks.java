@@ -27,6 +27,8 @@ import net.skyblue.block.NineeightBlock;
 import net.skyblue.block.NineBlock;
 import net.skyblue.block.Mush1Block;
 import net.skyblue.block.LwaterBlock;
+import net.skyblue.block.LwBlock;
+import net.skyblue.block.LsapBlock;
 import net.skyblue.block.LWoodBlock;
 import net.skyblue.block.LStairsBlock;
 import net.skyblue.block.LSlabBlock;
@@ -252,6 +254,8 @@ public class SkyblueModBlocks {
 	public static final RegistryObject<Block> L_FENCE_GATE = REGISTRY.register("l_fence_gate", LFenceGateBlock::new);
 	public static final RegistryObject<Block> L_PRESSURE_PLATE = REGISTRY.register("l_pressure_plate", LPressurePlateBlock::new);
 	public static final RegistryObject<Block> L_BUTTON = REGISTRY.register("l_button", LButtonBlock::new);
+	public static final RegistryObject<Block> LSAP = REGISTRY.register("lsap", LsapBlock::new);
+	public static final RegistryObject<Block> LW = REGISTRY.register("lw", LwBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
@@ -279,6 +283,7 @@ public class SkyblueModBlocks {
 			Jp4Block.registerRenderLayer();
 			JB2sevenoneBlock.registerRenderLayer();
 			LLeavesBlock.registerRenderLayer();
+			LwBlock.registerRenderLayer();
 		}
 	}
 
