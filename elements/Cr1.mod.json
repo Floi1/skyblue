@@ -9,6 +9,9 @@
     "undergroundBlock": {
       "value": "CUSTOM:Twofivesix"
     },
+    "underwaterBlock": {
+      "value": ""
+    },
     "ambientSound": {
       "value": ""
     },
@@ -16,7 +19,7 @@
       "value": ""
     },
     "music": {
-      "value": ""
+      "value": "CUSTOM:white"
     },
     "moodSound": {
       "value": ""
