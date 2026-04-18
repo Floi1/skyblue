@@ -4797,7 +4797,16 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "asound",
+      "files": [
+        "air"
+      ],
+      "category": "music",
+      "subtitle": "asound"
+    }
+  ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Blocks.GRASS",
@@ -5115,18 +5124,21 @@
       "block.skyblue.l_fence": "L Fence",
       "block.skyblue.l_fence_gate": "L Fence Gate",
       "block.skyblue.l_pressure_plate": "L Pressure Plate",
-      "block.skyblue.l_button": "L Button"
+      "block.skyblue.l_button": "L Button",
+      "subtitles.asound": "asound"
     }
   },
   "metadata": {
     "files": [
       "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/skyblue/init/SkyblueModSounds.java",
       "src/main/java/net/skyblue/init/SkyblueModFeatures.java",
       "src/main/java/net/skyblue/world/features/SkyblueModFeatureUtils.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/skyblue/init/SkyblueModTabs.java",
       "src/main/java/net/skyblue/SkyblueMod.java",
+      "src/main/resources/assets/skyblue/sounds.json",
       "src/main/java/net/skyblue/init/SkyblueModBiomes.java",
       "src/main/java/net/skyblue/world/features/configurations/StructureModFeatureConfiguration.java",
       "src/main/java/net/skyblue/world/features/StructureModFeature.java",
@@ -5205,7 +5217,7 @@
   "workspaceSettings": {
     "modid": "skyblue",
     "modName": "skyblue",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Random ideas  and dreams I had",
     "author": "Floi",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods",

@@ -42,7 +42,7 @@ public class Rd111FeatureFeature extends StructureModFeature {
 		return CONFIGURED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = ImmutableSet.of(new ResourceLocation("skyblue:rd_1"), new ResourceLocation("skyblue:plain"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = ImmutableSet.of(new ResourceLocation("skyblue:rd_1"));
 
 	@Override
 	public boolean generate(ISeedReader world, ChunkGenerator generator, Random random, BlockPos pos, StructureModFeatureConfiguration config) {

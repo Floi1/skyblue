@@ -63,8 +63,8 @@
         "height": 128,
         "density_factor": 0,
         "density_offset": 0,
-        "size_horizontal": 1,
-        "size_vertical": 1,
+        "size_horizontal": 2,
+        "size_vertical": 2,
         "simplex_surface_noise": true,
         "island_noise_override": true,
         "sampling": {

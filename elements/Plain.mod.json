@@ -9,6 +9,9 @@
     "undergroundBlock": {
       "value": "CUSTOM:Sixthree"
     },
+    "underwaterBlock": {
+      "value": ""
+    },
     "airColor": {
       "value": -10027162,
       "falpha": 0.0
@@ -34,7 +37,7 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": ""
+      "value": "CUSTOM:asound"
     },
     "additionsSound": {
       "value": ""

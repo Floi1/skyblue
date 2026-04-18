@@ -5,6 +5,7 @@ import org.apache.logging.log4j.LogManager;
 
 import net.skyblue.world.features.StructureModFeature;
 import net.skyblue.init.SkyblueModTabs;
+import net.skyblue.init.SkyblueModSounds;
 import net.skyblue.init.SkyblueModParticleTypes;
 import net.skyblue.init.SkyblueModMenus;
 import net.skyblue.init.SkyblueModItems;
@@ -47,7 +48,7 @@ public class SkyblueMod {
 		MinecraftForge.EVENT_BUS.register(new SkyblueModFMLBusEvents(this));
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		SkyblueModTabs.load();
-
+		SkyblueModSounds.REGISTRY.register(bus);
 		SkyblueModBlocks.REGISTRY.register(bus);
 		SkyblueModItems.REGISTRY.register(bus);
 

@@ -231,5 +231,6 @@
   "block.skyblue.l_fence": "L Fence",
   "block.skyblue.l_fence_gate": "L Fence Gate",
   "block.skyblue.l_pressure_plate": "L Pressure Plate",
-  "block.skyblue.l_button": "L Button"
+  "block.skyblue.l_button": "L Button",
+  "subtitles.asound": "asound"
 }

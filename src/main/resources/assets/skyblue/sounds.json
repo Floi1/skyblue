@@ -1,0 +1,11 @@
+{
+  "asound": {
+    "subtitle": "subtitles.asound",
+    "sounds": [
+      {
+        "name": "skyblue:air",
+        "stream": true
+      }
+    ]
+  }
+}
