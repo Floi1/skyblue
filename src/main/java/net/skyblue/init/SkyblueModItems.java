@@ -5,6 +5,7 @@ package net.skyblue.init;
 
 import net.skyblue.item.WaterhItem;
 import net.skyblue.item.SkykeyItem;
+import net.skyblue.item.Shard14Item;
 import net.skyblue.item.Photo1Item;
 import net.skyblue.item.NormalskyItem;
 import net.skyblue.item.LwaterItem;
@@ -144,6 +145,8 @@ public class SkyblueModItems {
 	public static final RegistryObject<Item> L_BUTTON = blockCMT(SkyblueModBlocks.L_BUTTON, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> LSAP = blockCMT(SkyblueModBlocks.LSAP, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> LW = block(SkyblueModBlocks.LW, new Item.Properties().rarity(Rarity.UNCOMMON).isImmuneToFire().group(SkyblueModTabs.TAB_SKYBLUE));
+	public static final RegistryObject<Item> MMMMMMM = blockCMT(SkyblueModBlocks.MMMMMMM, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> SHARD_14 = REGISTRY.register("shard_14", Shard14Item::new);
 	public static final RegistryObject<Item> ONETWOFIVE = blockCMT(SkyblueModBlocks.ONETWOFIVE, null);
 
 	// Start of user code block custom items

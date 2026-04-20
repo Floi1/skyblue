@@ -2,6 +2,7 @@ package net.skyblue.init;
 
 import net.skyblue.world.biome.Rd1Biome;
 import net.skyblue.world.biome.PlainBiome;
+import net.skyblue.world.biome.MR1Biome;
 import net.skyblue.world.biome.Lr1Biome;
 import net.skyblue.world.biome.Kr1Biome;
 import net.skyblue.world.biome.Jr1Biome;
@@ -49,4 +50,5 @@ public class SkyblueModBiomes {
 	public static final RegistryObject<Biome> JR_1 = REGISTRY.register("jr_1", Jr1Biome::createBiome);
 	public static final RegistryObject<Biome> KR_1 = REGISTRY.register("kr_1", Kr1Biome::createBiome);
 	public static final RegistryObject<Biome> LR_1 = REGISTRY.register("lr_1", Lr1Biome::createBiome);
+	public static final RegistryObject<Biome> MR_1 = REGISTRY.register("mr_1", MR1Biome::createBiome);
 }

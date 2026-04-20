@@ -16,5 +16,14 @@
         "stream": true
       }
     ]
+  },
+  "snow": {
+    "subtitle": "subtitles.snow",
+    "sounds": [
+      {
+        "name": "skyblue:snow",
+        "stream": true
+      }
+    ]
   }
 }

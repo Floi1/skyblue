@@ -2,15 +2,39 @@
   "_fv": 79,
   "_type": "biome",
   "definition": {
-    "name": "DR 1",
+    "name": "MR 1",
     "groundBlock": {
-      "value": "CUSTOM:DD2"
+      "value": "CUSTOM:Mmmmmmm"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:DD2"
+      "value": "CUSTOM:Mmmmmmm"
     },
     "underwaterBlock": {
-      "value": ""
+      "value": "CUSTOM:Mmmmmmm"
+    },
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -1,
+      "falpha": 0.0
     },
     "ambientSound": {
       "value": ""
@@ -19,7 +43,7 @@
       "value": ""
     },
     "music": {
-      "value": "CUSTOM:snow"
+      "value": ""
     },
     "moodSound": {
       "value": ""
@@ -31,8 +55,8 @@
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
-    "temperature": 0.5,
-    "baseHeight": -10.0,
+    "temperature": 1.5,
+    "baseHeight": -0.2,
     "heightVariation": 0.0,
     "spawnBiome": false,
     "spawnInCaves": false,
@@ -54,7 +78,11 @@
     "treeFruits": {
       "value": ""
     },
-    "defaultFeatures": [],
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,

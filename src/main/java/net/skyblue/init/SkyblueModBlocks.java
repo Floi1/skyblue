@@ -26,6 +26,7 @@ import net.skyblue.block.OnefiveBlock;
 import net.skyblue.block.NineeightBlock;
 import net.skyblue.block.NineBlock;
 import net.skyblue.block.Mush1Block;
+import net.skyblue.block.MmmmmmmBlock;
 import net.skyblue.block.LwaterBlock;
 import net.skyblue.block.LwBlock;
 import net.skyblue.block.LsapBlock;
@@ -256,6 +257,7 @@ public class SkyblueModBlocks {
 	public static final RegistryObject<Block> L_BUTTON = REGISTRY.register("l_button", LButtonBlock::new);
 	public static final RegistryObject<Block> LSAP = REGISTRY.register("lsap", LsapBlock::new);
 	public static final RegistryObject<Block> LW = REGISTRY.register("lw", LwBlock::new);
+	public static final RegistryObject<Block> MMMMMMM = REGISTRY.register("mmmmmmm", MmmmmmmBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
@@ -380,6 +382,8 @@ public class SkyblueModBlocks {
 			event.setInstrument(NoteBlockInstrument.BASEDRUM);
 		} else if (below == SkyblueModBlocks.FFR.get()) {
 			event.setInstrument(NoteBlockInstrument.BASEDRUM);
+		} else if (below == SkyblueModBlocks.MMMMMMM.get()) {
+			event.setInstrument(NoteBlockInstrument.SNARE);
 		}
 	}
 }
