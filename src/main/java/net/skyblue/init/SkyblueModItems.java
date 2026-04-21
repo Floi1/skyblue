@@ -147,6 +147,7 @@ public class SkyblueModItems {
 	public static final RegistryObject<Item> LW = block(SkyblueModBlocks.LW, new Item.Properties().rarity(Rarity.UNCOMMON).isImmuneToFire().group(SkyblueModTabs.TAB_SKYBLUE));
 	public static final RegistryObject<Item> MMMMMMM = blockCMT(SkyblueModBlocks.MMMMMMM, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> SHARD_14 = REGISTRY.register("shard_14", Shard14Item::new);
+	public static final RegistryObject<Item> MMP = blockCMT(SkyblueModBlocks.MMP, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> ONETWOFIVE = blockCMT(SkyblueModBlocks.ONETWOFIVE, null);
 
 	// Start of user code block custom items

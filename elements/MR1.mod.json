@@ -78,11 +78,7 @@
     "treeFruits": {
       "value": ""
     },
-    "defaultFeatures": [
-      "Caves",
-      "Ores",
-      "FrozenTopLayer"
-    ],
+    "defaultFeatures": [],
     "spawnStronghold": false,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,

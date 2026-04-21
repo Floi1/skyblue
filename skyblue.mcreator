@@ -5143,6 +5143,37 @@
         ]
       },
       "path": "~/dim14M"
+    },
+    {
+      "name": "Mmp",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mmp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/block/mmp.json",
+          "src/main/java/net/skyblue/block/MmpBlock.java",
+          "src/main/resources/assets/skyblue/models/item/mmp.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/mmp.json",
+          "src/main/resources/assets/skyblue/blockstates/mmp.json"
+        ]
+      },
+      "path": "~/dim14M"
+    },
+    {
+      "name": "MMpp",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_mpp",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/MMppFeature.java"
+        ]
+      },
+      "path": "~/dim14M"
     }
   ],
   "variable_elements": [],
@@ -5497,7 +5528,8 @@
       "block.skyblue.mmmmmmm": "Mmmmmmm",
       "biome.skyblue.mr_1": "MR 1",
       "item.skyblue.shard_14": "Shard 14 (wip)",
-      "subtitles.snow": "snow"
+      "subtitles.snow": "snow",
+      "block.skyblue.mmp": "MMP"
     }
   },
   "metadata": {
@@ -5587,6 +5619,10 @@
       {
         "name": "dim14M",
         "children": []
+      },
+      {
+        "name": "dim15N",
+        "children": []
       }
     ]
   },
@@ -5597,7 +5633,7 @@
     "description": "Random ideas  and dreams I had",
     "author": "Floi",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods",
-    "license": "GNU Lesser General Public License version 3 (LGPLv3)",
+    "license": "All Rights Reserved",
     "serverSideOnly": false,
     "modPicture": "logo",
     "requiredMods": [],

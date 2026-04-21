@@ -53,6 +53,7 @@ import net.skyblue.world.features.Mmmt13Feature;
 import net.skyblue.world.features.Mmmt12Feature;
 import net.skyblue.world.features.Mmmt11Feature;
 import net.skyblue.world.features.Mmmt10Feature;
+import net.skyblue.world.features.MMppFeature;
 import net.skyblue.world.features.LtreeFeature;
 import net.skyblue.world.features.KKBFeature;
 import net.skyblue.world.features.IipFeature;
@@ -426,6 +427,7 @@ public class SkyblueModFeatures {
 	public static final RegistryObject<Feature<?>> MMMT_13 = register("mmmt_13", Mmmt13Feature::feature, new FeatureRegistration(GenerationStage.Decoration.SURFACE_STRUCTURES, Mmmt13Feature.GENERATE_BIOMES, Mmmt13Feature::configuredFeature));
 	public static final RegistryObject<Feature<?>> MMMT_14 = register("mmmt_14", Mmmt14Feature::feature, new FeatureRegistration(GenerationStage.Decoration.SURFACE_STRUCTURES, Mmmt14Feature.GENERATE_BIOMES, Mmmt14Feature::configuredFeature));
 	public static final RegistryObject<Feature<?>> MMMT_15 = register("mmmt_15", Mmmt15Feature::feature, new FeatureRegistration(GenerationStage.Decoration.SURFACE_STRUCTURES, Mmmt15Feature.GENERATE_BIOMES, Mmmt15Feature::configuredFeature));
+	public static final RegistryObject<Feature<?>> M_MPP = register("m_mpp", MMppFeature::feature, new FeatureRegistration(GenerationStage.Decoration.SURFACE_STRUCTURES, MMppFeature.GENERATE_BIOMES, MMppFeature::configuredFeature));
 	public static final RegistryObject<Feature<?>> AB_1 = register("ab_1", Ab1Feature::feature, new FeatureRegistration(GenerationStage.Decoration.UNDERGROUND_ORES, Ab1Feature.GENERATE_BIOMES, Ab1Feature::configuredFeature));
 	public static final RegistryObject<Feature<?>> AB_2 = register("ab_2", Ab2Feature::feature, new FeatureRegistration(GenerationStage.Decoration.UNDERGROUND_ORES, Ab2Feature.GENERATE_BIOMES, Ab2Feature::configuredFeature));
 	public static final RegistryObject<Feature<?>> AB_3 = register("ab_3", Ab3Feature::feature, new FeatureRegistration(GenerationStage.Decoration.UNDERGROUND_ORES, Ab3Feature.GENERATE_BIOMES, Ab3Feature::configuredFeature));
