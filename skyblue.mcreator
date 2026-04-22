@@ -14,8 +14,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/sixthree.json",
           "src/main/java/net/skyblue/block/SixthreeBlock.java"
         ]
-      },
-      "path": "~/blocks"
+      }
     },
     {
       "name": "Skyblue",
@@ -5174,6 +5173,119 @@
         ]
       },
       "path": "~/dim14M"
+    },
+    {
+      "name": "Nnn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nnn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/nnn.json",
+          "src/main/resources/assets/skyblue/blockstates/nnn.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/nnn.json",
+          "src/main/resources/assets/skyblue/models/block/nnn.json",
+          "src/main/java/net/skyblue/block/NnnBlock.java"
+        ]
+      },
+      "path": "~/dim15N"
+    },
+    {
+      "name": "Nwater",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nwater",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/fluid/NwaterFluid.java",
+          "src/main/java/net/skyblue/item/NwaterItem.java",
+          "src/main/java/net/skyblue/block/NwaterBlock.java",
+          "src/main/resources/assets/skyblue/models/item/nwater_bucket.json",
+          "src/main/resources/assets/skyblue/blockstates/nwater.json",
+          "src/main/resources/assets/skyblue/models/block/nwater.json"
+        ]
+      },
+      "path": "~/dim15N"
+    },
+    {
+      "name": "NR1",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nr_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/biome/NR1Biome.java"
+        ]
+      },
+      "path": "~/dim15N"
+    },
+    {
+      "name": "N1",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "n_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/world/dimension/N1Dimension.java",
+          "src/main/resources/data/skyblue/dimension/n_1.json",
+          "src/main/resources/data/skyblue/dimension_type/n_1.json"
+        ]
+      },
+      "path": "~/dim15N"
+    },
+    {
+      "name": "Nlog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nlog",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/NlogBlock.java",
+          "src/main/resources/assets/skyblue/blockstates/nlog.json",
+          "src/main/resources/assets/skyblue/models/block/nlog.json",
+          "src/main/resources/assets/skyblue/models/item/nlog.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/nlog.json"
+        ]
+      },
+      "path": "~/dim15N"
+    },
+    {
+      "name": "Nlogside",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nlog_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/block/nlog_slab_full.json",
+          "src/main/resources/assets/skyblue/models/item/nlog_slab.json",
+          "src/main/java/net/skyblue/block/NlogsideBlock.java",
+          "src/main/resources/assets/skyblue/blockstates/nlog_slab.json",
+          "src/main/resources/assets/skyblue/models/block/nlog_slab.json",
+          "src/main/resources/assets/skyblue/models/block/nlog_slab_top.json",
+          "src/main/resources/data/skyblue/loot_tables/blocks/nlog_slab.json"
+        ]
+      },
+      "path": "~/dim15N"
+    },
+    {
+      "name": "Nnbridge",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nnbridge",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/java/net/skyblue/world/features/NnbridgeFeature.java"
+        ]
+      },
+      "path": "~/dim15N"
     }
   ],
   "variable_elements": [],
@@ -5205,10 +5317,9 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Nnn",
       "~CUSTOM:Mmmmmmm",
-      "~Blocks.GRASS",
       "~CUSTOM:LL1snow",
-      "~Blocks.WARPED_HYPHAE",
       "~CUSTOM:Kk1",
       "~CUSTOM:Kk2",
       "~CUSTOM:Jb1",
@@ -5245,6 +5356,7 @@
       "~CUSTOM:IStairs"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Nlogside",
       "~CUSTOM:LSlab",
       "~CUSTOM:ISlab"
     ],
@@ -5529,7 +5641,15 @@
       "biome.skyblue.mr_1": "MR 1",
       "item.skyblue.shard_14": "Shard 14 (wip)",
       "subtitles.snow": "snow",
-      "block.skyblue.mmp": "MMP"
+      "block.skyblue.mmp": "MMP",
+      "block.skyblue.nnn": "Nnn",
+      "block.skyblue.nwater": "N\u003dwater",
+      "item.skyblue.nwater_bucket": "Nwater Bucket",
+      "fluid_type.skyblue.nwater": "N\u003dwater",
+      "fluid.skyblue.nwater": "N\u003dwater",
+      "biome.skyblue.nr_1": "NR 1",
+      "block.skyblue.nlog": "Nlog",
+      "block.skyblue.nlog_slab": "Nlog slab"
     }
   },
   "metadata": {
@@ -5629,7 +5749,7 @@
   "workspaceSettings": {
     "modid": "skyblue",
     "modName": "skyblue",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Random ideas  and dreams I had",
     "author": "Floi",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods",

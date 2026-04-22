@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "skyblue:l_slab",
-    "skyblue:i_slab"
+    "skyblue:i_slab",
+    "skyblue:nlog_slab"
   ]
 }

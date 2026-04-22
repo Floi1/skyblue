@@ -23,6 +23,10 @@ import net.skyblue.block.OnethreefourBlock;
 import net.skyblue.block.OneonetwoBlock;
 import net.skyblue.block.OnefourtwoBlock;
 import net.skyblue.block.OnefiveBlock;
+import net.skyblue.block.NwaterBlock;
+import net.skyblue.block.NnnBlock;
+import net.skyblue.block.NlogsideBlock;
+import net.skyblue.block.NlogBlock;
 import net.skyblue.block.NineeightBlock;
 import net.skyblue.block.NineBlock;
 import net.skyblue.block.Mush1Block;
@@ -260,6 +264,10 @@ public class SkyblueModBlocks {
 	public static final RegistryObject<Block> LW = REGISTRY.register("lw", LwBlock::new);
 	public static final RegistryObject<Block> MMMMMMM = REGISTRY.register("mmmmmmm", MmmmmmmBlock::new);
 	public static final RegistryObject<Block> MMP = REGISTRY.register("mmp", MmpBlock::new);
+	public static final RegistryObject<Block> NNN = REGISTRY.register("nnn", NnnBlock::new);
+	public static final RegistryObject<Block> NWATER = REGISTRY.register("nwater", NwaterBlock::new);
+	public static final RegistryObject<Block> NLOG = REGISTRY.register("nlog", NlogBlock::new);
+	public static final RegistryObject<Block> NLOG_SLAB = REGISTRY.register("nlog_slab", NlogsideBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
@@ -288,6 +296,7 @@ public class SkyblueModBlocks {
 			JB2sevenoneBlock.registerRenderLayer();
 			LLeavesBlock.registerRenderLayer();
 			LwBlock.registerRenderLayer();
+			NlogsideBlock.registerRenderLayer();
 		}
 	}
 

@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "skyblue:block/nlogs",
+    "bottom": "skyblue:block/nlogs",
+    "top": "skyblue:block/nlogs",
+    "side": "skyblue:block/nlogs"
+  }
+}

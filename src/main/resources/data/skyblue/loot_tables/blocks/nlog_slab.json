@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "skyblue:blocks/nlog_slab",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "skyblue:nlog_slab",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "skyblue:nlog_slab",
+                  "properties": {
+                    "type": "double"
+                  }
+                }
+              ],
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

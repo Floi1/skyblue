@@ -240,5 +240,13 @@
   "biome.skyblue.mr_1": "MR 1",
   "item.skyblue.shard_14": "Shard 14 (wip)",
   "subtitles.snow": "snow",
-  "block.skyblue.mmp": "MMP"
+  "block.skyblue.mmp": "MMP",
+  "block.skyblue.nnn": "Nnn",
+  "block.skyblue.nwater": "N\u003dwater",
+  "item.skyblue.nwater_bucket": "Nwater Bucket",
+  "fluid_type.skyblue.nwater": "N\u003dwater",
+  "fluid.skyblue.nwater": "N\u003dwater",
+  "biome.skyblue.nr_1": "NR 1",
+  "block.skyblue.nlog": "Nlog",
+  "block.skyblue.nlog_slab": "Nlog slab"
 }

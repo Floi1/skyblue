@@ -1,10 +1,10 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="GNU Lesser General Public License version 3 (LGPLv3)"
+license="All Rights Reserved"
 
 [[mods]]
 modId="skyblue"
-version="0.0.2"
+version="0.0.3"
 displayName="skyblue"
 displayURL="https://www.curseforge.com/minecraft/mc-mods"
 logoFile="logo.png"

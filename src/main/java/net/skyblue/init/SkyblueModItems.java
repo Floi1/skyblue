@@ -7,6 +7,7 @@ import net.skyblue.item.WaterhItem;
 import net.skyblue.item.SkykeyItem;
 import net.skyblue.item.Shard14Item;
 import net.skyblue.item.Photo1Item;
+import net.skyblue.item.NwaterItem;
 import net.skyblue.item.NormalskyItem;
 import net.skyblue.item.LwaterItem;
 import net.skyblue.item.EwaterItem;
@@ -148,6 +149,10 @@ public class SkyblueModItems {
 	public static final RegistryObject<Item> MMMMMMM = blockCMT(SkyblueModBlocks.MMMMMMM, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> SHARD_14 = REGISTRY.register("shard_14", Shard14Item::new);
 	public static final RegistryObject<Item> MMP = blockCMT(SkyblueModBlocks.MMP, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> NNN = blockCMT(SkyblueModBlocks.NNN, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> NWATER_BUCKET = REGISTRY.register("nwater_bucket", NwaterItem::new);
+	public static final RegistryObject<Item> NLOG = blockCMT(SkyblueModBlocks.NLOG, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> NLOG_SLAB = blockCMT(SkyblueModBlocks.NLOG_SLAB, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> ONETWOFIVE = blockCMT(SkyblueModBlocks.ONETWOFIVE, null);
 
 	// Start of user code block custom items
