@@ -156,6 +156,8 @@ public class SkyblueModItems {
 	public static final RegistryObject<Item> OC = blockCMT(SkyblueModBlocks.OC, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> OPLATE_1 = blockCMT(SkyblueModBlocks.OPLATE_1, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> OROCK_1 = blockCMT(SkyblueModBlocks.OROCK_1, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> OROCK_2 = blockCMT(SkyblueModBlocks.OROCK_2, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> OROCK_3 = blockCMT(SkyblueModBlocks.OROCK_3, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> ONETWOFIVE = blockCMT(SkyblueModBlocks.ONETWOFIVE, null);
 
 	// Start of user code block custom items

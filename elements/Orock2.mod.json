@@ -9,7 +9,7 @@
     "textureRight": "mat_concrete_gray_01-128x128",
     "textureBack": "mat_concrete_gray_01-128x128",
     "renderType": 2,
-    "customModelName": "orock:default",
+    "customModelName": "orock2:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -132,7 +132,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "Orock1OnBlockRightClicked"
+      "name": "Orock2OnBlockRightClicked"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

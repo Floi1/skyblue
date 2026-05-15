@@ -14,6 +14,8 @@ import net.skyblue.block.Red4Block;
 import net.skyblue.block.Red3Block;
 import net.skyblue.block.Red2Block;
 import net.skyblue.block.Red1Block;
+import net.skyblue.block.Orock3Block;
+import net.skyblue.block.Orock2Block;
 import net.skyblue.block.Orock1Block;
 import net.skyblue.block.Oplate1Block;
 import net.skyblue.block.OnezeronineBlock;
@@ -274,6 +276,8 @@ public class SkyblueModBlocks {
 	public static final RegistryObject<Block> OC = REGISTRY.register("oc", OCBlock::new);
 	public static final RegistryObject<Block> OPLATE_1 = REGISTRY.register("oplate_1", Oplate1Block::new);
 	public static final RegistryObject<Block> OROCK_1 = REGISTRY.register("orock_1", Orock1Block::new);
+	public static final RegistryObject<Block> OROCK_2 = REGISTRY.register("orock_2", Orock2Block::new);
+	public static final RegistryObject<Block> OROCK_3 = REGISTRY.register("orock_3", Orock3Block::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
@@ -305,6 +309,8 @@ public class SkyblueModBlocks {
 			NlogsideBlock.registerRenderLayer();
 			Oplate1Block.registerRenderLayer();
 			Orock1Block.registerRenderLayer();
+			Orock2Block.registerRenderLayer();
+			Orock3Block.registerRenderLayer();
 		}
 	}
 

@@ -13,49 +13,17 @@ public class Orock1OnBlockRightClickedProcedure {
 		if (Math.random() <= 0.1) {
 			if (world instanceof World) {
 				if (!((World) world).isRemote()) {
-					((World) world).playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("skyblue:o1")), SoundCategory.NEUTRAL, 1, 1);
-				} else {
-					((World) world).playSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("skyblue:o1")), SoundCategory.NEUTRAL, 1, 1, false);
-				}
-			}
-		} else if (Math.random() <= 0.2) {
-			if (world instanceof World) {
-				if (!((World) world).isRemote()) {
-					((World) world).playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("skyblue:o2")), SoundCategory.NEUTRAL, 1, 1);
-				} else {
-					((World) world).playSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("skyblue:o2")), SoundCategory.NEUTRAL, 1, 1, false);
-				}
-			}
-		} else if (Math.random() <= 0.3) {
-			if (world instanceof World) {
-				if (!((World) world).isRemote()) {
 					((World) world).playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("skyblue:o6")), SoundCategory.NEUTRAL, 1, 1);
 				} else {
 					((World) world).playSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("skyblue:o6")), SoundCategory.NEUTRAL, 1, 1, false);
 				}
 			}
-		} else if (Math.random() <= 0.4) {
+		} else if (Math.random() <= 0.2) {
 			if (world instanceof World) {
 				if (!((World) world).isRemote()) {
 					((World) world).playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("skyblue:o5")), SoundCategory.NEUTRAL, 1, 1);
 				} else {
 					((World) world).playSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("skyblue:o5")), SoundCategory.NEUTRAL, 1, 1, false);
-				}
-			}
-		} else if (Math.random() <= 0.5) {
-			if (world instanceof World) {
-				if (!((World) world).isRemote()) {
-					((World) world).playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("skyblue:o4")), SoundCategory.NEUTRAL, 1, 1);
-				} else {
-					((World) world).playSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("skyblue:o4")), SoundCategory.NEUTRAL, 1, 1, false);
-				}
-			}
-		} else if (Math.random() <= 0.6) {
-			if (world instanceof World) {
-				if (!((World) world).isRemote()) {
-					((World) world).playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("skyblue:o3")), SoundCategory.NEUTRAL, 1, 1);
-				} else {
-					((World) world).playSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("skyblue:o3")), SoundCategory.NEUTRAL, 1, 1, false);
 				}
 			}
 		}

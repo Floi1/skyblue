@@ -5396,6 +5396,102 @@
         ]
       },
       "path": "~/dim16O"
+    },
+    {
+      "name": "Orock2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orock_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/loot_tables/blocks/orock_2.json",
+          "src/main/resources/assets/skyblue/models/block/orock_2.json",
+          "src/main/java/net/skyblue/block/Orock2Block.java",
+          "src/main/resources/assets/skyblue/blockstates/orock_2.json",
+          "src/main/resources/assets/skyblue/models/item/orock_2.json"
+        ]
+      },
+      "path": "~/dim16O"
+    },
+    {
+      "name": "Orock2OnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orock_2_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Orock2OnBlockRightClickedProcedure.java"
+        ]
+      },
+      "path": "~/dim16O"
+    },
+    {
+      "name": "Orock3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orock_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/skyblue/models/item/orock_3.json",
+          "src/main/resources/assets/skyblue/blockstates/orock_3.json",
+          "src/main/resources/assets/skyblue/models/block/orock_3.json",
+          "src/main/java/net/skyblue/block/Orock3Block.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/orock_3.json"
+        ]
+      },
+      "path": "~/dim16O"
+    },
+    {
+      "name": "Orock3OnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orock_3_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/skyblue/procedures/Orock3OnBlockRightClickedProcedure.java"
+        ]
+      },
+      "path": "~/dim16O"
     }
   ],
   "variable_elements": [],
@@ -5818,7 +5914,9 @@
       "subtitles.o3": "o3",
       "subtitles.o4": "o4",
       "subtitles.o5": "o5",
-      "subtitles.o6": "o6"
+      "subtitles.o6": "o6",
+      "block.skyblue.orock_2": "O rock",
+      "block.skyblue.orock_3": "O rock"
     }
   },
   "metadata": {
