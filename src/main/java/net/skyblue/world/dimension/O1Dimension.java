@@ -32,15 +32,15 @@ import it.unimi.dsi.fastutil.objects.Object2ObjectMap;
 import com.google.common.collect.ImmutableSet;
 
 @Mod.EventBusSubscriber
-public class N1Dimension {
+public class O1Dimension {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-	public static class N1SpecialEffectsHandler {
+	public static class O1SpecialEffectsHandler {
 		@SubscribeEvent
 		public static void registerDimensionSurfaceBuilder(FMLCommonSetupEvent event) {
 			Set<Block> replaceableBlocks = new HashSet<>();
-			replaceableBlocks.add(SkyblueModBlocks.NNN.get());
-			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("skyblue:nr_1")).getGenerationSettings().getSurfaceBuilder().get().getConfig().getTop().getBlock());
-			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("skyblue:nr_1")).getGenerationSettings().getSurfaceBuilder().get().getConfig().getUnder().getBlock());
+			replaceableBlocks.add(SkyblueModBlocks.OC.get());
+			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("skyblue:or_1")).getGenerationSettings().getSurfaceBuilder().get().getConfig().getTop().getBlock());
+			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("skyblue:or_1")).getGenerationSettings().getSurfaceBuilder().get().getConfig().getUnder().getBlock());
 			DeferredWorkQueue.runLater(() -> {
 				try {
 					ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CAVE,
@@ -56,10 +56,10 @@ public class N1Dimension {
 		@SubscribeEvent
 		@OnlyIn(Dist.CLIENT)
 		public static void registerDimensionSpecialEffects(FMLClientSetupEvent event) {
-			DimensionRenderInfo customEffect = new DimensionRenderInfo(192f, true, DimensionRenderInfo.FogType.NONE, false, false) {
+			DimensionRenderInfo customEffect = new DimensionRenderInfo(Float.NaN, true, DimensionRenderInfo.FogType.NONE, false, false) {
 				@Override
 				public Vector3d func_230494_a_(Vector3d color, float sunHeight) {
-					return color;
+					return new Vector3d(0.2, 0.2, 0.2);
 				}
 
 				@Override
@@ -70,7 +70,7 @@ public class N1Dimension {
 			DeferredWorkQueue.runLater(() -> {
 				try {
 					Object2ObjectMap<ResourceLocation, DimensionRenderInfo> effectsRegistry = (Object2ObjectMap<ResourceLocation, DimensionRenderInfo>) ObfuscationReflectionHelper.getPrivateValue(DimensionRenderInfo.class, null, "field_239208_a_");
-					effectsRegistry.put(new ResourceLocation("skyblue:n_1"), customEffect);
+					effectsRegistry.put(new ResourceLocation("skyblue:o_1"), customEffect);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -85,7 +85,7 @@ public class N1Dimension {
 		double x = entity.getPosX();
 		double y = entity.getPosY();
 		double z = entity.getPosZ();
-		if (event.getTo() == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:n_1"))) {
+		if (event.getTo() == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("skyblue:o_1"))) {
 			SpawnProcedure.execute(world, x, y, z);
 		}
 	}

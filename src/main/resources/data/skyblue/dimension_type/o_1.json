@@ -1,0 +1,16 @@
+{
+  "ultrawarm": false,
+  "natural": true,
+  "piglin_safe": false,
+  "respawn_anchor_works": false,
+  "bed_works": true,
+  "has_raids": false,
+  "has_skylight": true,
+  "has_ceiling": false,
+  "coordinate_scale": 1.03,
+  "ambient_light": 0,
+  "infiniburn": "minecraft:infiniburn_overworld",
+  "logical_height": 256,
+  "fixed_time": 13750,
+  "effects": "skyblue:o_1"
+}

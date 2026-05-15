@@ -4,40 +4,44 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "CUSTOM:NR1"
+        "value": "CUSTOM:OR1"
       }
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:Nnn"
+      "value": "CUSTOM:OC"
     },
     "fluidBlock": {
-      "value": "CUSTOM:Nwater"
+      "value": "CUSTOM:OC"
     },
-    "seaLevel": 50,
+    "seaLevel": 63,
     "generateOreVeins": true,
     "generateAquifers": true,
     "horizontalNoiseSize": 4,
     "verticalNoiseSize": 4,
     "defaultEffects": "overworld",
     "useCustomEffects": true,
-    "hasClouds": true,
+    "hasClouds": false,
     "cloudHeight": 192.0,
     "skyType": "NONE",
+    "airColor": {
+      "value": -13421773,
+      "falpha": 0.0
+    },
     "sunHeightAffectsFog": false,
     "canRespawnHere": false,
     "hasFog": false,
     "ambientLight": 0.0,
     "doesWaterVaporize": false,
-    "hasFixedTime": false,
-    "fixedTimeValue": 0,
-    "coordinateScale": 1.0,
+    "hasFixedTime": true,
+    "fixedTimeValue": 13750,
+    "coordinateScale": 1.03,
     "infiniburnTag": "minecraft:infiniburn_overworld",
     "bedWorks": true,
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
     "piglinSafe": false,
-    "hasRaids": true,
+    "hasRaids": false,
     "minMonsterSpawnLightLimit": 0,
     "maxMonsterSpawnLightLimit": 7,
     "monsterSpawnBlockLightLimit": 0,
@@ -55,7 +59,7 @@
       "value": "block.portal.ambient"
     },
     "enableIgniter": true,
-    "igniterName": "N 1 Portal Igniter",
+    "igniterName": "O 1 Portal Igniter",
     "igniterRarity": "COMMON",
     "specialInformation": {
       "fixedValue": []

@@ -25,5 +25,59 @@
         "stream": true
       }
     ]
+  },
+  "o1": {
+    "subtitle": "subtitles.o1",
+    "sounds": [
+      {
+        "name": "skyblue:o1",
+        "stream": false
+      }
+    ]
+  },
+  "o2": {
+    "subtitle": "subtitles.o2",
+    "sounds": [
+      {
+        "name": "skyblue:o2",
+        "stream": false
+      }
+    ]
+  },
+  "o3": {
+    "subtitle": "subtitles.o3",
+    "sounds": [
+      {
+        "name": "skyblue:o3",
+        "stream": false
+      }
+    ]
+  },
+  "o4": {
+    "subtitle": "subtitles.o4",
+    "sounds": [
+      {
+        "name": "skyblue:o4",
+        "stream": false
+      }
+    ]
+  },
+  "o5": {
+    "subtitle": "subtitles.o5",
+    "sounds": [
+      {
+        "name": "skyblue:o5",
+        "stream": false
+      }
+    ]
+  },
+  "o6": {
+    "subtitle": "subtitles.o6",
+    "sounds": [
+      {
+        "name": "skyblue:o6",
+        "stream": false
+      }
+    ]
   }
 }

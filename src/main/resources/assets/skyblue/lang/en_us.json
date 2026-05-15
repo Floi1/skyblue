@@ -248,5 +248,15 @@
   "fluid.skyblue.nwater": "N\u003dwater",
   "biome.skyblue.nr_1": "NR 1",
   "block.skyblue.nlog": "Nlog",
-  "block.skyblue.nlog_slab": "Nlog slab"
+  "block.skyblue.nlog_slab": "Nlog slab",
+  "block.skyblue.oc": "OC",
+  "biome.skyblue.or_1": "OR 1",
+  "block.skyblue.oplate_1": "O plate",
+  "subtitles.o1": "01",
+  "block.skyblue.orock_1": "O rock",
+  "subtitles.o2": "o2",
+  "subtitles.o3": "o3",
+  "subtitles.o4": "o4",
+  "subtitles.o5": "o5",
+  "subtitles.o6": "o6"
 }

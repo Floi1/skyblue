@@ -1,0 +1,8 @@
+{
+  "parent": "skyblue:custom/oplate",
+  "textures": {
+    "all": "skyblue:block/mat_concrete_gray_01-128x128",
+    "particle": "skyblue:block/mat_concrete_gray_01-128x128",
+    "0": "skyblue:block/oplate"
+  }
+}

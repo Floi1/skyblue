@@ -153,6 +153,9 @@ public class SkyblueModItems {
 	public static final RegistryObject<Item> NWATER_BUCKET = REGISTRY.register("nwater_bucket", NwaterItem::new);
 	public static final RegistryObject<Item> NLOG = blockCMT(SkyblueModBlocks.NLOG, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> NLOG_SLAB = blockCMT(SkyblueModBlocks.NLOG_SLAB, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> OC = blockCMT(SkyblueModBlocks.OC, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> OPLATE_1 = blockCMT(SkyblueModBlocks.OPLATE_1, SkyblueModTabs.TAB_SKYBLUE);
+	public static final RegistryObject<Item> OROCK_1 = blockCMT(SkyblueModBlocks.OROCK_1, SkyblueModTabs.TAB_SKYBLUE);
 	public static final RegistryObject<Item> ONETWOFIVE = blockCMT(SkyblueModBlocks.ONETWOFIVE, null);
 
 	// Start of user code block custom items
