@@ -46,8 +46,7 @@ public class Gst1FeatureFeature extends StructureModFeature {
 			new ResourceLocation("skyblue:gr_5"));
 
 	@Override
-	public boolean generate(ISeedReader world, ChunkGenerator generator, Random random, BlockPos pos, StructureModFeatureConfiguration config) {
-		BlockPos origin = pos;
+	public boolean generate(ISeedReader world, ChunkGenerator generator, Random random, BlockPos origin, StructureModFeatureConfiguration config) {
 		origin = new BlockPos(origin.getX(), world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, origin.getX(), origin.getZ()), origin.getZ());
 		return super.generate(world, generator, random, origin, config);
 	}

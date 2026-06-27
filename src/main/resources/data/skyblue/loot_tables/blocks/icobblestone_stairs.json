@@ -1,6 +1,5 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "skyblue:blocks/icobblestone_stairs",
   "pools": [
     {
       "rolls": 1.0,

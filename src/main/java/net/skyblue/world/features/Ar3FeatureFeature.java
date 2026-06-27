@@ -48,8 +48,7 @@ public class Ar3FeatureFeature extends StructureModFeature {
 	public static final Set<ResourceLocation> GENERATE_BIOMES = ImmutableSet.of(new ResourceLocation("skyblue:ar_1"));
 
 	@Override
-	public boolean generate(ISeedReader world, ChunkGenerator generator, Random random, BlockPos pos, StructureModFeatureConfiguration config) {
-		BlockPos origin = pos;
+	public boolean generate(ISeedReader world, ChunkGenerator generator, Random random, BlockPos origin, StructureModFeatureConfiguration config) {
 		if (!((world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, origin.getX(), origin.getZ()) + 16) <= origin.getY() && origin.getY() <= (world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, origin.getX(), origin.getZ()) + 80)))
 			return false;
 		return super.generate(world, generator, random, origin, config);

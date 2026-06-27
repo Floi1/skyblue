@@ -45,8 +45,7 @@ public class GB3FeatureFeature extends StructureModFeature {
 	public static final Set<ResourceLocation> GENERATE_BIOMES = ImmutableSet.of(new ResourceLocation("skyblue:gr_3"));
 
 	@Override
-	public boolean generate(ISeedReader world, ChunkGenerator generator, Random random, BlockPos pos, StructureModFeatureConfiguration config) {
-		BlockPos origin = pos;
+	public boolean generate(ISeedReader world, ChunkGenerator generator, Random random, BlockPos origin, StructureModFeatureConfiguration config) {
 		origin = new BlockPos(origin.getX(), world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, origin.getX(), origin.getZ()), origin.getZ());
 		return super.generate(world, generator, random, origin, config);
 	}

@@ -46,8 +46,7 @@ public class ErE1FeatureFeature extends StructureModFeature {
 	public static final Set<ResourceLocation> GENERATE_BIOMES = ImmutableSet.of(new ResourceLocation("skyblue:er_1"));
 
 	@Override
-	public boolean generate(ISeedReader world, ChunkGenerator generator, Random random, BlockPos pos, StructureModFeatureConfiguration config) {
-		BlockPos origin = pos;
+	public boolean generate(ISeedReader world, ChunkGenerator generator, Random random, BlockPos origin, StructureModFeatureConfiguration config) {
 		origin = new BlockPos(origin.getX(), world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, origin.getX(), origin.getZ()), origin.getZ());
 		if (!(ImmutableList.of(SkyblueModBlocks.EGRASS.get(), SkyblueModBlocks.EDIRT.get()).contains(world.getBlockState(origin.add(0, -1, 0)).getBlock())))
 			return false;

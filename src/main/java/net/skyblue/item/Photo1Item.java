@@ -4,6 +4,7 @@ import net.skyblue.procedures.Photo1RightClickedInAirProcedure;
 import net.skyblue.init.SkyblueModTabs;
 
 import net.minecraft.world.World;
+import net.minecraft.util.SoundEvent;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.util.ActionResult;
@@ -22,6 +23,11 @@ public class Photo1Item extends Item {
 	@Override
 	public UseAction getUseAction(ItemStack itemstack) {
 		return UseAction.EAT;
+	}
+
+	@Override
+	public SoundEvent getEatSound() {
+		return null;
 	}
 
 	@Override

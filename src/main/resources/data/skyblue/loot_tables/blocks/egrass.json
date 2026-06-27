@@ -1,6 +1,5 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "skyblue:blocks/egrass",
   "pools": [
     {
       "rolls": 1.0,

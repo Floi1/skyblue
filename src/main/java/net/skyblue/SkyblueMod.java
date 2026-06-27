@@ -4,15 +4,7 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import net.skyblue.world.features.StructureModFeature;
-import net.skyblue.init.SkyblueModTabs;
-import net.skyblue.init.SkyblueModSounds;
-import net.skyblue.init.SkyblueModParticleTypes;
-import net.skyblue.init.SkyblueModMenus;
-import net.skyblue.init.SkyblueModItems;
-import net.skyblue.init.SkyblueModFluids;
-import net.skyblue.init.SkyblueModFeatures;
-import net.skyblue.init.SkyblueModBlocks;
-import net.skyblue.init.SkyblueModBiomes;
+import net.skyblue.init.*;
 
 import net.minecraftforge.fml.network.simple.SimpleChannel;
 import net.minecraftforge.fml.network.NetworkRegistry;
@@ -45,23 +37,18 @@ public class SkyblueMod {
 	public SkyblueMod() {
 		// Start of user code block mod constructor
 		// End of user code block mod constructor
-		MinecraftForge.EVENT_BUS.register(new SkyblueModFMLBusEvents(this));
-		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		MinecraftForge.EVENT_BUS.register(this);
 		SkyblueModTabs.load();
+		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		SkyblueModSounds.REGISTRY.register(bus);
 		SkyblueModBlocks.REGISTRY.register(bus);
 		SkyblueModItems.REGISTRY.register(bus);
-
-		SkyblueModFeatures.REGISTRY.register(bus);
-		SkyblueModFluids.REGISTRY.register(bus);
-
-		SkyblueModParticleTypes.REGISTRY.register(bus);
-
-		SkyblueModMenus.REGISTRY.register(bus);
 		SkyblueModBiomes.REGISTRY.register(bus);
+		SkyblueModFeatures.REGISTRY.register(bus);
 		StructureModFeature.REGISTRY.register(bus);
-
-		bus.register(this);
+		SkyblueModMenus.REGISTRY.register(bus);
+		SkyblueModParticleTypes.REGISTRY.register(bus);
+		SkyblueModFluids.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
@@ -84,25 +71,17 @@ public class SkyblueMod {
 			workQueue.add(new AbstractMap.SimpleEntry<>(action, tick));
 	}
 
-	private static class SkyblueModFMLBusEvents {
-		private final SkyblueMod parent;
-
-		SkyblueModFMLBusEvents(SkyblueMod parent) {
-			this.parent = parent;
-		}
-
-		@SubscribeEvent
-		public void tick(TickEvent.ServerTickEvent event) {
-			if (event.phase == TickEvent.Phase.END) {
-				List<AbstractMap.SimpleEntry<Runnable, Integer>> actions = new ArrayList<>();
-				workQueue.forEach(work -> {
-					work.setValue(work.getValue() - 1);
-					if (work.getValue() == 0)
-						actions.add(work);
-				});
-				actions.forEach(e -> e.getKey().run());
-				workQueue.removeAll(actions);
-			}
+	@SubscribeEvent
+	public void tick(TickEvent.ServerTickEvent event) {
+		if (event.phase == TickEvent.Phase.END) {
+			List<AbstractMap.SimpleEntry<Runnable, Integer>> actions = new ArrayList<>();
+			workQueue.forEach(work -> {
+				work.setValue(work.getValue() - 1);
+				if (work.getValue() == 0)
+					actions.add(work);
+			});
+			actions.forEach(e -> e.getKey().run());
+			workQueue.removeAll(actions);
 		}
 	}
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "skyblue:blocks/kk_1_one_eight_eight",
   "pools": [
     {
       "rolls": 1.0,

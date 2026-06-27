@@ -5,12 +5,11 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
 import net.minecraft.block.material.PushReaction;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.WoodButtonBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.AbstractBlock;
 
-public class LButtonBlock extends WoodButtonBlock {
+public class LButtonBlock extends net.minecraft.block.WoodButtonBlock {
 	public LButtonBlock() {
 		super(AbstractBlock.Properties.create(Material.NETHER_WOOD).sound(SoundType.WOOD).hardnessAndResistance(4f, 6f));
 	}

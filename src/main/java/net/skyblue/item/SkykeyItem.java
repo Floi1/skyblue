@@ -4,6 +4,7 @@ import net.skyblue.procedures.SkykeyRightClickedInAirProcedure;
 import net.skyblue.init.SkyblueModTabs;
 
 import net.minecraft.world.World;
+import net.minecraft.util.SoundEvent;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ActionResult;
 import net.minecraft.item.UseAction;
@@ -19,6 +20,11 @@ public class SkykeyItem extends Item {
 	@Override
 	public UseAction getUseAction(ItemStack itemstack) {
 		return UseAction.EAT;
+	}
+
+	@Override
+	public SoundEvent getEatSound() {
+		return null;
 	}
 
 	@Override

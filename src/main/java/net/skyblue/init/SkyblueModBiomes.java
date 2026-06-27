@@ -1,26 +1,6 @@
 package net.skyblue.init;
 
-import net.skyblue.world.biome.Rd1Biome;
-import net.skyblue.world.biome.PlainBiome;
-import net.skyblue.world.biome.OR1Biome;
-import net.skyblue.world.biome.NR1Biome;
-import net.skyblue.world.biome.MR1Biome;
-import net.skyblue.world.biome.Lr1Biome;
-import net.skyblue.world.biome.Kr1Biome;
-import net.skyblue.world.biome.Jr1Biome;
-import net.skyblue.world.biome.IR1Biome;
-import net.skyblue.world.biome.Hr1Biome;
-import net.skyblue.world.biome.Gr3Biome;
-import net.skyblue.world.biome.Gr2Biome;
-import net.skyblue.world.biome.Gr1Biome;
-import net.skyblue.world.biome.GR5Biome;
-import net.skyblue.world.biome.GR4Biome;
-import net.skyblue.world.biome.Fr1Biome;
-import net.skyblue.world.biome.ER1Biome;
-import net.skyblue.world.biome.DR1Biome;
-import net.skyblue.world.biome.Cr1Biome;
-import net.skyblue.world.biome.BR1Biome;
-import net.skyblue.world.biome.Ar1Biome;
+import net.skyblue.world.biome.*;
 import net.skyblue.SkyblueMod;
 
 import net.minecraftforge.registries.ForgeRegistries;

@@ -1,7 +1,7 @@
 {
   "parent": "block/button_inventory",
   "textures": {
-    "particle": "skyblue:block/i_planks",
-    "texture": "skyblue:block/i_planks"
+    "texture": "skyblue:block/i_planks",
+    "particle": "skyblue:block/i_planks"
   }
 }

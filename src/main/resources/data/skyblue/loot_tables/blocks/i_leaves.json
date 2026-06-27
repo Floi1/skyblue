@@ -1,6 +1,5 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "skyblue:blocks/i_leaves",
   "pools": [
     {
       "rolls": 1.0,

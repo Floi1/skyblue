@@ -22,7 +22,7 @@
     "defaultEffects": "overworld",
     "useCustomEffects": true,
     "hasClouds": false,
-    "cloudHeight": 192.0,
+    "cloudHeight": 192,
     "skyType": "NONE",
     "airColor": {
       "value": -16764109,
