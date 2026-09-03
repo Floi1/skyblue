@@ -9,7 +9,7 @@
     "textureRight": "mat_concrete_gray_01-128x128",
     "textureBack": "mat_concrete_gray_01-128x128",
     "renderType": 2,
-    "customModelName": "orock3:default",
+    "customModelName": "ocrock333:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -18,20 +18,23 @@
     "itemTexture": "o_rock_icon",
     "particleTexture": "",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 4.0,
+        "mx": 0.0,
         "my": 0.0,
-        "mz": 3.0,
-        "Mx": 12.0,
-        "My": 8.0,
-        "Mz": 13.0,
+        "mz": 0.0,
+        "Mx": 15.0,
+        "My": 15.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
@@ -43,7 +46,7 @@
     "hardness": 3.0,
     "resistance": 30.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "hasBlockItem": true,
     "maxStackSize": 64,
     "rarity": "COMMON",
@@ -80,6 +83,9 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,

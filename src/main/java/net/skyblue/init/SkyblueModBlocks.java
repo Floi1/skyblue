@@ -150,6 +150,8 @@ public class SkyblueModBlocks {
 	public static final RegistryObject<Block> OROCK_1;
 	public static final RegistryObject<Block> OROCK_2;
 	public static final RegistryObject<Block> OROCK_3;
+	public static final RegistryObject<Block> OO;
+	public static final RegistryObject<Block> O_CC;
 	static {
 		SIXTHREE = REGISTRY.register("sixthree", SixthreeBlock::new);
 		SEVENZERO = REGISTRY.register("sevenzero", SevenzeroBlock::new);
@@ -280,6 +282,8 @@ public class SkyblueModBlocks {
 		OROCK_1 = REGISTRY.register("orock_1", Orock1Block::new);
 		OROCK_2 = REGISTRY.register("orock_2", Orock2Block::new);
 		OROCK_3 = REGISTRY.register("orock_3", Orock3Block::new);
+		OO = REGISTRY.register("oo", OoBlock::new);
+		O_CC = REGISTRY.register("o_cc", OCcBlock::new);
 	}
 
 	// Start of user code block custom blocks
@@ -314,6 +318,7 @@ public class SkyblueModBlocks {
 			Orock1Block.registerRenderLayer();
 			Orock2Block.registerRenderLayer();
 			Orock3Block.registerRenderLayer();
+			OoBlock.registerRenderLayer();
 		}
 	}
 

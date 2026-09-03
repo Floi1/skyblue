@@ -2,20 +2,20 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "mat_concrete_gray_01-128x128",
-    "textureTop": "mat_concrete_gray_01-128x128",
-    "textureLeft": "mat_concrete_gray_01-128x128",
-    "textureFront": "mat_concrete_gray_01-128x128",
-    "textureRight": "mat_concrete_gray_01-128x128",
-    "textureBack": "mat_concrete_gray_01-128x128",
-    "renderType": 2,
-    "customModelName": "orock2:default",
-    "rotationMode": 1,
+    "texture": "31",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 12,
+    "customModelName": "Cross model",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "o_rock_icon",
+    "itemTexture": "",
     "particleTexture": "",
     "blockSetType": "OAK",
     "pottedPlant": {
@@ -25,38 +25,38 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 4.0,
+        "mx": 0.0,
         "my": 0.0,
-        "mz": 3.0,
-        "Mx": 12.0,
-        "My": 8.0,
-        "Mz": 13.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
     "customProperties": [],
-    "name": "O rock",
+    "name": "Oo",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 3.0,
-    "resistance": 30.0,
+    "hardness": 111.0,
+    "resistance": 110.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "hasBlockItem": true,
     "maxStackSize": 64,
-    "rarity": "COMMON",
+    "rarity": "EPIC",
     "immuneToFire": false,
     "creativeTabs": [
       {
         "value": "CUSTOM:Skyblue"
       }
     ],
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -116,7 +116,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "STONE",
+    "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
@@ -139,12 +139,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "Orock2OnBlockRightClicked"
+    "onEntityWalksOn": {
+      "name": "SkyPlayerEntersDimension"
     },
     "generateFeature": false,
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,

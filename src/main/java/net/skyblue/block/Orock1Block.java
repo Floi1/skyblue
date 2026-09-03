@@ -8,6 +8,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.util.math.shapes.VoxelShape;
@@ -19,25 +20,26 @@ import net.minecraft.util.Mirror;
 import net.minecraft.util.Hand;
 import net.minecraft.util.Direction;
 import net.minecraft.util.ActionResultType;
+import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.state.StateContainer;
 import net.minecraft.state.DirectionProperty;
+import net.minecraft.state.BooleanProperty;
 import net.minecraft.item.BlockItemUseContext;
+import net.minecraft.fluid.Fluids;
+import net.minecraft.fluid.FluidState;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.HorizontalBlock;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Block;
-import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.*;
 
-public class Orock1Block extends Block {
+public class Orock1Block extends Block implements IWaterLoggable {
 	public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public Orock1Block() {
 		super(AbstractBlock.Properties.create(Material.REDSTONE_LIGHT).sound(SoundType.METAL).hardnessAndResistance(3f, 30f).harvestLevel(1).harvestTool(ToolType.PICKAXE).notSolid().setOpaque((bs, br, bp) -> false));
-		this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
+		this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH).with(WATERLOGGED, false));
 	}
 
 	@OnlyIn(Dist.CLIENT)
@@ -47,7 +49,7 @@ public class Orock1Block extends Block {
 
 	@Override
 	public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-		return true;
+		return state.getFluidState().isEmpty();
 	}
 
 	@Override
@@ -77,12 +79,13 @@ public class Orock1Block extends Block {
 	@Override
 	protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
 		super.fillStateContainer(builder);
-		builder.add(FACING);
+		builder.add(FACING, WATERLOGGED);
 	}
 
 	@Override
 	public BlockState getStateForPlacement(BlockItemUseContext context) {
-		return super.getStateForPlacement(context).with(FACING, context.getPlacementHorizontalFacing().getOpposite());
+		boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;
+		return super.getStateForPlacement(context).with(FACING, context.getPlacementHorizontalFacing().getOpposite()).with(WATERLOGGED, flag);
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {
@@ -91,6 +94,19 @@ public class Orock1Block extends Block {
 
 	public BlockState mirror(BlockState state, Mirror mirrorIn) {
 		return state.rotate(mirrorIn.toRotation(state.get(FACING)));
+	}
+
+	@Override
+	public FluidState getFluidState(BlockState state) {
+		return state.get(WATERLOGGED) ? Fluids.WATER.getStillFluidState(false) : super.getFluidState(state);
+	}
+
+	@Override
+	public BlockState updatePostPlacement(BlockState state, Direction facing, BlockState facingState, IWorld world, BlockPos currentPos, BlockPos facingPos) {
+		if (state.get(WATERLOGGED)) {
+			world.getPendingFluidTicks().scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickRate(world));
+		}
+		return super.updatePostPlacement(state, facing, facingState, world, currentPos, facingPos);
 	}
 
 	@Override
@@ -103,7 +119,7 @@ public class Orock1Block extends Block {
 		double hitY = hit.getHitVec().y;
 		double hitZ = hit.getHitVec().z;
 		Direction direction = hit.getFace();
-		Orock1OnBlockRightClickedProcedure.execute(world, x, y, z);
+		Orock1OnBlockRightClickedProcedure.execute();
 		return ActionResultType.SUCCESS;
 	}
 }

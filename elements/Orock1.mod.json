@@ -18,6 +18,9 @@
     "itemTexture": "o_rock_icon",
     "particleTexture": "",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -43,7 +46,7 @@
     "hardness": 3.0,
     "resistance": 30.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "hasBlockItem": true,
     "maxStackSize": 64,
     "rarity": "COMMON",
@@ -80,6 +83,9 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,

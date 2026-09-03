@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "skyblue:block/o_cc"
+    },
+    "facing=east": {
+      "model": "skyblue:block/o_cc",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "skyblue:block/o_cc",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "skyblue:block/o_cc",
+      "y": 270
+    }
+  }
+}

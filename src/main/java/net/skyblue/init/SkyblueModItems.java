@@ -151,6 +151,8 @@ public class SkyblueModItems {
 	public static final RegistryObject<Item> OROCK_1;
 	public static final RegistryObject<Item> OROCK_2;
 	public static final RegistryObject<Item> OROCK_3;
+	public static final RegistryObject<Item> OO;
+	public static final RegistryObject<Item> O_CC;
 	public static final RegistryObject<Item> ONETWOFIVE;
 	static {
 		SIXTHREE = blockCMT(SkyblueModBlocks.SIXTHREE, SkyblueModTabs.TAB_SKYBLUE);
@@ -285,6 +287,8 @@ public class SkyblueModItems {
 		OROCK_1 = blockCMT(SkyblueModBlocks.OROCK_1, SkyblueModTabs.TAB_SKYBLUE);
 		OROCK_2 = blockCMT(SkyblueModBlocks.OROCK_2, SkyblueModTabs.TAB_SKYBLUE);
 		OROCK_3 = blockCMT(SkyblueModBlocks.OROCK_3, SkyblueModTabs.TAB_SKYBLUE);
+		OO = block(SkyblueModBlocks.OO, new Item.Properties().rarity(Rarity.EPIC).group(SkyblueModTabs.TAB_SKYBLUE));
+		O_CC = blockCMT(SkyblueModBlocks.O_CC, SkyblueModTabs.TAB_SKYBLUE);
 		ONETWOFIVE = blockCMT(SkyblueModBlocks.ONETWOFIVE, null);
 	}
 
