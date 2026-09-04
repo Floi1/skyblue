@@ -35,4 +35,5 @@ public class SkyblueModBiomes {
 	public static final RegistryObject<Biome> MR_1 = REGISTRY.register("mr_1", MR1Biome::createBiome);
 	public static final RegistryObject<Biome> NR_1 = REGISTRY.register("nr_1", NR1Biome::createBiome);
 	public static final RegistryObject<Biome> OR_1 = REGISTRY.register("or_1", OR1Biome::createBiome);
+	public static final RegistryObject<Biome> PR_1 = REGISTRY.register("pr_1", PR1Biome::createBiome);
 }

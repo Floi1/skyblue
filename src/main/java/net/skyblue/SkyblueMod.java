@@ -46,7 +46,6 @@ public class SkyblueMod {
 		SkyblueModBiomes.REGISTRY.register(bus);
 		SkyblueModFeatures.REGISTRY.register(bus);
 		StructureModFeature.REGISTRY.register(bus);
-		SkyblueModStructures.REGISTRY.register(bus);
 		SkyblueModMenus.REGISTRY.register(bus);
 		SkyblueModParticleTypes.REGISTRY.register(bus);
 		SkyblueModFluids.REGISTRY.register(bus);

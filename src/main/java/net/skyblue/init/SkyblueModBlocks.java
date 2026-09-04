@@ -153,6 +153,7 @@ public class SkyblueModBlocks {
 	public static final RegistryObject<Block> OO;
 	public static final RegistryObject<Block> O_CC;
 	public static final RegistryObject<Block> PP;
+	public static final RegistryObject<Block> PPR;
 	static {
 		SIXTHREE = REGISTRY.register("sixthree", SixthreeBlock::new);
 		SEVENZERO = REGISTRY.register("sevenzero", SevenzeroBlock::new);
@@ -286,6 +287,7 @@ public class SkyblueModBlocks {
 		OO = REGISTRY.register("oo", OoBlock::new);
 		O_CC = REGISTRY.register("o_cc", OCcBlock::new);
 		PP = REGISTRY.register("pp", PpBlock::new);
+		PPR = REGISTRY.register("ppr", PprBlock::new);
 	}
 
 	// Start of user code block custom blocks
