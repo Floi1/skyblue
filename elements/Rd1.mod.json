@@ -9,6 +9,9 @@
     "undergroundBlock": {
       "value": "CUSTOM:Nineeight"
     },
+    "underwaterBlock": {
+      "value": ""
+    },
     "ambientSound": {
       "value": ""
     },
@@ -35,7 +38,7 @@
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "biomeWeight": 10,
-    "treesPerChunk": 1,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 0,
     "minHeight": 7,
@@ -51,13 +54,7 @@
     "treeFruits": {
       "value": ""
     },
-    "defaultFeatures": [
-      "Caves",
-      "Ores",
-      "FrozenTopLayer",
-      "ForestGrass",
-      "DefaultFlowers"
-    ],
+    "defaultFeatures": [],
     "spawnStronghold": false,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,

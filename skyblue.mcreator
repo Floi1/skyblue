@@ -64,7 +64,7 @@
           "src/main/java/net/skyblue/world/biome/Rd1Biome.java"
         ]
       },
-      "path": "~/dim1"
+      "path": "~/dim1R"
     },
     {
       "name": "Rdr1",
@@ -80,7 +80,7 @@
           "src/main/resources/data/skyblue/dimension/rdr_1.json"
         ]
       },
-      "path": "~/dim1"
+      "path": "~/dim1R"
     },
     {
       "name": "Sevenzero",
@@ -253,7 +253,7 @@
           "src/main/java/net/skyblue/world/biome/BR1Biome.java"
         ]
       },
-      "path": "~/dim2"
+      "path": "~/dim2B"
     },
     {
       "name": "B1",
@@ -269,7 +269,7 @@
           "src/main/java/net/skyblue/world/dimension/B1Dimension.java"
         ]
       },
-      "path": "~/dim2"
+      "path": "~/dim2B"
     },
     {
       "name": "Oneonetwo",
@@ -362,7 +362,7 @@
           "src/main/java/net/skyblue/world/biome/Cr1Biome.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C1",
@@ -378,7 +378,7 @@
           "src/main/java/net/skyblue/world/dimension/C1Dimension.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "SkyPlayerEntersDimension",
@@ -483,7 +483,7 @@
           "src/main/java/net/skyblue/client/particle/Ap1Particle.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab1",
@@ -501,7 +501,7 @@
           "src/main/java/net/skyblue/block/Ab1Block.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ar1",
@@ -514,7 +514,7 @@
           "src/main/java/net/skyblue/world/biome/Ar1Biome.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "A1",
@@ -530,7 +530,7 @@
           "src/main/resources/data/skyblue/dimension/a_1.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab2",
@@ -548,7 +548,7 @@
           "src/main/resources/assets/skyblue/blockstates/ab_2.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab3",
@@ -566,7 +566,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/ab_3.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab4",
@@ -584,7 +584,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/ab_4.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab5",
@@ -602,7 +602,7 @@
           "src/main/resources/assets/skyblue/models/block/ab_5.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab6",
@@ -620,7 +620,7 @@
           "src/main/resources/assets/skyblue/blockstates/ab_6.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab7",
@@ -638,7 +638,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/ab_7.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab8",
@@ -656,7 +656,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/ab_8.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab9",
@@ -674,7 +674,7 @@
           "src/main/resources/assets/skyblue/models/block/ab_9.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab10",
@@ -692,7 +692,7 @@
           "src/main/resources/assets/skyblue/models/block/ab_10.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab11",
@@ -710,7 +710,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/ab_11.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab12",
@@ -728,7 +728,7 @@
           "src/main/resources/assets/skyblue/models/block/ab_12.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab13",
@@ -746,7 +746,7 @@
           "src/main/resources/assets/skyblue/models/block/ab_13.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab14",
@@ -764,7 +764,7 @@
           "src/main/java/net/skyblue/block/Ab14Block.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab15",
@@ -782,7 +782,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/ab_15.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab16",
@@ -800,7 +800,7 @@
           "src/main/resources/assets/skyblue/models/block/ab_16.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab17",
@@ -818,7 +818,7 @@
           "src/main/java/net/skyblue/block/Ab17Block.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab18",
@@ -836,7 +836,7 @@
           "src/main/resources/assets/skyblue/models/block/ab_18.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab19",
@@ -854,7 +854,7 @@
           "src/main/java/net/skyblue/world/features/ores/Ab19Feature.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab20",
@@ -872,7 +872,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/ab_20.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab21",
@@ -890,7 +890,7 @@
           "src/main/resources/assets/skyblue/models/block/ab_21.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab22",
@@ -908,7 +908,7 @@
           "src/main/java/net/skyblue/block/Ab22Block.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab23",
@@ -926,7 +926,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/ab_23.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ab24",
@@ -944,7 +944,7 @@
           "src/main/java/net/skyblue/block/Ab24Block.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Onetwonine",
@@ -1020,7 +1020,7 @@
           "src/main/resources/assets/skyblue/models/block/abb.json"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "DD1",
@@ -1037,7 +1037,7 @@
           "src/main/resources/assets/skyblue/models/block/dd_1.json"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DD2",
@@ -1054,7 +1054,7 @@
           "src/main/resources/assets/skyblue/blockstates/dd_2.json"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DR1",
@@ -1067,7 +1067,7 @@
           "src/main/java/net/skyblue/world/biome/DR1Biome.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "D1",
@@ -1083,7 +1083,7 @@
           "src/main/java/net/skyblue/world/dimension/D1Dimension.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "D1r",
@@ -1100,7 +1100,7 @@
           "src/main/resources/assets/skyblue/models/item/d_1r.json"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "Ewater",
@@ -1119,7 +1119,7 @@
           "src/main/resources/assets/skyblue/models/item/ewater_bucket.json"
         ]
       },
-      "path": "~/dim6"
+      "path": "~/dim6E"
     },
     {
       "name": "ER1",
@@ -1132,7 +1132,7 @@
           "src/main/java/net/skyblue/world/biome/ER1Biome.java"
         ]
       },
-      "path": "~/dim6"
+      "path": "~/dim6E"
     },
     {
       "name": "E1",
@@ -1148,7 +1148,7 @@
           "src/main/java/net/skyblue/world/dimension/E1Dimension.java"
         ]
       },
-      "path": "~/dim6"
+      "path": "~/dim6E"
     },
     {
       "name": "Egrass",
@@ -1165,7 +1165,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/egrass.json"
         ]
       },
-      "path": "~/dim6"
+      "path": "~/dim6E"
     },
     {
       "name": "Edirt",
@@ -1182,7 +1182,7 @@
           "src/main/resources/assets/skyblue/models/item/edirt.json"
         ]
       },
-      "path": "~/dim6"
+      "path": "~/dim6E"
     },
     {
       "name": "Estone",
@@ -1199,7 +1199,7 @@
           "src/main/resources/assets/skyblue/blockstates/estone.json"
         ]
       },
-      "path": "~/dim6"
+      "path": "~/dim6E"
     },
     {
       "name": "EE1",
@@ -1216,7 +1216,7 @@
           "src/main/resources/assets/skyblue/blockstates/ee_1.json"
         ]
       },
-      "path": "~/dim6"
+      "path": "~/dim6E"
     },
     {
       "name": "Ft1",
@@ -1233,7 +1233,7 @@
           "src/main/resources/assets/skyblue/models/block/ft_1.json"
         ]
       },
-      "path": "~/Dim7"
+      "path": "~/dim7F"
     },
     {
       "name": "Fr1",
@@ -1246,7 +1246,7 @@
           "src/main/java/net/skyblue/world/biome/Fr1Biome.java"
         ]
       },
-      "path": "~/Dim7"
+      "path": "~/dim7F"
     },
     {
       "name": "F1",
@@ -1262,7 +1262,7 @@
           "src/main/resources/data/skyblue/dimension_type/f_1.json"
         ]
       },
-      "path": "~/Dim7"
+      "path": "~/dim7F"
     },
     {
       "name": "Frr1",
@@ -1280,7 +1280,7 @@
           "src/main/resources/assets/skyblue/models/item/frr_1.json"
         ]
       },
-      "path": "~/Dim7"
+      "path": "~/dim7F"
     },
     {
       "name": "Ffr",
@@ -1297,7 +1297,7 @@
           "src/main/resources/assets/skyblue/models/block/ffr.json"
         ]
       },
-      "path": "~/Dim7"
+      "path": "~/dim7F"
     },
     {
       "name": "Green",
@@ -1314,7 +1314,7 @@
           "src/main/java/net/skyblue/block/GreenBlock.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Red1",
@@ -1331,7 +1331,7 @@
           "src/main/resources/assets/skyblue/models/item/red_1.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GG1",
@@ -1348,7 +1348,7 @@
           "src/main/resources/assets/skyblue/models/block/gg_1.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Gr1",
@@ -1361,7 +1361,7 @@
           "src/main/java/net/skyblue/world/biome/Gr1Biome.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "G1",
@@ -1377,7 +1377,7 @@
           "src/main/java/net/skyblue/world/dimension/G1Dimension.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Red2",
@@ -1394,7 +1394,7 @@
           "src/main/resources/assets/skyblue/blockstates/red_2.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Green2",
@@ -1411,7 +1411,7 @@
           "src/main/java/net/skyblue/block/Green2Block.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "G2",
@@ -1427,7 +1427,7 @@
           "src/main/resources/data/skyblue/dimension_type/g_2.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Gr2",
@@ -1440,7 +1440,7 @@
           "src/main/java/net/skyblue/world/biome/Gr2Biome.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GG2",
@@ -1457,7 +1457,7 @@
           "src/main/resources/assets/skyblue/blockstates/gg_2.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Red2EntityCollidesInTheBlock",
@@ -1509,7 +1509,7 @@
           "src/main/resources/data/skyblue/dimension_type/g_3.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Gr3",
@@ -1522,7 +1522,7 @@
           "src/main/java/net/skyblue/world/biome/Gr3Biome.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Green3",
@@ -1539,7 +1539,7 @@
           "src/main/resources/assets/skyblue/models/block/green_3.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Red3",
@@ -1556,7 +1556,7 @@
           "src/main/resources/assets/skyblue/models/item/red_3.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Red3EntityWalksOnTheBlock",
@@ -1609,7 +1609,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/gg_3.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Green4",
@@ -1626,7 +1626,7 @@
           "src/main/resources/assets/skyblue/models/block/green_4.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Red4",
@@ -1643,7 +1643,7 @@
           "src/main/resources/assets/skyblue/models/item/red_4.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Red4EntityWalksOnTheBlock",
@@ -1677,7 +1677,7 @@
           "src/main/resources/data/skyblue/dimension/g_4.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GR4",
@@ -1690,7 +1690,7 @@
           "src/main/java/net/skyblue/world/biome/GR4Biome.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GG4",
@@ -1707,7 +1707,7 @@
           "src/main/resources/assets/skyblue/models/block/gg_4.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Green3EntityWalksOnTheBlock",
@@ -1741,7 +1741,7 @@
           "src/main/resources/data/skyblue/dimension/g_5.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GR5",
@@ -1754,7 +1754,7 @@
           "src/main/java/net/skyblue/world/biome/GR5Biome.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GG5",
@@ -1771,7 +1771,7 @@
           "src/main/java/net/skyblue/block/GG5Block.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Green4EntityWalksOnTheBlock",
@@ -1806,7 +1806,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/green_5.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Red5",
@@ -1823,7 +1823,7 @@
           "src/main/resources/assets/skyblue/blockstates/red_5.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Red5EntityWalksOnTheBlock",
@@ -1915,7 +1915,7 @@
           "src/main/java/net/skyblue/world/features/Rd111FeatureFeature.java"
         ]
       },
-      "path": "~/dim1"
+      "path": "~/dim1R"
     },
     {
       "name": "RD121Feature",
@@ -1929,7 +1929,7 @@
           "src/main/java/net/skyblue/world/features/RD121FeatureFeature.java"
         ]
       },
-      "path": "~/dim1"
+      "path": "~/dim1R"
     },
     {
       "name": "B1rFeature",
@@ -1943,7 +1943,7 @@
           "src/main/java/net/skyblue/world/features/B1rFeatureFeature.java"
         ]
       },
-      "path": "~/dim2"
+      "path": "~/dim2B"
     },
     {
       "name": "B11Feature",
@@ -1957,7 +1957,7 @@
           "src/main/java/net/skyblue/world/features/B11FeatureFeature.java"
         ]
       },
-      "path": "~/dim2"
+      "path": "~/dim2B"
     },
     {
       "name": "Bb1Feature",
@@ -1971,7 +1971,7 @@
           "src/main/java/net/skyblue/world/features/Bb1FeatureFeature.java"
         ]
       },
-      "path": "~/dim2"
+      "path": "~/dim2B"
     },
     {
       "name": "B2Feature",
@@ -1985,7 +1985,7 @@
           "src/main/java/net/skyblue/world/features/B2FeatureFeature.java"
         ]
       },
-      "path": "~/dim2"
+      "path": "~/dim2B"
     },
     {
       "name": "C1rFeature",
@@ -1999,7 +1999,7 @@
           "src/main/java/net/skyblue/world/features/C1rFeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C2Feature",
@@ -2013,7 +2013,7 @@
           "src/main/java/net/skyblue/world/features/C2FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C3Feature",
@@ -2027,7 +2027,7 @@
           "src/main/java/net/skyblue/world/features/C3FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C4Feature",
@@ -2041,7 +2041,7 @@
           "src/main/java/net/skyblue/world/features/C4FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Crr1Feature",
@@ -2055,7 +2055,7 @@
           "src/main/java/net/skyblue/world/features/Crr1FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr2Feature",
@@ -2069,7 +2069,7 @@
           "src/main/java/net/skyblue/world/features/Cr2FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr3Feature",
@@ -2083,7 +2083,7 @@
           "src/main/java/net/skyblue/world/features/Cr3FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr4Feature",
@@ -2097,7 +2097,7 @@
           "src/main/java/net/skyblue/world/features/Cr4FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C11Feature",
@@ -2111,7 +2111,7 @@
           "src/main/java/net/skyblue/world/features/C11FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr11Feature",
@@ -2125,7 +2125,7 @@
           "src/main/java/net/skyblue/world/features/Cr11FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C22Feature",
@@ -2139,7 +2139,7 @@
           "src/main/java/net/skyblue/world/features/C22FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr22Feature",
@@ -2153,7 +2153,7 @@
           "src/main/java/net/skyblue/world/features/Cr22FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C33Feature",
@@ -2167,7 +2167,7 @@
           "src/main/java/net/skyblue/world/features/C33FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr33Feature",
@@ -2181,7 +2181,7 @@
           "src/main/java/net/skyblue/world/features/Cr33FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C44Feature",
@@ -2195,7 +2195,7 @@
           "src/main/java/net/skyblue/world/features/C44FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr44Feature",
@@ -2209,7 +2209,7 @@
           "src/main/java/net/skyblue/world/features/Cr44FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C111Feature",
@@ -2223,7 +2223,7 @@
           "src/main/java/net/skyblue/world/features/C111FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr111Feature",
@@ -2237,7 +2237,7 @@
           "src/main/java/net/skyblue/world/features/Cr111FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C222Feature",
@@ -2251,7 +2251,7 @@
           "src/main/java/net/skyblue/world/features/C222FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr222Feature",
@@ -2265,7 +2265,7 @@
           "src/main/java/net/skyblue/world/features/Cr222FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C333Feature",
@@ -2279,7 +2279,7 @@
           "src/main/java/net/skyblue/world/features/C333FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr333Feature",
@@ -2293,7 +2293,7 @@
           "src/main/java/net/skyblue/world/features/Cr333FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C444Feature",
@@ -2307,7 +2307,7 @@
           "src/main/java/net/skyblue/world/features/C444FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr444Feature",
@@ -2321,7 +2321,7 @@
           "src/main/java/net/skyblue/world/features/Cr444FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C1111Feature",
@@ -2335,7 +2335,7 @@
           "src/main/java/net/skyblue/world/features/C1111FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr1111Feature",
@@ -2349,7 +2349,7 @@
           "src/main/java/net/skyblue/world/features/Cr1111FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C2222Feature",
@@ -2363,7 +2363,7 @@
           "src/main/java/net/skyblue/world/features/C2222FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr2222Feature",
@@ -2377,7 +2377,7 @@
           "src/main/java/net/skyblue/world/features/Cr2222FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C3333Feature",
@@ -2391,7 +2391,7 @@
           "src/main/java/net/skyblue/world/features/C3333FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr3333Feature",
@@ -2405,7 +2405,7 @@
           "src/main/java/net/skyblue/world/features/Cr3333FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C4444Feature",
@@ -2419,7 +2419,7 @@
           "src/main/java/net/skyblue/world/features/C4444FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr4444Feature",
@@ -2433,7 +2433,7 @@
           "src/main/java/net/skyblue/world/features/Cr4444FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C5Feature",
@@ -2447,7 +2447,7 @@
           "src/main/java/net/skyblue/world/features/C5FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C55Feature",
@@ -2461,7 +2461,7 @@
           "src/main/java/net/skyblue/world/features/C55FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C555Feature",
@@ -2475,7 +2475,7 @@
           "src/main/java/net/skyblue/world/features/C555FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "C5555Feature",
@@ -2489,7 +2489,7 @@
           "src/main/java/net/skyblue/world/features/C5555FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr5Feature",
@@ -2503,7 +2503,7 @@
           "src/main/java/net/skyblue/world/features/Cr5FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr55Feature",
@@ -2517,7 +2517,7 @@
           "src/main/java/net/skyblue/world/features/Cr55FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr555Feature",
@@ -2531,7 +2531,7 @@
           "src/main/java/net/skyblue/world/features/Cr555FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "Cr5555Feature",
@@ -2545,7 +2545,7 @@
           "src/main/java/net/skyblue/world/features/Cr5555FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "SkFeature",
@@ -2572,7 +2572,7 @@
           "src/main/java/net/skyblue/world/features/A1rFeatureFeature.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "ARR1Feature",
@@ -2586,7 +2586,7 @@
           "src/main/java/net/skyblue/world/features/ARR1FeatureFeature.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "A2Feature",
@@ -2600,7 +2600,7 @@
           "src/main/java/net/skyblue/world/features/A2FeatureFeature.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ar2Feature",
@@ -2614,7 +2614,7 @@
           "src/main/java/net/skyblue/world/features/Ar2FeatureFeature.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ar3Feature",
@@ -2628,7 +2628,7 @@
           "src/main/java/net/skyblue/world/features/Ar3FeatureFeature.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "A3Feature",
@@ -2642,7 +2642,7 @@
           "src/main/java/net/skyblue/world/features/A3FeatureFeature.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "A4Feature",
@@ -2656,7 +2656,7 @@
           "src/main/java/net/skyblue/world/features/A4FeatureFeature.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ar4Feature",
@@ -2670,7 +2670,7 @@
           "src/main/java/net/skyblue/world/features/Ar4FeatureFeature.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "Ct1Feature",
@@ -2684,7 +2684,7 @@
           "src/main/java/net/skyblue/world/features/Ct1FeatureFeature.java"
         ]
       },
-      "path": "~/dim3"
+      "path": "~/dim3C"
     },
     {
       "name": "ABBr1Feature",
@@ -2698,7 +2698,7 @@
           "src/main/java/net/skyblue/world/features/ABBr1FeatureFeature.java"
         ]
       },
-      "path": "~/dim4"
+      "path": "~/dim4A"
     },
     {
       "name": "DDR1Feature",
@@ -2712,7 +2712,7 @@
           "src/main/java/net/skyblue/world/features/DDR1FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDR2Feature",
@@ -2726,7 +2726,7 @@
           "src/main/java/net/skyblue/world/features/DDR2FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDR3Feature",
@@ -2740,7 +2740,7 @@
           "src/main/java/net/skyblue/world/features/DDR3FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDR4Feature",
@@ -2754,7 +2754,7 @@
           "src/main/java/net/skyblue/world/features/DDR4FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDR5Feature",
@@ -2768,7 +2768,7 @@
           "src/main/java/net/skyblue/world/features/DDR5FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDR6Feature",
@@ -2782,7 +2782,7 @@
           "src/main/java/net/skyblue/world/features/DDR6FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDR7Feature",
@@ -2796,7 +2796,7 @@
           "src/main/java/net/skyblue/world/features/DDR7FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDR8Feature",
@@ -2810,7 +2810,7 @@
           "src/main/java/net/skyblue/world/features/DDR8FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDR1Feature",
@@ -2824,7 +2824,7 @@
           "src/main/java/net/skyblue/world/features/DDDR1FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDR2Feature",
@@ -2838,7 +2838,7 @@
           "src/main/java/net/skyblue/world/features/DDDR2FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDR3Feature",
@@ -2852,7 +2852,7 @@
           "src/main/java/net/skyblue/world/features/DDDR3FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDR4Feature",
@@ -2866,7 +2866,7 @@
           "src/main/java/net/skyblue/world/features/DDDR4FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDR5Feature",
@@ -2880,7 +2880,7 @@
           "src/main/java/net/skyblue/world/features/DDDR5FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDR6Feature",
@@ -2894,7 +2894,7 @@
           "src/main/java/net/skyblue/world/features/DDDR6FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDR7Feature",
@@ -2908,7 +2908,7 @@
           "src/main/java/net/skyblue/world/features/DDDR7FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDR8Feature",
@@ -2922,7 +2922,7 @@
           "src/main/java/net/skyblue/world/features/DDDR8FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDDR1Feature",
@@ -2936,7 +2936,7 @@
           "src/main/java/net/skyblue/world/features/DDDDR1FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDDR2Feature",
@@ -2950,7 +2950,7 @@
           "src/main/java/net/skyblue/world/features/DDDDR2FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDDR3Feature",
@@ -2964,7 +2964,7 @@
           "src/main/java/net/skyblue/world/features/DDDDR3FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDDR4Feature",
@@ -2978,7 +2978,7 @@
           "src/main/java/net/skyblue/world/features/DDDDR4FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDDR5Feature",
@@ -2992,7 +2992,7 @@
           "src/main/java/net/skyblue/world/features/DDDDR5FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDDR6Feature",
@@ -3006,7 +3006,7 @@
           "src/main/java/net/skyblue/world/features/DDDDR6FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDDR7Feature",
@@ -3020,7 +3020,7 @@
           "src/main/java/net/skyblue/world/features/DDDDR7FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDDR8Feature",
@@ -3034,7 +3034,7 @@
           "src/main/java/net/skyblue/world/features/DDDDR8FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDDDR1Feature",
@@ -3048,7 +3048,7 @@
           "src/main/java/net/skyblue/world/features/DDDDDR1FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDDDR2Feature",
@@ -3062,7 +3062,7 @@
           "src/main/java/net/skyblue/world/features/DDDDDR2FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDDDR3Feature",
@@ -3076,7 +3076,7 @@
           "src/main/java/net/skyblue/world/features/DDDDDR3FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "DDDDDR4Feature",
@@ -3090,7 +3090,7 @@
           "src/main/java/net/skyblue/world/features/DDDDDR4FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "Dtr1Feature",
@@ -3104,7 +3104,7 @@
           "src/main/java/net/skyblue/world/features/Dtr1FeatureFeature.java"
         ]
       },
-      "path": "~/dim5"
+      "path": "~/dim5D"
     },
     {
       "name": "ErE1Feature",
@@ -3118,7 +3118,7 @@
           "src/main/java/net/skyblue/world/features/ErE1FeatureFeature.java"
         ]
       },
-      "path": "~/dim6"
+      "path": "~/dim6E"
     },
     {
       "name": "EER1Feature",
@@ -3132,7 +3132,7 @@
           "src/main/java/net/skyblue/world/features/EER1FeatureFeature.java"
         ]
       },
-      "path": "~/dim6"
+      "path": "~/dim6E"
     },
     {
       "name": "FFR1Feature",
@@ -3146,7 +3146,7 @@
           "src/main/java/net/skyblue/world/features/FFR1FeatureFeature.java"
         ]
       },
-      "path": "~/Dim7"
+      "path": "~/dim7F"
     },
     {
       "name": "GGG1Feature",
@@ -3160,7 +3160,7 @@
           "src/main/java/net/skyblue/world/features/GGG1FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GGG2Feature",
@@ -3174,7 +3174,7 @@
           "src/main/java/net/skyblue/world/features/GGG2FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GGG3Feature",
@@ -3188,7 +3188,7 @@
           "src/main/java/net/skyblue/world/features/GGG3FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GGR2Feature",
@@ -3202,7 +3202,7 @@
           "src/main/java/net/skyblue/world/features/GGR2FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GGR3Feature",
@@ -3216,7 +3216,7 @@
           "src/main/java/net/skyblue/world/features/GGR3FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GGR4Feature",
@@ -3230,7 +3230,7 @@
           "src/main/java/net/skyblue/world/features/GGR4FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Gst1Feature",
@@ -3244,7 +3244,7 @@
           "src/main/java/net/skyblue/world/features/Gst1FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Gst2Feature",
@@ -3258,7 +3258,7 @@
           "src/main/java/net/skyblue/world/features/Gst2FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Gst3Feature",
@@ -3272,7 +3272,7 @@
           "src/main/java/net/skyblue/world/features/Gst3FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Gst4Feature",
@@ -3286,7 +3286,7 @@
           "src/main/java/net/skyblue/world/features/Gst4FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Gst5Feature",
@@ -3300,7 +3300,7 @@
           "src/main/java/net/skyblue/world/features/Gst5FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GGG4Feature",
@@ -3314,7 +3314,7 @@
           "src/main/java/net/skyblue/world/features/GGG4FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GGR5Feature",
@@ -3328,7 +3328,7 @@
           "src/main/java/net/skyblue/world/features/GGR5FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "RD11",
@@ -3342,7 +3342,7 @@
           "src/main/java/net/skyblue/world/features/RD11Feature.java"
         ]
       },
-      "path": "~/dim1"
+      "path": "~/dim1R"
     },
     {
       "name": "Hr1",
@@ -3355,7 +3355,7 @@
           "src/main/java/net/skyblue/world/biome/Hr1Biome.java"
         ]
       },
-      "path": "~/dim9"
+      "path": "~/dim9H"
     },
     {
       "name": "H1",
@@ -3370,7 +3370,7 @@
           "src/main/java/net/skyblue/world/dimension/H1Dimension.java"
         ]
       },
-      "path": "~/dim9"
+      "path": "~/dim9H"
     },
     {
       "name": "Waterh",
@@ -3388,7 +3388,7 @@
           "src/main/java/net/skyblue/block/WaterhBlock.java"
         ]
       },
-      "path": "~/dim9"
+      "path": "~/dim9H"
     },
     {
       "name": "Onetwofive",
@@ -3405,7 +3405,7 @@
           "src/main/java/net/skyblue/block/OnetwofiveBlock.java"
         ]
       },
-      "path": "~/dim9"
+      "path": "~/dim9H"
     },
     {
       "name": "Mush1",
@@ -3423,7 +3423,7 @@
           "src/main/resources/assets/skyblue/blockstates/mush_1.json"
         ]
       },
-      "path": "~/dim9"
+      "path": "~/dim9H"
     },
     {
       "name": "Blue1",
@@ -3440,7 +3440,7 @@
           "src/main/resources/assets/skyblue/models/block/blue_1.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Blue2",
@@ -3457,7 +3457,7 @@
           "src/main/java/net/skyblue/block/Blue2Block.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Blue3",
@@ -3474,7 +3474,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/blue_3.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Blue4",
@@ -3491,7 +3491,7 @@
           "src/main/resources/assets/skyblue/models/item/blue_4.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Blue5",
@@ -3508,7 +3508,7 @@
           "src/main/resources/assets/skyblue/models/block/blue_5.json"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GB1Feature",
@@ -3522,7 +3522,7 @@
           "src/main/java/net/skyblue/world/features/GB1FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GB2Feature",
@@ -3536,7 +3536,7 @@
           "src/main/java/net/skyblue/world/features/GB2FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GB3Feature",
@@ -3550,7 +3550,7 @@
           "src/main/java/net/skyblue/world/features/GB3FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GB4Feature",
@@ -3564,7 +3564,7 @@
           "src/main/java/net/skyblue/world/features/GB4FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "GB5Feature",
@@ -3578,7 +3578,7 @@
           "src/main/java/net/skyblue/world/features/GB5FeatureFeature.java"
         ]
       },
-      "path": "~/dim8"
+      "path": "~/dim8G"
     },
     {
       "name": "Twothreetwo",
@@ -3595,7 +3595,7 @@
           "src/main/resources/assets/skyblue/blockstates/twothreetwo.json"
         ]
       },
-      "path": "~/dim9"
+      "path": "~/dim9H"
     },
     {
       "name": "Hh",
@@ -3609,7 +3609,7 @@
           "src/main/java/net/skyblue/world/features/HhFeature.java"
         ]
       },
-      "path": "~/dim9"
+      "path": "~/dim9H"
     },
     {
       "name": "Hh2",
@@ -3623,7 +3623,7 @@
           "src/main/java/net/skyblue/world/features/Hh2Feature.java"
         ]
       },
-      "path": "~/dim9"
+      "path": "~/dim9H"
     },
     {
       "name": "Hh3",
@@ -3637,7 +3637,7 @@
           "src/main/java/net/skyblue/world/features/Hh3Feature.java"
         ]
       },
-      "path": "~/dim9"
+      "path": "~/dim9H"
     },
     {
       "name": "Hh4",
@@ -3651,7 +3651,7 @@
           "src/main/java/net/skyblue/world/features/Hh4Feature.java"
         ]
       },
-      "path": "~/dim9"
+      "path": "~/dim9H"
     },
     {
       "name": "IR1",
@@ -3664,7 +3664,7 @@
           "src/main/java/net/skyblue/world/biome/IR1Biome.java"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "I1",
@@ -3679,7 +3679,7 @@
           "src/main/java/net/skyblue/world/dimension/I1Dimension.java"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "House",
@@ -3693,7 +3693,7 @@
           "src/main/java/net/skyblue/world/features/HouseFeature.java"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "ILog",
@@ -3710,7 +3710,7 @@
           "src/main/resources/assets/skyblue/models/block/i_log.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "IWood",
@@ -3727,7 +3727,7 @@
           "src/main/resources/assets/skyblue/models/block/i_wood.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "IPlanks",
@@ -3744,7 +3744,7 @@
           "src/main/java/net/skyblue/block/IPlanksBlock.java"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "ILeaves",
@@ -3761,7 +3761,7 @@
           "src/main/resources/assets/skyblue/models/block/i_leaves.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "IStairs",
@@ -3780,7 +3780,7 @@
           "src/main/resources/assets/skyblue/models/block/i_stairs_inner.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "ISlab",
@@ -3799,7 +3799,7 @@
           "src/main/resources/assets/skyblue/models/item/i_slab.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "IFence",
@@ -3818,7 +3818,7 @@
           "src/main/resources/assets/skyblue/models/block/i_fence_inventory.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "IFenceGate",
@@ -3838,7 +3838,7 @@
           "src/main/resources/assets/skyblue/models/block/i_fence_gate.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "IPressurePlate",
@@ -3856,7 +3856,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/i_pressure_plate.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "IButton",
@@ -3875,7 +3875,7 @@
           "src/main/resources/assets/skyblue/blockstates/i_button.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "IWoodRecipe",
@@ -3889,7 +3889,7 @@
           "src/main/resources/data/skyblue/advancements/recipes/i_wood_recipe.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "IPlanksRecipe",
@@ -3903,7 +3903,7 @@
           "src/main/resources/data/skyblue/advancements/recipes/i_planks_recipe.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "IStairsRecipe",
@@ -3917,7 +3917,7 @@
           "src/main/resources/data/skyblue/advancements/recipes/i_stairs_recipe.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "ISlabRecipe",
@@ -3931,7 +3931,7 @@
           "src/main/resources/data/skyblue/advancements/recipes/i_slab_recipe.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "IFenceRecipe",
@@ -3945,7 +3945,7 @@
           "src/main/resources/data/skyblue/recipes/i_fence_recipe.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "IFenceGateRecipe",
@@ -3959,7 +3959,7 @@
           "src/main/resources/data/skyblue/advancements/recipes/i_fence_gate_recipe.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "IPressurePlateRecipe",
@@ -3973,7 +3973,7 @@
           "src/main/resources/data/skyblue/recipes/i_pressure_plate_recipe.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "IButtonRecipe",
@@ -3987,7 +3987,7 @@
           "src/main/resources/data/skyblue/advancements/recipes/i_button_recipe.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "Icobblestone",
@@ -4004,7 +4004,7 @@
           "src/main/java/net/skyblue/block/IcobblestoneBlock.java"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "Idoors",
@@ -4024,7 +4024,7 @@
           "src/main/resources/assets/skyblue/models/item/idoors.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "IcobblestoneStairs",
@@ -4043,7 +4043,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/icobblestone_stairs.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "IP",
@@ -4060,7 +4060,7 @@
           "src/main/resources/assets/skyblue/models/item/ip.json"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "Iip",
@@ -4074,7 +4074,7 @@
           "src/main/java/net/skyblue/world/features/IipFeature.java"
         ]
       },
-      "path": "~/dim10"
+      "path": "~/dim10I"
     },
     {
       "name": "Jb1",
@@ -4091,7 +4091,7 @@
           "src/main/resources/assets/skyblue/models/block/jb_1.json"
         ]
       },
-      "path": "~/dim11j"
+      "path": "~/dim11J"
     },
     {
       "name": "Jr1",
@@ -4104,7 +4104,7 @@
           "src/main/java/net/skyblue/world/biome/Jr1Biome.java"
         ]
       },
-      "path": "~/dim11j"
+      "path": "~/dim11J"
     },
     {
       "name": "J1",
@@ -4119,7 +4119,7 @@
           "src/main/java/net/skyblue/world/dimension/J1Dimension.java"
         ]
       },
-      "path": "~/dim11j"
+      "path": "~/dim11J"
     },
     {
       "name": "Jp",
@@ -4137,7 +4137,7 @@
           "src/main/resources/assets/skyblue/models/item/jp.json"
         ]
       },
-      "path": "~/dim11j"
+      "path": "~/dim11J"
     },
     {
       "name": "Jp2",
@@ -4155,7 +4155,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/jp_2.json"
         ]
       },
-      "path": "~/dim11j"
+      "path": "~/dim11J"
     },
     {
       "name": "Jp3",
@@ -4173,7 +4173,7 @@
           "src/main/resources/data/skyblue/loot_tables/blocks/jp_3.json"
         ]
       },
-      "path": "~/dim11j"
+      "path": "~/dim11J"
     },
     {
       "name": "Jp4",
@@ -4191,7 +4191,7 @@
           "src/main/resources/assets/skyblue/models/block/jp_4.json"
         ]
       },
-      "path": "~/dim11j"
+      "path": "~/dim11J"
     },
     {
       "name": "Skyspawn",
@@ -4238,7 +4238,7 @@
           "src/main/resources/assets/skyblue/models/block/jb_2sevenone.json"
         ]
       },
-      "path": "~/dim11j"
+      "path": "~/dim11J"
     },
     {
       "name": "JB2sevenoneEntityWalksOnTheBlock",
@@ -4261,7 +4261,7 @@
           "src/main/java/net/skyblue/procedures/JB2sevenoneEntityWalksOnTheBlockProcedure.java"
         ]
       },
-      "path": "~/dim11j"
+      "path": "~/dim11J"
     },
     {
       "name": "Kk1",
@@ -5531,6 +5531,38 @@
         ]
       },
       "path": "~/dim16O"
+    },
+    {
+      "name": "Pp",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/skyblue/block/PpBlock.java",
+          "src/main/resources/data/skyblue/loot_tables/blocks/pp.json",
+          "src/main/resources/assets/skyblue/blockstates/pp.json",
+          "src/main/resources/assets/skyblue/models/item/pp.json",
+          "src/main/resources/assets/skyblue/models/block/pp.json"
+        ]
+      },
+      "path": "~/dim17P"
+    },
+    {
+      "name": "BIGp1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bi_gp_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/skyblue/worldgen/template_pool/bi_gp_1.json",
+          "src/main/java/net/skyblue/world/structures/BIGp1Structure.java",
+          "src/main/resources/data/skyblue/worldgen/template_pool/bi_gp_1_bigp1.json"
+        ]
+      },
+      "path": "~/dim17P"
     }
   ],
   "variable_elements": [],
@@ -5968,7 +6000,8 @@
       "block.skyblue.orock_2": "O rock",
       "block.skyblue.orock_3": "O rock",
       "block.skyblue.oo": "Oo",
-      "block.skyblue.o_cc": "OCc"
+      "block.skyblue.o_cc": "OCc",
+      "block.skyblue.pp": "Pp"
     }
   },
   "metadata": {
@@ -5983,6 +6016,9 @@
       "src/main/java/net/skyblue/init/SkyblueModMenus.java",
       "src/main/java/net/skyblue/init/SkyblueModParticleTypes.java",
       "src/main/java/net/skyblue/init/SkyblueModParticles.java",
+      "src/main/java/net/skyblue/world/structures/configurations/StructureConfiguration.java",
+      "src/main/java/net/skyblue/world/structures/SkyblueModStructureBase.java",
+      "src/main/java/net/skyblue/init/SkyblueModStructures.java",
       "src/main/java/net/skyblue/init/SkyblueModBlocks.java",
       "src/main/java/net/skyblue/init/SkyblueModItems.java",
       "src/main/resources/META-INF/mods.toml",
@@ -6000,15 +6036,15 @@
     "name": "~",
     "children": [
       {
-        "name": "dim1",
+        "name": "dim1R",
         "children": []
       },
       {
-        "name": "dim2",
+        "name": "dim2B",
         "children": []
       },
       {
-        "name": "dim3",
+        "name": "dim3C",
         "children": []
       },
       {
@@ -6016,35 +6052,35 @@
         "children": []
       },
       {
-        "name": "dim4",
+        "name": "dim4A",
         "children": []
       },
       {
-        "name": "dim5",
+        "name": "dim5D",
         "children": []
       },
       {
-        "name": "dim6",
+        "name": "dim6E",
         "children": []
       },
       {
-        "name": "Dim7",
+        "name": "dim7F",
         "children": []
       },
       {
-        "name": "dim8",
+        "name": "dim8G",
         "children": []
       },
       {
-        "name": "dim9",
+        "name": "dim9H",
         "children": []
       },
       {
-        "name": "dim10",
+        "name": "dim10I",
         "children": []
       },
       {
-        "name": "dim11j",
+        "name": "dim11J",
         "children": []
       },
       {
@@ -6065,6 +6101,10 @@
       },
       {
         "name": "dim16O",
+        "children": []
+      },
+      {
+        "name": "dim17P",
         "children": []
       }
     ]
